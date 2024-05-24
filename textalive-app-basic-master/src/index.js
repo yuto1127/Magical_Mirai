@@ -66,7 +66,7 @@ function onAppReady(app) {
       .querySelector("#header a")
       .setAttribute(
         "href",
-        "https://developer.textalive.jp/app/run/?ta_app_url=https%3A%2F%2Ftextalivejp.github.io%2Ftextalive-app-basic%2F&ta_song_url=https://piapro.jp/t/kkZo"
+        "https://developer.textalive.jp/app/run/?ta_app_url=https%3A%2F%2Ftextalivejp.github.io%2Ftextalive-app-basic%2F&ta_song_url=https://www.youtube.com/watch?v=shs0rAiwsGQ"
       );
   } else {
     document
