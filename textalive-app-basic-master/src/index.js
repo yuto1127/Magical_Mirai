@@ -78,7 +78,7 @@ function onAppReady(app) {
   }
 
   if (!app.songUrl) {
-    player.createFromSongUrl("http://www.youtube.com/watch?v=ygY2qObZv24");
+    player.createFromSongUrl("https://www.youtube.com/watch?v=y3_eKUvco2g");
   }
 }
 
