@@ -1,5 +1,5 @@
 /* TextAlive Playerのインスタンスを作成 */
-const player = new TextAlive.Player({
+const player = new TextAliveApp.Player({
     app: {
         token: "oE0Qvl9sHpPZfezi" // ここに自分のトークンを入れる
     },
