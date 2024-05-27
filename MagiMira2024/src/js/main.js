@@ -1,9 +1,7 @@
 /* TextAlive Playerのインスタンスを作成 */
 const player = new TextAlive.Player({
     app: {
-        appAuthor: "CID",
-        appName: "Webリリックアプリケーション | フューチャーノーツ",
-        token: "oE0Qvl9sHpPZfezi" // ここにトークンを入れる
+        token: "oE0Qvl9sHpPZfezi" // ここに自分のトークンを入れる
     },
     mediaElement: document.querySelector("#video")
 });
