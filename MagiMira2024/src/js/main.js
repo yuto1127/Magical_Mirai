@@ -15,6 +15,12 @@ gsap.fromTo("#lyrics",
     { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
 );
 
+/* 再生ボタン */
+const playButton = document.getElementById("play-button");
+playButton.addEventListener("click", () => {
+    player.requestPlay();
+});
+
 /* 歌詞が発声された時に呼ばれるイベントハンドラ */
 player.addListener({
     onAppReady: (app) => {
