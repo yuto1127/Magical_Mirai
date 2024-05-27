@@ -18,7 +18,7 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-#app {
+#app_window {
     display: flex;
     flex-direction: column;
     align-items: center;
