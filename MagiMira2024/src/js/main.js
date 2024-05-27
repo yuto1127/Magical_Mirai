@@ -1,4 +1,4 @@
-// TextAlive Playerのインスタンスを作成
+/* TextAlive Playerのインスタンスを作成 */
 const player = new TextAlive.Player({
     app: {
         appAuthor: "CID",
@@ -8,20 +8,20 @@ const player = new TextAlive.Player({
     mediaElement: document.querySelector("#video")
 });
 
-// 歌詞表示エリア
+/* 歌詞表示エリア */
 const lyricsElement = document.getElementById("lyrics");
 
-// GSAPアニメーションのセットアップ
+/* GSAPアニメーションのセットアップ */
 gsap.fromTo("#lyrics", 
     { opacity: 0, y: 20 }, 
     { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
 );
 
-// 歌詞が発声された時に呼ばれるイベントハンドラ
+/* 歌詞が発声された時に呼ばれるイベントハンドラ */
 player.addListener({
     onAppReady: (app) => {
         if (!app.songUrl) {
-            // デフォルトの楽曲を設定
+            /* デフォルトの楽曲を設定 */
             player.createFromSongUrl("https://piapro.jp/t/XiaI/20240201203346");
         }
     },
