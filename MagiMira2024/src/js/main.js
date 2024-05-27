@@ -18,7 +18,7 @@ gsap.fromTo("#lyrics",
 /* 再生ボタン */
 const playButton = document.getElementById("play-button");
 playButton.addEventListener("click", () => {
-    player.requestPlay();
+    player.requestPlay(); // 再生を要求する
 });
 
 /* 歌詞が発声された時に呼ばれるイベントハンドラ */
