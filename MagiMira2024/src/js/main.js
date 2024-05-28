@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("Playing");
         },
         onTimeUpdate: (position) => {
-            const phrase = player.findPhrase(position);
+            const phrase = player.video.findPhrase(position);
 
             if (phrase) {
                 lyricsElement.textContent = phrase.text;
