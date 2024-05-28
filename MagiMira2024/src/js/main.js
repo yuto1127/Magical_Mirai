@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const phrase = player.video.findPhrase(position);
 
             if (phrase) {
-                lyricsElement.textContent = phrase.text;
-                lyricsAnimation.restart();
+                lyricsElement.textContent = phrase.text; // 歌詞を設定する部分
+                lyricsAnimation.restart(); // 歌詞表示アニメーションの再生
             } else {
                 gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
             }
