@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         app: {
             token: "oE0Qvl9sHpPZfezi" // ここに自分のトークンを入れる
         },
-        mediaElement: document.querySelector("#video")
+        mediaElement: document.querySelector("#media") // 新しいメディア要素を指定
     });
 
     /* 歌詞表示エリア */
