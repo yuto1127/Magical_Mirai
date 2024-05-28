@@ -31,7 +31,7 @@ body {
     width: 100%;
     max-width: 90vw; /* ウィンドウ幅の90% */
     max-height: 90vh; /* ウィンドウ高さの90% */
-    background: #222;
+/*     background: #222; */
     background-image: "../../img/bg_img/仮背景.jpg";
     display: flex;
     align-items: center;
