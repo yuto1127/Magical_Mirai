@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const lyricsElement = document.getElementById("lyrics");
 
     /* GSAPアニメーションのセットアップ */
-    gsap.fromTo("#lyrics", 
+    const lyricsAnimation = gsap.fromTo("#lyrics", 
         { opacity: 0, y: 20 }, 
         { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
     );
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
+        playButton.style.display = "none"; // 再生ボタンを非表示にする
     });
 
     /* 歌詞が発声された時に呼ばれるイベントハンドラ */
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (phrase) {
                 lyricsElement.textContent = phrase.text;
-                gsap.to("#lyrics", { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
+                lyricsAnimation.restart();
             } else {
                 gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
             }
