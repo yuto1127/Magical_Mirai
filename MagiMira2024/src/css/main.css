@@ -25,27 +25,35 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
+    position: relative; /* 位置を相対に設定 */
 }
 
 #video {
     width: 100%;
-    max-width: 90vw; /* ウィンドウ幅の90% */
-    max-height: 90vh; /* ウィンドウ高さの90% */
-/*     background: #222; */
+    max-width: 90vw; /* ビューポート幅の90% */
+    max-height: 90vh; /* ビューポート高さの90% */
     background-image: url("../../img/bg_img/仮背景.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 16 / 9; /* 16:9のアスペクト比 */
-    position: relative;
     overflow: hidden;
+}
+
+#play-button {
+    position: absolute;
+    width: 10%; /* ビデオに対する相対幅を設定 */
+    max-width: 100px; /* 最大幅 */
+    height: auto;
+    cursor: pointer;
+    z-index: 10;
 }
 
 #lyrics {
     font-size: 2rem;
     text-align: center;
     position: absolute;
-    bottom: 10%; /* ビデオの下から10%の位置に表示 */
+    bottom: 5%; /* ビデオエリアの下から5%の位置に表示 */
     width: 100%;
     color: #fff;
     opacity: 0;
