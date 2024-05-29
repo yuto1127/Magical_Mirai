@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {text:"轟く1・2・3",time:0.85},
         {text:"ほらよーいどんで飛び込んで",time:3.9},
         {text:"はらりと彩った",time:6.5},
-        {text:"未来\s未来　未来",time:8.8},
+        {text:"未来　未来　未来",time:8.8},
         {text:"Oh Oh",time:11},
         // １番Aメロ＃２
         {text:"いちにっさんしで色めいて",time:11.5},
