@@ -25,10 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* ロード完了後にロード画面を非表示にする */
     function hideLoadingScreen() {
-        const loadingScreen = document.getElementById("loading-screen");
-        loadingScreen.style.display = "none";
-        const appWindow = document.getElementById("app_window");
-        appWindow.style.display = "flex"; // アプリウィンドウを表示
+        setTimeout(() => {
+            const loadingScreen = document.getElementById("loading-screen");
+            loadingScreen.style.display = "none";
+            const appWindow = document.getElementById("app_window");
+            appWindow.style.display = "flex"; // アプリウィンドウを表示
+        }, 4000); // 4秒後に実行
     }
 
     /* 歌詞が発声された時に呼ばれるイベントハンドラ */
