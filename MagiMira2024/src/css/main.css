@@ -28,15 +28,15 @@ body {
 
 #video {
     width: 100%;
-    max-width: 90vw; /* ビューポート幅の90% */
-    max-height: 90vh; /* ビューポート高さの90% */
-    background-image: url("../../img/bg_img/仮背景.jpg");
+    max-width: 90vw;
+    max-height: 90vh;
+    background-image: url(../../img/bg_img/仮背景.jpg);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    aspect-ratio: 16 / 9; /* 16:9のアスペクト比 */
+    align-items: flex-end;
+    justify-content: flex-end;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    position: relative; /* 位置を相対に設定 */
+    position: relative;
 }
 
 #play-button {
