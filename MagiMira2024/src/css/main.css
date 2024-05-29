@@ -83,3 +83,7 @@ body {
     width: 5000px; 
     height: 5000px; 
 }
+
+#play-button{
+    width: 100px;
+}
