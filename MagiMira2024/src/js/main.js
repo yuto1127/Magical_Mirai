@@ -23,6 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
         playButton.style.display = "none"; // 再生ボタンを非表示にする
     });
 
+    /* ロード完了後にロード画面を非表示にする */
+    function hideLoadingScreen() {
+        const loadingScreen = document.getElementById("loading-screen");
+        loadingScreen.style.display = "none";
+        const appWindow = document.getElementById("app_window");
+        appWindow.style.display = "flex"; // アプリウィンドウを表示
+    }
+
     /* 歌詞が発声された時に呼ばれるイベントハンドラ */
     player.addListener({
         onAppReady: (app) => {
@@ -33,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         onVideoReady: (video) => {
             console.log("Video is ready");
+            hideLoadingScreen(); // ビデオが準備できたらロード画面を非表示にする
         },
         onPlay: () => {
             console.log("Playing");
