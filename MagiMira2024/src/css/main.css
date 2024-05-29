@@ -80,6 +80,6 @@ body {
 }
 
 #loading-img {
-    width: 500px; /* 5倍の幅に設定 */
-    height: 500px; /* 5倍の高さに設定 */
+    width: 5000px; 
+    height: 5000px; 
 }
