@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+<head> 
+    <!-- 文字コードを指定 -->
     <meta charset="UTF-8">
+    
+    <!-- タイトルを設定 -->
     <title>MagiMira2024 | フューチャーノーツ</title>
+    
+    <!-- CSSファイルを読み込む -->
     <link rel="stylesheet" href="../css/main.css">
+    
+    <!-- axiosライブラリを読み込む -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <!-- textalive-app-apiライブラリを読み込む -->
     <script src="https://unpkg.com/textalive-app-api/dist/index.js"></script>
+    
+    <!-- GSAPライブラリを読み込む -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    
+    <!-- main.jsファイルを読み込む -->
     <script src="../js/main.js"></script>
 </head>
 <body>
+    <!-- 空のdiv要素 -->
     <div></div>
+    
+    <!-- ローディング画面 -->
     <div id="loading-screen">
-        <img id="loading-img"src="../../img/obj_img/ロード画像.GIF" alt="Loading...">
+        <!-- ローディング画像 -->
+        <img id="loading-img" src="../../img/obj_img/ロード画像.GIF" alt="Loading...">
     </div>
+    
+    <!-- アプリケーションウィンドウ -->
     <div id="app_window" style="display:none;">
+        <!-- 動画表示エリア -->
         <div id="video" class="video">
-            <div id="media"></div> <!-- 新しいメディア要素 -->
+            <!-- 新しいメディア要素 -->
+            <div id="media"></div> 
         </div>
-        <img id="play-button" src="../../img/obj_img/再生ボタン.PNG"> <!-- 再生ボタンを外に移動 -->
-        <div id="lyrics" class="lyrics"></div> <!-- 歌詞表示エリアを外に移動 -->
+        
+        <!-- 再生ボタン -->
+        <img id="play-button" src="../../img/obj_img/再生ボタン.PNG"> 
+        
+        <!-- 歌詞表示エリア -->
+        <div id="lyrics" class="lyrics"></div> 
     </div>  
 </body>
 </html>
