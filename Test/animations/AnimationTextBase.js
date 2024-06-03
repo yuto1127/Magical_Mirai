@@ -12,7 +12,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
     */
     constructor(text,fontFamily,font_size,color,posX,posY,dispTime,lifeTime,killTime){ //コンストラクタで各パラメータを初期化
         this.setText(text);
-        this.fontFamily(fontFamily);
+        this.setFontFamily(fontFamily);
         this.setFontSize(font_size);
         this.setColor(color);
         this.setPos(posX,posY);
