@@ -42,8 +42,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;  /* app_windowと同じ幅 */
-    height: 100%; /* app_windowと同じ高さ */
+    width: 100%;  /* videoと同じ幅 */
+    height: 100%; /* videoと同じ高さ */
     cursor: pointer;
     z-index: 10;
     object-fit: cover; /* 画像の縦横比を維持しつつ、全体を埋める */
