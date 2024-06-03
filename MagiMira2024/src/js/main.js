@@ -147,10 +147,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // 0.1秒ごとに実行
         setInterval(() => {
             time+=1;
-            if(scene == 0 && (9 < time && time <= 110)){
+            if(scene == 0 && (0 < time && time <= 120)){    //絵コンテでは11秒だが、ズレている気がするので12秒に変更しました HN
                 scene = 1;
                 bg_image.src = "../../img/bg_img/背景_1_9.jpg";
-            }else if(scene == 1 && (110 < time && time <= 200)){
+            }else if(scene == 1 && (120 < time && time <= 200)){
                 scene = 2;
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 2 && (200 < time && time <= 310)){
