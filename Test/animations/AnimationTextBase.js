@@ -28,7 +28,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
 
     //文字のフォントを指定しないコンストラクタ
     constructor(text,font_size,color,posX,posY,dispTime,lifeTime,killTime){
-        this(text,"",font_size,color,posX,posY,dispTime,lifeTime,killTime);
+        this(text,"Verdana",font_size,color,posX,posY,dispTime,lifeTime,killTime);
     }
 
     //表示するテキストをセットする
