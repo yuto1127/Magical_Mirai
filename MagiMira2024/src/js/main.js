@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 0.1秒ごとに実行
         setInterval(() => {
             time+=1;
-            if(scene == 0 && (0 < time && time <= 110)){
+            if(scene == 0 && (9 < time && time <= 110)){
                 scene = 1;
                 bg_image.src = "../../img/bg_img/背景_1_9.jpg";
             }else if(scene == 1 && (110 < time && time <= 200)){
