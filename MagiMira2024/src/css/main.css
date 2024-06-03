@@ -30,6 +30,7 @@ body {
     width: 100%;
     max-width: 90vw;
     max-height: 90vh;
+
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -40,15 +41,15 @@ body {
 
 #play-button {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10%; /* ビデオに対する相対幅を設定 */
-    max-width: 100px; /* 最大幅 */
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;  /* ビデオと同じ幅 */
+    height: 100%; /* ビデオと同じ高さ */
     cursor: pointer;
     z-index: 10;
+    object-fit: cover; /* 画像の縦横比を維持しつつ、全体を埋める */
 }
+
 
 #lyrics {
     font-size: 2rem;
