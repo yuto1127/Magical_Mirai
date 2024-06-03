@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 14 && (1060 < time && time <= 1120)){
                 scene = 15;
-                bg_image.src = bg_tmp; //仮背景に設定
+                bg_image.src = "../../img/bg_img/案1横顔_15_20.jpg";
             }else if(scene == 15 && (1120 < time && time <= 1210)){
                 scene = 16;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 19 && (1330 < time && time <= 1410)){
                 scene = 20;
-                bg_image.src = bg_tmp; //仮背景に設定
+                bg_image.src = "../../img/bg_img/案1横顔_15_20.jpg";
             }else if(scene == 20 && (1410 < time && time <= 1530)){
                 scene = 21;
                 bg_image.src = bg_tmp; //仮背景に設定
