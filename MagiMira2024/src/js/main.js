@@ -168,13 +168,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }else if(scene == 6 && (410 < time && time <= 490)){
                 scene = 7;
                 bg_image.src = bg_tmp; //仮背景に設定
-            }else if(scene == 7 && (490 < time && time <= 515)){
+            }else if(scene == 7 && (490 < time && time <= 520)){
                 scene = 8;
                 bg_image.src = bg_tmp; //仮背景に設定
-            }else if(scene == 8 && (515 < time && time <= 615)){
+            }else if(scene == 8 && (520 < time && time <= 620)){    //+1.0秒調整
                 scene = 9;
                 bg_image.src = "../../img/bg_img/背景_1_9.jpg";
-            }else if(scene == 9 && (615 < time && time <= 720)){
+            }else if(scene == 9 && (620 < time && time <= 720)){
                 scene = 10;
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 10 && (720 < time && time <= 810)){
