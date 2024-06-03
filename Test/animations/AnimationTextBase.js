@@ -1,6 +1,18 @@
 export class AnimationTextBase{     //アニメーションテキストの元となるクラス
-    constructor(text,font_size,color,posX,posY,dispTime,lifeTime,killTime){ //コンストラクタで各パラメータを初期化
+    /* 
+        text = 表示する文字列
+        fontFamily = 文字のフォント
+        font_size = 文字の大きさ
+        color = 文字の色
+        posX = 要素のx座標
+        posY = 要素のy座標
+        dispTime = 文字列の表示にかかる時間
+        lifiTime = 文字列が表示される時間
+        killTime = 文字列の削除にかかる時間
+    */
+    constructor(text,fontFamily,font_size,color,posX,posY,dispTime,lifeTime,killTime){ //コンストラクタで各パラメータを初期化
         this.setText(text);
+        this.fontFamily(fontFamily);
         this.setFontSize(font_size);
         this.setColor(color);
         this.setPos(posX,posY);
@@ -14,9 +26,18 @@ export class AnimationTextBase{     //アニメーションテキストの元と
         this.id;
     }
 
+    //文字のフォントを指定しないコンストラクタ
+    constructor(text,font_size,color,posX,posY,dispTime,lifeTime,killTime){
+        this(text,"",font_size,color,posX,posY,dispTime,lifeTime,killTime);
+    }
+
     //表示するテキストをセットする
     setText(text){
         this.text = text;
+    }
+
+    setFontFamily(fontFamily){
+        this.fontFamily = fontFamily;
     }
 
     //表示する文字の大きさをセットする
@@ -86,6 +107,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
     register(){
         this.element.style.position = "relative";
         this.element.style.color = this.color;
+        this.element.style.fontFamily = this.fontFamily;
         this.element.style.fontSize = this.font_size;
         this.element.style.left = this.posX;
         this.element.style.top = this.posY;
