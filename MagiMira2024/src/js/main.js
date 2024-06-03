@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }else if(scene == 20 && (1410 < time && time <= 1530)){
                 scene = 21;
                 bg_image.src = bg_tmp; //仮背景に設定
-            }else{
+            }else if(scene == 22){
                 console.log("End");
             }
         },100)//ここまで HN
