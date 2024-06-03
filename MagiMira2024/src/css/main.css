@@ -30,7 +30,6 @@ body {
     width: 100%;
     max-width: 90vw;
     max-height: 90vh;
-    /* background-image: url(../../img/bg_img/仮背景.jpg); */
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
