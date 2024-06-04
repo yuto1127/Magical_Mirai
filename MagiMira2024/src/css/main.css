@@ -114,6 +114,15 @@ body {
     z-index: -1;
 }
 
+#bg_image2{
+    width:100%;
+    max-width: 90vw;
+    max-height: 90vh;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    z-index: -2;
+}
+
 #animation-text-area{
     width:100%;
     max-width: 90vw;

@@ -148,11 +148,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // );
 
     /* 再生ボタン */
-    var scene = 0; //追加箇所 HN
-    var animTextIndex = 0; //追加箇所 HN
-    const bg_image = document.getElementById("bg_image"); //追加箇所 HN
+    var scene = 0;
+    var animTextIndex = 0;
+    const bg_image = document.getElementById("bg_image");
+    const bg_image2 = document.getElementById("bg_image2");
     // 画像格納変数
-    const bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
+    const bg_tmp = "../../img/bg_img/仮背景.jpg";
     const bg_1_9 = "../../img/bg_img/bg_1_9.GIF";
     const bg_2_11_1 = "../../img/bg_img/初音ミク_2_11.gif";
     const bg_2_11_2 = "../../img/bg_img/初音ミク_2_11_静止画.jpg";
@@ -176,24 +177,30 @@ document.addEventListener("DOMContentLoaded", () => {
             }else if(scene == 1 && (115 < time && time <= 200)){
                 scene = 201;
                 bg_image.src = bg_2_11_1;
+                bg_image.src = bg_2_11_2;
             }else if(scene == 201 && (115+17 < time && time <= 200)){
                 scene = 202;
-                bg_image.src = bg_2_11_2;
+                $('#bg_image').hide();
             }else if(scene == 202 && (200 < time && time <= 310)){
                 scene = 301;
                 bg_image.src = bg_3_10_1;
+                $('#bg_image').show();
+                bg_image2.src = bg_3_10_2;
             }else if(scene == 301 && (200+28 < time && time <= 310)){
                 scene = 302;
-                bg_image.src = bg_3_10_2;
+                $('#bg_image').hide();
             }else if(scene == 302 && (260 < time && time <= 310)){
                 scene = 303;
                 bg_image.src = bg_3_10_3;
+                $('#bg_image').show();
+                bg_image2.src = bg_3_10_4;
             }else if(scene == 303 && (260+19 < time && time <= 310)){
                 scene = 304;
-                bg_image.src = bg_3_10_4;
+                $('#bg_image').hide();
             }else if(scene == 304 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.src = bg_tmp; //仮背景に設定
+                $('#bg_image').show();
             }else if(scene == 4 && (330 < time && time <= 380)){
                 scene = 5;
                 bg_image.src = bg_tmp; //仮背景に設定
