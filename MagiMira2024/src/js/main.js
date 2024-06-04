@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 歌詞と発話時間の組み合わせをここに追加
          // １番Aメロ＃１
 
-         {text:"轟く1・2・3",time:0.85},
+         {text:"轟く1・2・3",time:0.8},
 
          {text:"ほらよーいどんで飛び込んで",time:3.9},
  
