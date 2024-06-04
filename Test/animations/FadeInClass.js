@@ -15,12 +15,7 @@ export class FadeInClass extends AnimationTextBase{
     constructor(text,fontFamily,font_size,color,posX,posY,dispTime,lifeTime,killTime){
         super(text,fontFamily,font_size,color,posX,posY,dispTime,lifeTime,killTime);
     }
-
-    //文字のフォントを指定しないコンストラクタ
-    constructor(text,font_size,color,posX,posY,dispTime,lifeTime,killTime){
-        super(text,font_size,color,posX,posY,dispTime,lifeTime,killTime);
-    }
-
+    
     /*
     テキストを表示して指定時間後に非表示にする処理
     

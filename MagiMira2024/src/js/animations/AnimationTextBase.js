@@ -25,12 +25,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
         this.element;
         this.id;
     }
-
-    //文字のフォントを指定しないコンストラクタ
-    constructor(text,font_size,color,posX,posY,dispTime,lifeTime,killTime){
-        this(text,"MS Mincho",font_size,color,posX,posY,dispTime,lifeTime,killTime);
-    }
-
+    
     //表示するテキストをセットする
     setText(text){
         this.text = text;
