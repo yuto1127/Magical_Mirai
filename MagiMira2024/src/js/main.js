@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_1_9;
             }else if(scene == 1 && (115 < time && time <= 200)){
                 scene = 2;
-                bg_image.src = bg_2_11_1; //仮背景に設定
+                bg_image.src = bg_2_11_1;
             }else if(scene == 2 && (200 < time && time <= 310)){
                 scene = 3;
                 bg_image.src = bg_3_10_1;
@@ -199,10 +199,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_1_9;
             }else if(scene == 9 && (620 < time && time <= 720)){
                 scene = 10;
-                bg_image.src = bg_3_10;
+                bg_image.src = bg_3_10_1;
             }else if(scene == 10 && (720 < time && time <= 810)){
                 scene = 11;
-                bg_image.src = bg_tmp; //仮背景に設定
+                bg_image.src = bg_2_11_1;
             }else if(scene == 11 && (810 < time && time <= 930)){
                 scene = 12;
                 bg_image.src = bg_tmp; //仮背景に設定
