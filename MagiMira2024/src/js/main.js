@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for(var i=0;i<phrases.length;i++){
         animTextList.push(new AnimationTextBase(phrases[i].text,"20px","#000000","200px","100px",0,1000,0));
-        animTextList.setID("text_"+i);
+        animTextList[i].setID("text_"+i);
         animTextList[i].generate();
     }
 
