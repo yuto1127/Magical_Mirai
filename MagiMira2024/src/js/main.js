@@ -152,6 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var animTextIndex = 0; //追加箇所 HN
     const bg_image = document.getElementById("bg_image"); //追加箇所 HN
     const bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
+    const bg_1_9 = "../../img/bg_img/bg_1_9.GIF";
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -163,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
             if(scene == 0 && (0 < time && time <= 115)){    //+0.5秒調整
                 scene = 1;
-                bg_image.src = "../../img/bg_img/bg_1_9.GIF";
+                bg_image.src = bg_1_9;
             }else if(scene == 1 && (115 < time && time <= 200)){
                 scene = 2;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -187,7 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 8 && (522 < time && time <= 620)){    //+1.2秒調整
                 scene = 9;
-                bg_image.src = "../../img/bg_img/背景_1_9.jpg";
+                bg_image.src = bg_1_9;
             }else if(scene == 9 && (620 < time && time <= 720)){
                 scene = 10;
                 bg_image.src = "../../img/bg_img/初音ミク_3_10_始まり.gif";
