@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //追加箇所 HN
     /* アニメーションテキストを生成 */
     for(var i=0;i<phrases.length;i++){
-        animTextList.push(new AnimationTextBase(phrases[i].text,"20px","#000000","200px","100px",0,1000,0));
+        animTextList.push(new AnimationTextBase(phrases[i].text,"40px","#FFFFFF","50%","50%",0,2000,0));
         animTextList[i].setID("text_"+i);
         animTextList[i].generate();
     }
