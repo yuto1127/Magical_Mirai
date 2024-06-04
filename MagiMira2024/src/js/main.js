@@ -138,9 +138,9 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
     /* 再生ボタン */
-    bg_image = document.getElementById("bg_image"); //追加箇所 HN
-    scene = 0; //追加箇所 HN
-    bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
+    const bg_image = document.getElementById("bg_image"); //追加箇所 HN
+    var scene = 0; //追加箇所 HN
+    const bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
