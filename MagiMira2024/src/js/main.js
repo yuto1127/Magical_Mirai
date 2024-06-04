@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 2 && (200 < time && time <= 310)){
                 scene = 3;
-                bg_image.src = bg_tmp; //仮背景に設定
+                bg_image.src = "../../img/bg_img/初音ミク_3_10_始まり.gif";
             }else if(scene == 3 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = "../../img/bg_img/背景_1_9.jpg";
             }else if(scene == 9 && (620 < time && time <= 720)){
                 scene = 10;
-                bg_image.src = bg_tmp; //仮背景に設定
+                bg_image.src = "../../img/bg_img/初音ミク_3_10_始まり.gif";
             }else if(scene == 10 && (720 < time && time <= 810)){
                 scene = 11;
                 bg_image.src = bg_tmp; //仮背景に設定
