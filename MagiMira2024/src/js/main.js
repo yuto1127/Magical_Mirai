@@ -133,6 +133,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     var animTextList = [];
 
+    //追加箇所 HN
+    /* アニメーションテキストを生成 */
     for(var i=0;i<phrases.length;i++){
         animTextList.push(new AnimationTextBase(phrases[i].text,"20px","#000000","200px","100px",0,1000,0));
         animTextList[i].setID("text_"+i);
@@ -159,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 0.1秒ごとに実行
         setInterval(() => {
             time+=1;
-            if(scene == 0 && (0 < time && time <= 115)){    //絵コンテでは11秒ですが、調整のため11.5秒に変更しました HN
+            if(scene == 0 && (0 < time && time <= 115)){    //+0.5秒調整
                 scene = 1;
                 bg_image.src = "../../img/bg_img/背景_1_9.jpg";
             }else if(scene == 1 && (115 < time && time <= 200)){
