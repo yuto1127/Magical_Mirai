@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 scene = 201;
                 bg_image.src = bg_2_11_1;
                 $('#bg_image').show();
-                bg_image.src = bg_2_11_2;
+                bg_image2.src = bg_2_11_2;
             }else if(scene == 201 && (115+17 < time && time <= 200)){
                 scene = 202;
                 $('#bg_image').hide();
