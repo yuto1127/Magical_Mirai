@@ -106,6 +106,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
         this.element.style.fontSize = this.font_size;
         this.element.style.left = this.posX;
         this.element.style.top = this.posY;
+        this.element.style.zIndex = 20;
     }
 
     /*
