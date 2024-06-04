@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
             if(scene == 0 && (0 < time && time <= 115)){    //+0.5秒調整
                 scene = 1;
-                bg_image.src = "../../img/bg_img/背景_1_9.jpg";
+                bg_image.src = "../../img/bg_img/bg_1_9.GIF";
             }else if(scene == 1 && (115 < time && time <= 200)){
                 scene = 2;
                 bg_image.src = bg_tmp; //仮背景に設定
