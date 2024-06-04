@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     /* 歌詞表示エリア */
-    const lyricsElement = document.getElementById("lyrics");
+    // const lyricsElement = document.getElementById("lyrics");
 
     // 歌詞の配列データ
     const phrases = [
@@ -141,11 +141,11 @@ document.addEventListener("DOMContentLoaded", () => {
         animTextList[i].generate();
     }
 
-    /* GSAPアニメーションのセットアップ */
-    const lyricsAnimation = gsap.fromTo("#lyrics", 
-        { opacity: 0, y: 20 }, 
-        { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
-    );
+    // /* GSAPアニメーションのセットアップ */
+    // const lyricsAnimation = gsap.fromTo("#lyrics", 
+    //     { opacity: 0, y: 20 }, 
+    //     { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
+    // );
 
     /* 再生ボタン */
     var scene = 0; //追加箇所 HN
@@ -294,12 +294,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 lyricsElement.textContent = phrase.text; // 歌詞を設定する部分
                 lyricsAnimation.restart(); // 歌詞表示アニメーションの再生
             } else {
-                gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
+                // gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
             }
         },
         onStop: () => {
             lyricsElement.textContent = "";
-            gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
+            // gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
         }
     });
 });
