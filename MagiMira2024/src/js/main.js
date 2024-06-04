@@ -174,12 +174,24 @@ document.addEventListener("DOMContentLoaded", () => {
                 scene = 1;
                 bg_image.src = bg_1_9;
             }else if(scene == 1 && (115 < time && time <= 200)){
-                scene = 2;
+                scene = 201;
                 bg_image.src = bg_2_11_1;
-            }else if(scene == 2 && (200 < time && time <= 310)){
-                scene = 3;
+            }else if(scene == 201 && (115+17 < time && time <= 200)){
+                scene = 202;
+                bg_image.src = bg_2_11_2;
+            }else if(scene == 202 && (200 < time && time <= 310)){
+                scene = 301;
                 bg_image.src = bg_3_10_1;
-            }else if(scene == 3 && (310 < time && time <= 330)){
+            }else if(scene == 301 && (200+28 < time && time <= 310)){
+                scene = 302;
+                bg_image.src = bg_3_10_2;
+            }else if(scene == 302 && (260 < time && time <= 310)){
+                scene = 303;
+                bg_image.src = bg_3_10_3;
+            }else if(scene == 303 && (260+19 < time && time <= 310)){
+                scene = 304;
+                bg_image.src = bg_3_10_4;
+            }else if(scene == 304 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 4 && (330 < time && time <= 380)){
