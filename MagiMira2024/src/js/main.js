@@ -154,7 +154,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // 画像格納変数
     const bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
     const bg_1_9 = "../../img/bg_img/bg_1_9.GIF";
-    const bg_3_10 = "../../img/bg_img/初音ミク_3_10_始まり.gif";
+    const bg_2_11_1 = "../../img/bg_img/初音ミク_2_11.gif";
+    const bg_2_11_2 = "../../img/bg_img/初音ミク_2_11_静止画.jpg";
+    const bg_3_10_1 = "../../img/bg_img/初音ミク_3_10_導入_ディザリング.gif";
+    const bg_3_10_2 = "../../img/bg_img/初音ミク_3_10_静止画_導入.jpg";
+    const bg_3_10_3 = "../../img/bg_img/初音ミク_3_10_終了_ディザリング.gif";
+    const bg_3_10_4 = "../../img/bg_img/初音ミク_3_10_静止画_終了.jpg";
     const bg_15_20 = "../../img/bg_img/案1横顔_15_20.jpg";
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
@@ -173,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 2 && (200 < time && time <= 310)){
                 scene = 3;
-                bg_image.src = bg_3_10;
+                bg_image.src = bg_3_10_1;
             }else if(scene == 3 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.src = bg_tmp; //仮背景に設定
