@@ -1,3 +1,6 @@
+import {AnimationTextBase} from './animations/AnimationTextBase.js';
+import {FadeInClass} from './animations/FadeInClass.js';
+
 var time = 0; //追加箇所 HN
 
 document.addEventListener("DOMContentLoaded", () => {
