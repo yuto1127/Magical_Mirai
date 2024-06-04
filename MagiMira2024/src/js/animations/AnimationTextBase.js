@@ -20,7 +20,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
         this.setLifeTime(lifeTime);
         this.setKillTime(killTime);
         this.isActive = false;
-        this.parentElementID = "lyrics";
+        this.parentElementID = "animation-text-area";
         this.parentElement = document.getElementById(this.parentElementID);
         this.element;
         this.id;
