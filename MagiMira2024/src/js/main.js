@@ -151,8 +151,11 @@ document.addEventListener("DOMContentLoaded", () => {
     var scene = 0; //追加箇所 HN
     var animTextIndex = 0; //追加箇所 HN
     const bg_image = document.getElementById("bg_image"); //追加箇所 HN
+    // 画像格納変数
     const bg_tmp = "../../img/bg_img/仮背景.jpg"; //追加箇所 HN
     const bg_1_9 = "../../img/bg_img/bg_1_9.GIF";
+    const bg_3_10 = "../../img/bg_img/初音ミク_3_10_始まり.gif";
+    const bg_15_20 = "../../img/bg_img/案1横顔_15_20.jpg";
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -170,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 2 && (200 < time && time <= 310)){
                 scene = 3;
-                bg_image.src = "../../img/bg_img/初音ミク_3_10_始まり.gif";
+                bg_image.src = bg_3_10;
             }else if(scene == 3 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -191,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_1_9;
             }else if(scene == 9 && (620 < time && time <= 720)){
                 scene = 10;
-                bg_image.src = "../../img/bg_img/初音ミク_3_10_始まり.gif";
+                bg_image.src = bg_3_10;
             }else if(scene == 10 && (720 < time && time <= 810)){
                 scene = 11;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -206,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 14 && (1060 < time && time <= 1120)){
                 scene = 15;
-                bg_image.src = "../../img/bg_img/案1横顔_15_20.jpg";
+                bg_image.src = bg_15_20;
             }else if(scene == 15 && (1120 < time && time <= 1210)){
                 scene = 16;
                 bg_image.src = bg_tmp; //仮背景に設定
@@ -221,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.src = bg_tmp; //仮背景に設定
             }else if(scene == 19 && (1330 < time && time <= 1410)){
                 scene = 20;
-                bg_image.src = "../../img/bg_img/案1横顔_15_20.jpg";
+                bg_image.src = bg_15_20;
             }else if(scene == 20 && (1410 < time && time <= 1530)){
                 scene = 21;
                 bg_image.src = bg_tmp; //仮背景に設定
