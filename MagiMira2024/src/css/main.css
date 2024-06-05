@@ -48,6 +48,7 @@ body {
     z-index: 50;
     object-fit: cover; /* 画像の縦横比を維持しつつ、全体を埋める */
 }
+/* // 未使用↓ */
 /*
 #lyrics {
     font-size: 2rem;
