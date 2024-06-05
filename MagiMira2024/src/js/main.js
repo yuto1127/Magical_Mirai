@@ -329,6 +329,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // 未使用↓
             // gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
         }
-        // マウス、キーボードの操作によるエフェクト発生
+        // マウス、キーボードの操作によるエフェクト発生↓（後述）
     });
 });
