@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const scene_info_index = 1;
     const scene_info = [
-        {scene_num:0,scene_time:-1,bg_image_pass="none"},
+        {scene_num:0,scene_time:-1,bg_image_pass:"none"},
         {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
         {scene_num:2_01,scene_time:110,bg_image_pass:"bg_2_導入_アニメ.gif"},
         {scene_num:2_02,scene_time:111,bg_image_pass:"bg_2_導入_静止画.jpg"},
