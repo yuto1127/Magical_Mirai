@@ -194,20 +194,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.attr('src',bg_3_10_4);
             }else if(scene == 304 && (310 < time && time <= 330)){
                 scene = 4;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
                 $('#bg_image').show();
             }else if(scene == 4 && (330 < time && time <= 380)){
                 scene = 5;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 5 && (380 < time && time <= 410)){
                 scene = 6;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 6 && (410 < time && time <= 490)){
                 scene = 7;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 7 && (490 < time && time <= 522)){
                 scene = 8;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 8 && (522 < time && time <= 620)){    //+1.2秒調整
                 scene = 9;
                 bg_image.attr('src',bg_1_9);
@@ -219,34 +219,34 @@ document.addEventListener("DOMContentLoaded", () => {
                 bg_image.attr('src',bg_2_11_1);
             }else if(scene == 11 && (810 < time && time <= 930)){
                 scene = 12;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 12 && (930 < time && time <= 1020)){
                 scene = 13;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 13 && (1020 < time && time <= 1060)){
                 scene = 14;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 14 && (1060 < time && time <= 1120)){
                 scene = 15;
                 bg_image.attr('src',bg_15_20);
             }else if(scene == 15 && (1120 < time && time <= 1210)){
                 scene = 16;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 16 && (1210 < time && time <= 1220)){
                 scene = 17;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 17 && (1220 < time && time <= 1310)){
                 scene = 18;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 18 && (1310 < time && time <= 1330)){
                 scene = 19;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 19 && (1330 < time && time <= 1410)){
                 scene = 20;
                 bg_image.attr('src',bg_15_20);
             }else if(scene == 20 && (1410 < time && time <= 1530)){
                 scene = 21;
-                bg_image.attr('src',bg_1_9); //仮背景に設定
+                bg_image.attr('src',bg_tmp); //仮背景に設定
             }else if(scene == 21){
                 scene = 22;
                 console.log("End");
