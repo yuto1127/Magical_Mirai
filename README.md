@@ -13,3 +13,6 @@ https://yuto1127.github.io/Magical_Mirai/Sample/index.html
 
 アニメーションテキストクラスのテストページのリンク：
 https://yuto1127.github.io/Magical_Mirai/Test/index.html
+
+エフェクトテスト用ページのリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest/index.html
