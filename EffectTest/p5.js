@@ -36,7 +36,7 @@ function createParticle(x0, y0) {
     y0 + random(-size / 4, size / 4),
     [random(90, 290), 50, 50, 100],
   ];
-  const lifetime = random(1, 3) * 60;
+  const lifetime = Mathrandom(1, 3) * 60;
   const [dx, dy, ds, da] = [
     random(-100, 100) / lifetime,
     random(-100, 100) / lifetime,
