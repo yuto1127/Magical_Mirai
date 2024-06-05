@@ -177,26 +177,21 @@ document.addEventListener("DOMContentLoaded", () => {
             }else if(scene == 1 && (115 < time && time <= 200)){
                 scene = 201;
                 bg_image.attr('src',bg_2_11_1);
-                bg_image2.attr('src',bg_2_11_2);
             }else if(scene == 201 && (115+17 < time && time <= 200)){
                 scene = 202;
-                $('#bg_image').hide();
+                bg_image.attr('src',bg_2_11_2);
             }else if(scene == 202 && (200 < time && time <= 310)){
                 scene = 301;
                 bg_image.attr('src',bg_3_10_1);
-                $('#bg_image').show();
-                bg_image2.attr('src',bg_3_10_2);
             }else if(scene == 301 && (200+28 < time && time <= 310)){
                 scene = 302;
-                $('#bg_image').hide();
+                bg_image.attr('src',bg_3_10_2);
             }else if(scene == 302 && (260 < time && time <= 310)){
                 scene = 303;
                 bg_image.attr('src',bg_3_10_3);
-                $('#bg_image').show();
-                bg_image2.attr('src',bg_3_10_4);
             }else if(scene == 303 && (260+19 < time && time <= 310)){
                 scene = 304;
-                $('#bg_image').hide();
+                bg_image.attr('src',bg_3_10_4);
             }else if(scene == 304 && (310 < time && time <= 330)){
                 scene = 4;
                 bg_image.attr('src',bg_1_9); //仮背景に設定
