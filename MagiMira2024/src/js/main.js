@@ -1,8 +1,9 @@
+// テキストアニメーション実装に必要なインポート
 import {AnimationTextBase} from './animations/AnimationTextBase.js';
 import {FadeInClass} from './animations/FadeInClass.js';
 
 var time = 0; //追加箇所 HN
-
+// APIの読み込みとPlayerクラスのインスタンスの作成
 document.addEventListener("DOMContentLoaded", () => {
     /* TextAlive Playerのインスタンスを作成 */
     const player = new TextAliveApp.Player({
@@ -10,7 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
             token: "oE0Qvl9sHpPZfezi" // ここに自分のトークンを入れる
         },
         mediaElement: document.querySelector("#media") // 新しいメディア要素を指定
+        
     });
+    player.setVolume(0.5);
+
     // 未使用↓
     /* 歌詞表示エリア */
     // const lyricsElement = document.getElementById("lyrics");
