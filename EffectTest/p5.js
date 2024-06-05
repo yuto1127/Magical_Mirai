@@ -30,7 +30,7 @@ function mouseMoved() {
 }
 
 function createParticle(x0, y0) {
-  const size = random(10, 60);
+  const size = Math.random(10, 60);
   const [x, y, color] = [
     x0 + random(-size / 4, size / 4),
     y0 + random(-size / 4, size / 4),
