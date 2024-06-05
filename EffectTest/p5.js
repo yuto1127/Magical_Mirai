@@ -48,18 +48,14 @@ function createParticle(x0, y0) {
   particleList.push(particle);
 }
 
-setup();
-
 window.addEventListener('mousemove', function (e) {
     var x = e.clientX;
     var y = e.clientY;
     createParticle(x, y);
-    draw();
   });
   document.body.addEventListener('touchmove', function (e) {
     var x = e.touches[0].clientX;
     var y = e.touches[0].clientY;
     e.preventDefault();
     createParticle(x, y);
-    draw();
   });
