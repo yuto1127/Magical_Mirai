@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mediaElement: document.querySelector("#media") // 新しいメディア要素を指定
         
     });
-    player.setVolume(0.5);
+    
 
     // 未使用↓
     /* 歌詞表示エリア */
