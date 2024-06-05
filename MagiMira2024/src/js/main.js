@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //     { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
     // );
 
-    const scene_info_index = 1;
+    var scene_info_index = 1;
     const scene_info = [
         {scene_num:0,scene_time:-1,bg_image_pass:"none"},
         {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
