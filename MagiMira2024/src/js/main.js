@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         mediaElement: document.querySelector("#media") // 新しいメディア要素を指定
     });
-
+    // 未使用↓
     /* 歌詞表示エリア */
     // const lyricsElement = document.getElementById("lyrics");
 
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         animTextList[i].setID("text_"+i);
         animTextList[i].generate();
     }
-
+    // 未使用↓
     // /* GSAPアニメーションのセットアップ */
     // const lyricsAnimation = gsap.fromTo("#lyrics", 
     //     { opacity: 0, y: 20 }, 
@@ -317,11 +317,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 lyricsElement.textContent = phrase.text; // 歌詞を設定する部分
                 lyricsAnimation.restart(); // 歌詞表示アニメーションの再生
             } else {
+                // 未使用↓ 
                 // gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
             }
         },
         onStop: () => {
             lyricsElement.textContent = "";
+            // 未使用↓
             // gsap.to("#lyrics", { opacity: 0, y: 20, duration: 1, ease: "power2.out" });
         }
     });
