@@ -10,17 +10,17 @@ function draw() {
   background(80);
 
   for (const particle of particleList) {
-    fill(particle.color);
+    fill(particle.color.levels[0], particle.color.levels[1], particle.color.levels[2], particle.color.levels[3]);
     circle(particle.x, particle.y, particle.size);
     particle.x -= particle.dx;
     particle.y -= particle.dy;
     particle.size -= particle.ds;
-    particle.color.setAlpha(particle.color._array[3] - particle.da / 100);
+    particle.color.levels[3] -= particle.da;
     particle.lifetime -= 1;
   }
 
   particleList = particleList.filter((particle) => {
-    return particle.lifetime > 0;
+    return particle.lifetime > 0 && particle.color.levels[3] > 0;
   });
 }
 
@@ -47,7 +47,6 @@ window.addEventListener('mousemove', function (e) {
   var x = e.clientX;
   var y = e.clientY;
   createParticle(x, y);
-  draw();
 });
 
 document.body.addEventListener('touchmove', function (e) {
@@ -55,7 +54,6 @@ document.body.addEventListener('touchmove', function (e) {
   var y = e.touches[0].clientY;
   e.preventDefault();
   createParticle(x, y);
-  draw();
 });
 
 setup();
