@@ -16,3 +16,9 @@ https://yuto1127.github.io/Magical_Mirai/Test/index.html
 
 エフェクトテスト用ページのリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest/index.html
+
+エフェクトテスト用ページ2のリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.html
+
+エフェクトテスト用ページ3のリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest3/index.html
