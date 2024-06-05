@@ -32,7 +32,7 @@ function createParticle(x0, y0) {
   const size = Math.random() * 50 + 10;
   const x = x0 + Math.random() * size - size / 2;
   const y = y0 + Math.random() * size - size / 2;
-  const color = color(Math.random() * 290 + 90, 50, 50, 100);
+  const particleColor = color(Math.random() * 290 + 90, 50, 50, 100);  
   const lifetime = Math.random() * 180 + 60;
   const dx = (Math.random() - 0.5) * 100 / lifetime;
   const dy = (Math.random() - 0.5) * 100 / lifetime;
