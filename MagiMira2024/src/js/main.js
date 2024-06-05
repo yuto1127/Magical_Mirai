@@ -150,6 +150,22 @@ document.addEventListener("DOMContentLoaded", () => {
     //     { opacity: 1, y: 0, duration: 1, ease: "power2.out", paused: true }
     // );
 
+    const scene_info_index = 1;
+    const scene_info = [
+        {scene_num:0,scene_time:-1,bg_image_pass="none"},
+        {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
+        {scene_num:2_01,scene_time:110,bg_image_pass:"bg_2_導入_アニメ.gif"},
+        {scene_num:2_02,scene_time:111,bg_image_pass:"bg_2_導入_静止画.jpg"},
+        {scene_num:2_03,scene_time:112,bg_image_pass:"bg_2_終わり_アニメ.gif"},
+        {scene_num:2_04,scene_time:113,bg_image_pass:"bg_2_終わり_静止画.jpg"},
+        {scene_num:3_01,scene_time:200,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
+        {scene_num:3_02,scene_time:201,bg_image_pass:"bg_3_10_静止画_導入.jpg"},
+        {scene_num:3_03,scene_time:202,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
+        {scene_num:3_04,scene_time:203,bg_image_pass:"bg_3_10_静止画_終了.jpg"},
+        {scene_num:4,scene_time:310,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+        {scene_num:5,scene_time:410,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"}
+    ];
+
     /* 再生ボタン */
     var scene = 0;
     var animTextIndex = 0;
@@ -157,31 +173,35 @@ document.addEventListener("DOMContentLoaded", () => {
     const bg_image2 = $('#bg_image2');
     // 画像格納変数
     const bg_pass = "../../img/bg_img/";
-    const bg_tmp = bg_pass + "仮背景.jpg";
-    const bg_1_13 = bg_pass + "bg_1_13.GIF";
-    const bg_2$1 = bg_pass + "bg_2_導入_アニメ.gif"
-    const bg_2$2 = bg_pass + "bg_2_導入_静止画.jpg"
-    const bg_2$3 = bg_pass + "bg_2_終わり_アニメ.gif"
-    const bg_2$4 = bg_pass + "bg_2_終わり_静止画.jpg"
-    const bg_3_10$1 = bg_pass + "bg_3_10_導入_ディザリング.gif";
-    const bg_3_10$2 = bg_pass + "bg_3_10_静止画_導入.jpg";
-    const bg_3_10$3 = bg_pass + "bg_3_10_終了_ディザリング.gif";
-    const bg_3_10$4 = bg_pass + "bg_3_10_静止画_終了.jpg";
-    const bg_5_7_12_16_18$sabi = bg_pass + "bg_5_7_12_16_18_サビ音ハメ.jpg";
-    const bg_5_7_12_16_18$1 = bg_pass + "bg_5_7_12_16_18_静止画_1.jpg";
-    const bg_5_7_12_16_18$2 = bg_pass + "bg_5_7_12_16_18_静止画_2.jpg";
-    const bg_5_7_12_16_18$3 = bg_pass + "bg_5_7_12_16_18_静止画_3.jpg";
-    const bg_5_7_12_16_18$4 = bg_pass + "bg_5_7_12_16_18_静止画_4.jpg";
-    const bg_9$1 = bg_pass + "bg_9_1.gif";
-    const bg_9$2 = bg_pass + "bg_9_1_場面切替.gif";
-    const bg_9$3 = bg_pass + "bg_9_2.gif";
-    const bg_9$4 = bg_pass + "bg_9_2_場面切替+3.gif";
-    const bg_11$1 = bg_pass + "bg_11_1.gif";
-    const bg_11$2 = bg_pass + "bg_11_1_静止画.gif";
-    const bg_11$3 = bg_pass + "bg_11_2.gif";
-    const bg_11$4 = bg_pass + "bg_11_2_静止画.gif";
-    const bg_14 = bg_pass + "bg_14_静止画.jpg";
-    const bg_15_20 = bg_pass + "bg_15_20_静止画.jpg";
+    const bg_tmp = "仮背景.jpg";
+    const bg_1_13 = "bg_1_13.GIF";
+    const bg_2$1 = "bg_2_導入_アニメ.gif"
+    const bg_2$2 = "bg_2_導入_静止画.jpg"
+    const bg_2$3 = "bg_2_終わり_アニメ.gif"
+    const bg_2$4 = "bg_2_終わり_静止画.jpg"
+    const bg_3_10$1 = "bg_3_10_導入_ディザリング.gif";
+    const bg_3_10$2 = "bg_3_10_静止画_導入.jpg";
+    const bg_3_10$3 = "bg_3_10_終了_ディザリング.gif";
+    const bg_3_10$4 = "bg_3_10_静止画_終了.jpg";
+    const bg_5_7_12_16_18$sabi = "bg_5_7_12_16_18_サビ音ハメ.jpg";
+    const bg_5_7_12_16_18$1 = "bg_5_7_12_16_18_静止画_1.jpg";
+    const bg_5_7_12_16_18$2 = "bg_5_7_12_16_18_静止画_2.jpg";
+    const bg_5_7_12_16_18$3 = "bg_5_7_12_16_18_静止画_3.jpg";
+    const bg_5_7_12_16_18$4 = "bg_5_7_12_16_18_静止画_4.jpg";
+    const bg_4_6_8_17_19 = "bg_4_6_8_17_19.jpg";
+    const bg_9$1 = "bg_9$1.gif";
+    const bg_9$2 = "bg_9$2.jpg";
+    const bg_9$3 = "bg_9$3.gif";
+    const bg_9$4 = "bg_9$4.gif";
+    const bg_9$5 = "bg_9$5.jpg";
+    const bg_9$6 = "bg_9$6.gif";
+    const bg_9$7 = "bg_9$7.jpg";
+    const bg_11$1 = "bg_11_1.gif";
+    const bg_11$2 = "bg_11_1_静止画.gif";
+    const bg_11$3 = "bg_11_2.gif";
+    const bg_11$4 = "bg_11_2_静止画.gif";
+    const bg_14 = "bg_14_静止画.jpg";
+    const bg_15_20 = "bg_15_20_静止画.jpg";
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -191,85 +211,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // 0.1秒ごとに実行
         setInterval(() => {
             time+=1;
-            if(scene == 0 && (0 < time && time <= 115)){    //+0.5秒調整
-                scene = 1;
-                bg_image.attr('src',bg_1_13);
-            }else if(scene == 1 && (115 < time && time <= 200)){
-                scene = 201;
-                bg_image.attr('src',bg_2$1);
-            }else if(scene == 201 && (115+17 < time && time <= 200)){
-                scene = 202;
-                bg_image.attr('src',bg_2$2);
-            }else if(scene == 202 && (200 < time && time <= 310)){
-                scene = 301;
-                bg_image.attr('src',bg_3_10$1);
-            }else if(scene == 301 && (200+28 < time && time <= 310)){
-                scene = 302;
-                bg_image.attr('src',bg_3_10$2);
-            }else if(scene == 302 && (260 < time && time <= 310)){
-                scene = 303;
-                bg_image.attr('src',bg_3_10$3);
-            }else if(scene == 303 && (260+19 < time && time <= 310)){
-                scene = 304;
-                bg_image.attr('src',bg_3_10$4);
-            }else if(scene == 304 && (310 < time && time <= 330)){
-                scene = 4;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-                $('#bg_image').show();
-            }else if(scene == 4 && (330 < time && time <= 380)){
-                scene = 5;
-                bg_image.attr('src',bg_5_7_12_16_18$1); //仮背景に設定
-            }else if(scene == 5 && (380 < time && time <= 410)){
-                scene = 6;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 6 && (410 < time && time <= 490)){
-                scene = 7;
-                bg_image.attr('src',bg_5_7_12_16_18$1); //仮背景に設定
-            }else if(scene == 7 && (490 < time && time <= 522)){
-                scene = 8;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 8 && (522 < time && time <= 620)){    //+1.2秒調整
-                scene = 9;
-                bg_image.attr('src',bg_9$1);
-            }else if(scene == 9 && (620 < time && time <= 720)){
-                scene = 10;
-                bg_image.attr('src',bg_3_10_1);
-            }else if(scene == 10 && (720 < time && time <= 810)){
-                scene = 11;
-                bg_image.attr('src',bg_11$1);
-            }else if(scene == 11 && (810 < time && time <= 930)){
-                scene = 12;
-                bg_image.attr('src',bg_5_7_12_16_18$1); //仮背景に設定
-            }else if(scene == 12 && (930 < time && time <= 1020)){
-                scene = 13;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 13 && (1020 < time && time <= 1060)){
-                scene = 14;
-                bg_image.attr('src',bg_14); //仮背景に設定
-            }else if(scene == 14 && (1060 < time && time <= 1120)){
-                scene = 15;
-                bg_image.attr('src',bg_15_20);
-            }else if(scene == 15 && (1120 < time && time <= 1210)){
-                scene = 16;
-                bg_image.attr('src',bg_5_7_12_16_18$1); //仮背景に設定
-            }else if(scene == 16 && (1210 < time && time <= 1220)){
-                scene = 17;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 17 && (1220 < time && time <= 1310)){
-                scene = 18;
-                bg_image.attr('src',bg_5_7_12_16_18$1); //仮背景に設定
-            }else if(scene == 18 && (1310 < time && time <= 1330)){
-                scene = 19;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 19 && (1330 < time && time <= 1410)){
-                scene = 20;
-                bg_image.attr('src',bg_15_20);
-            }else if(scene == 20 && (1410 < time && time <= 1530)){
-                scene = 21;
-                bg_image.attr('src',bg_tmp); //仮背景に設定
-            }else if(scene == 21){
-                scene = 22;
-                console.log("End");
+            if(scene == scene_info[scene_info_index-1].scene_num && scene_info[scene_info_index].scene_time <= time){
+                scene = scene_info[scene_info_index].scene_num;
+                setSceneBackGround(1,scene_info[scene_info_index].bg_image_pass);
+                scene_info_index++;
             }
 
             if(time == phrases[animTextIndex].time){
@@ -278,6 +223,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         },100)//ここまで HN
     });
+
+    function setSceneBackGround(index,bg_num){
+        if(index == 1) bg_image.attr('src',bg_pass + bg_num);
+        else bg_image2.attr('src',bg_pass + bg_num);
+    }
 
     /* ロード完了後にロード画面を非表示にする */
     function hideLoadingScreen() {
