@@ -231,8 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /* 再生ボタン */
     var scene = 0;
     var animTextIndex = 0;
-    // const bg_image = $('#bg_image');
-    const bg_image = document.getElementById("bg_image");
+    const bg_image = $('#bg_image');
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -257,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function setSceneBackGround(index,pass){
-        if(index == 1) bg_image.style.backgroundImage = "url("+bg_pass+pass+")";
+        if(index == 1) bg_image.attr('src',bg_pass + pass);
     }
 
     /* ロード完了後にロード画面を非表示にする */
