@@ -193,6 +193,10 @@ document.addEventListener("DOMContentLoaded", () => {
         {scene_num:20,scene_time:1330,bg_image_pass:"bg_15_20_静止画.jpg"},
         {scene_num:21,scene_time:9999,bg_image_pass:"仮背景.jpg"}
     ];
+    var imgList = [];
+    for(var i = 1;i < scene_info.length;i++){
+        imgList.push(new Image().src=bg_pass+scene_info[i].bg_image_pass+"?"+(new Date).getTime());
+    }
 
     /* 再生ボタン */
     var scene = 0;
@@ -242,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
             if(scene == scene_info[scene_info_index-1].scene_num && scene_info[scene_info_index].scene_time <= time){
                 scene = scene_info[scene_info_index].scene_num;
-                setSceneBackGround(1,scene_info[scene_info_index].bg_image_pass);
+                setSceneBackGround(1,imgList[scene_info_index-1].src);
                 scene_info_index++;
             }
             if(animTextIndex < phrases.length){
@@ -254,9 +258,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },100)//ここまで HN
     });
 
-    function setSceneBackGround(index,bg_num){
-        if(index == 1) bg_image.attr('src',bg_pass + bg_num + "?" + (new Date).getTime());
-        else bg_image2.attr('src',bg_pass + bg_num + "?" + (new Date).getTime());
+    function setSceneBackGround(index,pass){
+        if(index == 1) bg_image.attr('src',pass).show();
+        else bg_image2.attr('src',pass).show();
     }
 
     /* ロード完了後にロード画面を非表示にする */
