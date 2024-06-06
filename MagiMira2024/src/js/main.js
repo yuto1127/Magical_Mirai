@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function setSceneBackGround(index,pass){
-        if(index == 1) bg_image.style.backgroundImage = bg_pass + pass;
+        if(index == 1) bg_image.style.backgroundImage = "url("+bg_pass+pass+")";
     }
 
     /* ロード完了後にロード画面を非表示にする */
