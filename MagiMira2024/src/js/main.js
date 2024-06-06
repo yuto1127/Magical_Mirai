@@ -158,12 +158,39 @@ document.addEventListener("DOMContentLoaded", () => {
         {scene_num:2_02,scene_time:111,bg_image_pass:"bg_2_導入_静止画.jpg"},
         {scene_num:2_03,scene_time:112,bg_image_pass:"bg_2_終わり_アニメ.gif"},
         {scene_num:2_04,scene_time:113,bg_image_pass:"bg_2_終わり_静止画.jpg"},
-        {scene_num:3_01,scene_time:200,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
-        {scene_num:3_02,scene_time:201,bg_image_pass:"bg_3_10_静止画_導入.jpg"},
-        {scene_num:3_03,scene_time:202,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
-        {scene_num:3_04,scene_time:203,bg_image_pass:"bg_3_10_静止画_終了.jpg"},
+        {scene_num:3_01,scene_time:220,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
+        {scene_num:3_02,scene_time:221,bg_image_pass:"bg_3_10_静止画_導入.jpg"},
+        {scene_num:3_03,scene_time:222,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
+        {scene_num:3_04,scene_time:223,bg_image_pass:"bg_3_10_静止画_終了.jpg"},
         {scene_num:4,scene_time:310,bg_image_pass:"bg_4_6_8_17_19.jpg"},
-        {scene_num:5,scene_time:410,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"}
+        {scene_num:5,scene_time:350,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
+        {scene_num:6,scene_time:395,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+        {scene_num:7,scene_time:410,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
+        {scene_num:8,scene_time:495,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+        {scene_num:9_01,scene_time:530,bg_image_pass:"bg_9$1.gif"},
+        {scene_num:9_02,scene_time:531,bg_image_pass:"bg_9$2.jpg"},
+        {scene_num:9_03,scene_time:532,bg_image_pass:"bg_9$3.gif"},
+        {scene_num:9_04,scene_time:533,bg_image_pass:"bg_9$4.gif"},
+        {scene_num:9_05,scene_time:534,bg_image_pass:"bg_9$5.jpg"},
+        {scene_num:9_06,scene_time:535,bg_image_pass:"bg_9$6.gif"},
+        {scene_num:9_07,scene_time:536,bg_image_pass:"bg_9$7.jpg"},
+        {scene_num:10_01,scene_time:610,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
+        {scene_num:10_02,scene_time:611,bg_image_pass:"bg_3_10_静止画_導入.jpg"},
+        {scene_num:10_03,scene_time:612,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
+        {scene_num:10_04,scene_time:613,bg_image_pass:"bg_3_10_静止画_終了.jpg"},
+        {scene_num:11_01,scene_time:720,bg_image_pass:"bg_11_1.gif"},
+        {scene_num:11_02,scene_time:721,bg_image_pass:"bg_11_1_静止画.gif"},
+        {scene_num:11_03,scene_time:750,bg_image_pass:"bg_11_2.gif"},
+        {scene_num:11_04,scene_time:751,bg_image_pass:"bg_11_2_静止画.gif"},
+        {scene_num:12,scene_time:810,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
+        {scene_num:13,scene_time:930,bg_image_pass:"bg_1_13.GIF"},
+        {scene_num:14,scene_time:1020,bg_image_pass:"bg_14_静止画.jpg"},
+        {scene_num:15,scene_time:1060,bg_image_pass:"bg_15_20_静止画.jpg"},
+        {scene_num:16,scene_time:1140,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
+        {scene_num:17,scene_time:1210,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+        {scene_num:18,scene_time:1225,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
+        {scene_num:19,scene_time:1315,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+        {scene_num:20,scene_time:1330,bg_image_pass:"bg_15_20_静止画.jpg"},
     ];
 
     /* 再生ボタン */
@@ -174,34 +201,34 @@ document.addEventListener("DOMContentLoaded", () => {
     // 画像格納変数
     const bg_pass = "../../img/bg_img/";
     const bg_tmp = "仮背景.jpg";
-    const bg_1_13 = "bg_1_13.GIF";
-    const bg_2$1 = "bg_2_導入_アニメ.gif"
-    const bg_2$2 = "bg_2_導入_静止画.jpg"
-    const bg_2$3 = "bg_2_終わり_アニメ.gif"
-    const bg_2$4 = "bg_2_終わり_静止画.jpg"
-    const bg_3_10$1 = "bg_3_10_導入_ディザリング.gif";
-    const bg_3_10$2 = "bg_3_10_静止画_導入.jpg";
-    const bg_3_10$3 = "bg_3_10_終了_ディザリング.gif";
-    const bg_3_10$4 = "bg_3_10_静止画_終了.jpg";
-    const bg_5_7_12_16_18$sabi = "bg_5_7_12_16_18_サビ音ハメ.jpg";
-    const bg_5_7_12_16_18$1 = "bg_5_7_12_16_18_静止画_1.jpg";
-    const bg_5_7_12_16_18$2 = "bg_5_7_12_16_18_静止画_2.jpg";
-    const bg_5_7_12_16_18$3 = "bg_5_7_12_16_18_静止画_3.jpg";
-    const bg_5_7_12_16_18$4 = "bg_5_7_12_16_18_静止画_4.jpg";
-    const bg_4_6_8_17_19 = "bg_4_6_8_17_19.jpg";
-    const bg_9$1 = "bg_9$1.gif";
-    const bg_9$2 = "bg_9$2.jpg";
-    const bg_9$3 = "bg_9$3.gif";
-    const bg_9$4 = "bg_9$4.gif";
-    const bg_9$5 = "bg_9$5.jpg";
-    const bg_9$6 = "bg_9$6.gif";
-    const bg_9$7 = "bg_9$7.jpg";
-    const bg_11$1 = "bg_11_1.gif";
-    const bg_11$2 = "bg_11_1_静止画.gif";
-    const bg_11$3 = "bg_11_2.gif";
-    const bg_11$4 = "bg_11_2_静止画.gif";
-    const bg_14 = "bg_14_静止画.jpg";
-    const bg_15_20 = "bg_15_20_静止画.jpg";
+    // const bg_1_13 = "bg_1_13.GIF";
+    // const bg_2$1 = "bg_2_導入_アニメ.gif"
+    // const bg_2$2 = "bg_2_導入_静止画.jpg"
+    // const bg_2$3 = "bg_2_終わり_アニメ.gif"
+    // const bg_2$4 = "bg_2_終わり_静止画.jpg"
+    // const bg_3_10$1 = "bg_3_10_導入_ディザリング.gif";
+    // const bg_3_10$2 = "bg_3_10_静止画_導入.jpg";
+    // const bg_3_10$3 = "bg_3_10_終了_ディザリング.gif";
+    // const bg_3_10$4 = "bg_3_10_静止画_終了.jpg";
+    // const bg_5_7_12_16_18$sabi = "bg_5_7_12_16_18_サビ音ハメ.jpg";
+    // const bg_5_7_12_16_18$1 = "bg_5_7_12_16_18_静止画_1.jpg";
+    // const bg_5_7_12_16_18$2 = "bg_5_7_12_16_18_静止画_2.jpg";
+    // const bg_5_7_12_16_18$3 = "bg_5_7_12_16_18_静止画_3.jpg";
+    // const bg_5_7_12_16_18$4 = "bg_5_7_12_16_18_静止画_4.jpg";
+    // const bg_4_6_8_17_19 = "bg_4_6_8_17_19.jpg";
+    // const bg_9$1 = "bg_9$1.gif";
+    // const bg_9$2 = "bg_9$2.jpg";
+    // const bg_9$3 = "bg_9$3.gif";
+    // const bg_9$4 = "bg_9$4.gif";
+    // const bg_9$5 = "bg_9$5.jpg";
+    // const bg_9$6 = "bg_9$6.gif";
+    // const bg_9$7 = "bg_9$7.jpg";
+    // const bg_11$1 = "bg_11_1.gif";
+    // const bg_11$2 = "bg_11_1_静止画.gif";
+    // const bg_11$3 = "bg_11_2.gif";
+    // const bg_11$4 = "bg_11_2_静止画.gif";
+    // const bg_14 = "bg_14_静止画.jpg";
+    // const bg_15_20 = "bg_15_20_静止画.jpg";
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
