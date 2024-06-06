@@ -196,6 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var imgList = [];
     for(var i = 1;i < scene_info.length;i++){
         imgList.push(new Image().src="../../img/bg_img/"+scene_info[i].bg_image_pass+"?"+(new Date).getTime());
+        console.log(imgList[i-1].src);
     }
 
     /* 再生ボタン */
