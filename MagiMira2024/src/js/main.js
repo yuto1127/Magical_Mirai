@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const scene_info = [
         {scene_num:0,scene_time:-1,bg_image_pass:"none"},
         {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
-        {scene_num:2_01,scene_time:110,bg_image_pass:"bg_2_導入_アニメ.gif"},
+        {scene_num:2_01,scene_time:105,bg_image_pass:"bg_2_導入_アニメ.gif"},
         {scene_num:2_02,scene_time:111,bg_image_pass:"bg_2_導入_静止画.jpg"},
         {scene_num:2_03,scene_time:112,bg_image_pass:"bg_2_終わり_アニメ.gif"},
         {scene_num:2_04,scene_time:113,bg_image_pass:"bg_2_終わり_静止画.jpg"},
@@ -199,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var animTextIndex = 0;
     const bg_image = $('#bg_image');
     const bg_image2 = $('#bg_image2');
+    $('#bg_image2').hide();
     // 画像格納変数
     const bg_pass = "../../img/bg_img/";
     const bg_tmp = "仮背景.jpg";
