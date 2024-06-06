@@ -245,10 +245,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 setSceneBackGround(1,scene_info[scene_info_index].bg_image_pass);
                 scene_info_index++;
             }
-
-            if(time == phrases[animTextIndex].time){
-                animTextList[animTextIndex].play();
-                animTextIndex++;
+            if(animTextIndex < phrases.length){
+                if(time == phrases[animTextIndex].time){
+                    animTextList[animTextIndex].play();
+                    animTextIndex++;
+                }
             }
         },100)//ここまで HN
     });
