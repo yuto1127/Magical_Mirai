@@ -230,8 +230,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* 再生ボタン */
     var scene = 0;
+    var current_bg_num = 1;
     var animTextIndex = 0;
     const bg_image = $('#bg_image');
+    const bg_image2 = $('#bg_image2');
     const playButton = document.getElementById("play-button");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -243,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
             if(scene == scene_info[scene_info_index-1].scene_num && scene_info[scene_info_index].scene_time <= time){
                 scene = scene_info[scene_info_index].scene_num;
-                setSceneBackGround(1,scene_info[scene_info_index].bg_image_pass);
+                setSceneBackGround(current_bg_num,scene_info[scene_info_index].bg_image_pass);
                 scene_info_index++;
             }
             if(animTextIndex < phrases.length){
@@ -252,11 +254,18 @@ document.addEventListener("DOMContentLoaded", () => {
                     animTextIndex++;
                 }
             }
-        },100)//ここまで HN
+        },100);//ここまで HN
     });
 
     function setSceneBackGround(index,pass){
-        if(index == 1) bg_image.attr('src',bg_pass + pass);
+        if(index == 1){
+            bg_image.attr('src',bg_pass + pass).show();
+            current_bg_num = 2;
+        }else{
+            bg_image2.attr('src',bg_pass + pass);
+            bg_image.hide();
+            current_bg_num = 1;
+        }
     }
 
     /* ロード完了後にロード画面を非表示にする */
