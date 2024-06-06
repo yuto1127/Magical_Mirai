@@ -329,3 +329,13 @@ document.addEventListener("DOMContentLoaded", () => {
         // マウス、キーボードの操作によるエフェクト発生↓（後述）
     });
 });
+
+//以下キャッシュ無効化の処理
+window.onbeforeunload = function() {};
+window.onunload = function() {};
+window.addEventListener("pageshow", function(event){
+    if (event.persisted) {
+        // ここにキャッシュ有効時の処理を書く
+        window.location.reload();
+    }
+});
