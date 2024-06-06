@@ -179,9 +179,9 @@ document.addEventListener("DOMContentLoaded", () => {
         {scene_num:10_03,scene_time:612,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
         {scene_num:10_04,scene_time:613,bg_image_pass:"bg_3_10_静止画_終了.jpg"},
         {scene_num:11_01,scene_time:720,bg_image_pass:"bg_11_1.gif"},
-        {scene_num:11_02,scene_time:721,bg_image_pass:"bg_11_1_静止画.gif"},
+        {scene_num:11_02,scene_time:721,bg_image_pass:"bg_11_1_静止画.jpg"},
         {scene_num:11_03,scene_time:750,bg_image_pass:"bg_11_2.gif"},
-        {scene_num:11_04,scene_time:751,bg_image_pass:"bg_11_2_静止画.gif"},
+        {scene_num:11_04,scene_time:751,bg_image_pass:"bg_11_2_静止画.jpg"},
         {scene_num:12,scene_time:810,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
         {scene_num:13,scene_time:930,bg_image_pass:"bg_1_13.GIF"},
         {scene_num:14,scene_time:1020,bg_image_pass:"bg_14_静止画.jpg"},
@@ -191,6 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {scene_num:18,scene_time:1225,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
         {scene_num:19,scene_time:1315,bg_image_pass:"bg_4_6_8_17_19.jpg"},
         {scene_num:20,scene_time:1330,bg_image_pass:"bg_15_20_静止画.jpg"},
+        {scene_num:21,scene_time:9999,bg_image_pass:"仮背景.jpg"}
     ];
 
     /* 再生ボタン */
