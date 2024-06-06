@@ -255,8 +255,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function setSceneBackGround(index,bg_num){
-        if(index == 1) bg_image.attr('src',bg_pass + bg_num);
-        else bg_image2.attr('src',bg_pass + bg_num);
+        if(index == 1) bg_image.attr('src',bg_pass + bg_num + "?" + (new Date).getTime());
+        else bg_image2.attr('src',bg_pass + bg_num + "?" + (new Date).getTime());
     }
 
     /* ロード完了後にロード画面を非表示にする */
