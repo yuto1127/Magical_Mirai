@@ -3,9 +3,8 @@
     /* エフェクトに直接関係はない */
     margin: 20px;
     background-color: #f7f7f7;
-    /*エフェクトの反映させる枠サイズ*/ 
-    height: 500px;
-    width: 1000px;
+    height: 100px;
+    width: 200px;
     text-align: center;
     line-height: 100px;
     cursor: pointer;
@@ -18,8 +17,8 @@
 /* エフェクト要素 */
 .ripple__effect {
     /* 値の変更はエフェクト形体・サイズ・スピードに影響する */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 
     /* 必須 */
     position: absolute;
