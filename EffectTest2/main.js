@@ -3,7 +3,7 @@ console.log("test");
 $(function() {
     var $clickable = $('.ripple');
 
-    /* mousedownだと直ぐに発動し、clickだとマウスボタンを離した時に発動する */
+    /* mousedownだと直ぐに発動し、clickだとマウスボタンを離した時に発動する */ 
     $clickable.on('mousedown', function(e) {
         var _self   = this;
         var x       = e.offsetX;
