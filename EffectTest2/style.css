@@ -17,8 +17,8 @@
 /* エフェクト要素 */
 .ripple__effect {
     /* 値の変更はエフェクト形体・サイズ・スピードに影響する */
-    width: 150px;
-    height: 150px;
+    width: 1000px;
+    height: 300px;
 
     /* 必須 */
     position: absolute;
