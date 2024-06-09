@@ -11,7 +11,10 @@ function draw() {
 
   for (const particle of particleList) {
     fill(particle.color);
-    circle(particle.x, particle.y, particle.size);
+    //星の軌跡を描く
+    drawStar(particle.x, particle.y, 5, particle.size / 2, particle.size / 4);
+    // 丸の軌跡を描く
+    // circle(particle.x, particle.y, particle.size);
     particle.x -= particle.dx;
     particle.y -= particle.dy;
     particle.size -= particle.ds * 100;
