@@ -28,16 +28,13 @@ function draw() {
   particleList = particleList.filter((particle) => {
     return particle.lifetime > 0;
   });
+
   // マウスが移動してから一定のフレーム数経過したらパーティクルを生成
-  if (frameCount % generationFrequency === 0 && (mouseX !== lastMouseX || mouseY !== lastMouseY)) {
+  if (frameCount % generationFrequency === 0 && mouseIsPressed && (mouseX !== lastMouseX || mouseY !== lastMouseY)) {
     createParticle(mouseX, mouseY);
     lastMouseX = mouseX;
     lastMouseY = mouseY;
   }
-}
-
-function mousePressed() {
-  createParticle(mouseX, mouseY);
 }
 
 function createParticle(x0, y0) {
@@ -58,6 +55,7 @@ function createParticle(x0, y0) {
   const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
   particleList.push(particle);
 }
+
 //星の軌跡を描くための関数
 function drawStar(x, y, numPoints, outerRadius, innerRadius) {
   let angle = TWO_PI / numPoints;
