@@ -1,8 +1,7 @@
 let particleList = [];
-//マウスカーソルの通過した場所に軌跡を描画する
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
   noStroke();
   colorMode(HSB, 360, 100, 100, 100);
 }
@@ -44,18 +43,6 @@ function createParticle(x0, y0) {
     100 / lifetime,
   ];
 
-  // const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
-  // particleList.push(particle);
+  const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
+  particleList.push(particle);
 }
-
-window.addEventListener('mousemove', function (e) {
-    var x = e.clientX;
-    var y = e.clientY;
-    createParticle(x, y);
-  });
-  // document.body.addEventListener('touchmove', function (e) {
-  //   var x = e.touches[0].clientX;
-  //   var y = e.touches[0].clientY;
-  //   e.preventDefault();
-  //   createParticle(x, y);
-  // });
