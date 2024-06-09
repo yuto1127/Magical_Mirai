@@ -1,4 +1,7 @@
 let particleList = [];
+let lastMouseX = 0;
+let lastMouseY = 0;
+const generationFrequency = 10; // パーティクルを生成する頻度
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -25,6 +28,12 @@ function draw() {
   particleList = particleList.filter((particle) => {
     return particle.lifetime > 0;
   });
+  // マウスが移動してから一定のフレーム数経過したらパーティクルを生成
+  if (frameCount % generationFrequency === 0 && (mouseX !== lastMouseX || mouseY !== lastMouseY)) {
+    createParticle(mouseX, mouseY);
+    lastMouseX = mouseX;
+    lastMouseY = mouseY;
+  }
 }
 
 function mouseMoved() {
