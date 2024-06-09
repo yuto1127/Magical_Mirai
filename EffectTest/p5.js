@@ -36,7 +36,7 @@ function draw() {
   }
 }
 
-function mouseMoved() {
+function mousePressed() {
   createParticle(mouseX, mouseY);
 }
 
