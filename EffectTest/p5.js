@@ -49,3 +49,18 @@ function createParticle(x0, y0) {
   const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
   particleList.push(particle);
 }
+//星の軌跡を描くための関数
+function drawStar(x, y, numPoints, outerRadius, innerRadius) {
+  let angle = TWO_PI / numPoints;
+  let halfAngle = angle / 2.0;
+  beginShape();
+  for (let i = 0; i < TWO_PI; i += angle) {
+    let sx = x + cos(i) * outerRadius;
+    let sy = y + sin(i) * outerRadius;
+    vertex(sx, sy);
+    sx = x + cos(i + halfAngle) * innerRadius;
+    sy = y + sin(i + halfAngle) * innerRadius;
+    vertex(sx, sy);
+  }
+  endShape(CLOSE);
+}
