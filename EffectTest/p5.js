@@ -1,5 +1,5 @@
 let particleList = [];
-
+//マウスカーソルの通過した場所に軌跡を描画する
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
@@ -53,9 +53,9 @@ window.addEventListener('mousemove', function (e) {
     var y = e.clientY;
     createParticle(x, y);
   });
-  document.body.addEventListener('touchmove', function (e) {
-    var x = e.touches[0].clientX;
-    var y = e.touches[0].clientY;
-    e.preventDefault();
-    createParticle(x, y);
-  });
+  // document.body.addEventListener('touchmove', function (e) {
+  //   var x = e.touches[0].clientX;
+  //   var y = e.touches[0].clientY;
+  //   e.preventDefault();
+  //   createParticle(x, y);
+  // });
