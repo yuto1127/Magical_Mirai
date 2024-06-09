@@ -44,8 +44,8 @@ function createParticle(x0, y0) {
     100 / lifetime,
   ];
 
-  const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
-  particleList.push(particle);
+  // const particle = { x, y, size, dx, dy, ds, color, da, lifetime };
+  // particleList.push(particle);
 }
 
 window.addEventListener('mousemove', function (e) {
