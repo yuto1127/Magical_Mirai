@@ -1,7 +1,7 @@
 let particleList = [];
 let lastMouseX = 0;
 let lastMouseY = 0;
-const generationFrequency = 10; // パーティクルを生成する頻度
+const generationFrequency = 30; // パーティクルを生成する頻度
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
