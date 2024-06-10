@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bg_image.attr("src", "empty.gif").attr('src',bg_pass + pass).show();
             current_bg_num = 2;
         }else{
-            bg_image2.attr("src", "empty.gif").attr('src',bg_pass + pass);
+            bg_image2.attr('src',bg_pass + pass);
             bg_image.hide();
             current_bg_num = 1;
         }
