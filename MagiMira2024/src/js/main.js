@@ -124,7 +124,7 @@ var animTextList = [];
 
 var scene_info_index = 1;
 const scene_info = [
-    {scene_num:0,scene_time:-1,bg_image_pass:"none"},
+    {scene_num:0,scene_time:-1000,bg_image_pass:"none"},
     {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
     {scene_num:2_01,scene_time:111,bg_image_pass:"bg_2_導入_アニメ.gif"},
     {scene_num:2_02,scene_time:111+18,bg_image_pass:"bg_2_導入_静止画.jpg"},
@@ -249,6 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // );
 
     /* 再生ボタン */
+    const timelag = 7;
     var scene = 0;
     var current_bg_num = 1;
     var animTextIndex = 0;
@@ -261,6 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //以下追加処理 HN
         // 0.1秒ごとに実行
+        time -= timelag;
         setInterval(() => {
             time+=1;
             if(scene == scene_info[scene_info_index-1].scene_num && scene_info[scene_info_index].scene_time <= time){
