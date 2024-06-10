@@ -360,9 +360,21 @@ window.onload = function(){
 // 画像プリロード用関数
 function loadImages(){
     for (i = 1; i < scene_info.length; i++){
-        var img = document.createElement('img');
-        img.src = bg_pass+scene_info[i].bg_image_pass;
+        preLoadImage(bg_pass+scene_info[i].bg_image_pass).then((img) => {
+            console.log('Image loaded:', img);
+        })
+        .catch((err) => {
+            console.error('Failed to load image:', err);
+        });
     }
+}
+
+function preLoadImage(url){
+    const img = document.createElement('img');
+    img.onload = () => resolve(img);
+        img.onerror = (err) => reject(err);
+        //img.crossOrigin = 'anonymous';  // 必要に応じて設定
+        img.src = url;
 }
 
 //以下キャッシュ無効化の処理
