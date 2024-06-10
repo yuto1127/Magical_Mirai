@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
             if(scene == scene_info[scene_info_index-1].scene_num && scene_info[scene_info_index].scene_time <= time){
                 scene = scene_info[scene_info_index].scene_num;
-                setSceneBackGround(current_bg_num,scene_info[scene_info_index].bg_image_pass);
+                setSceneBackGround(1,scene_info[scene_info_index].bg_image_pass);
                 scene_info_index++;
             }
             if(animTextIndex < phrases.length){
@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function setSceneBackGround(index,pass){
         if(index == 1){
-            bg_image.attr("src", "empty.gif").attr('src',bg_pass + pass).show();
+            bg_image.attr('src',bg_pass + pass).show();
             current_bg_num = 2;
         }else{
             bg_image2.attr('src',bg_pass + pass);
