@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // );
 
     /* 再生ボタン */
-    const timelag = 7;
+    const timelag = 1;
     var scene = 0;
     var current_bg_num = 1;
     var animTextIndex = 0;
