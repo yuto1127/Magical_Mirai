@@ -1,0 +1,25 @@
+/* スタイルの状態変化を「my-fade-in」という名前で定義 */
+@keyframes my-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .box {  
+    /* .boxが「my-fade-in」で状態変化するように指定 */
+    animation-name:     my-fade-in;
+    animation-duration: 3s;
+  }
+  
+  
+  
+  /********************/
+  .box {
+    /* Box Styling */
+    width: 50px;
+    height: 50px;
+    background: #0094b9;
+  }
