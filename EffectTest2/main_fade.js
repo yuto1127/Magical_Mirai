@@ -1,11 +1,6 @@
-var btn = document.getElementById('mybtn');
+var check = document.getElementById('mycheck');
 var box = document.getElementById('mybox');
 
-btn.onclick = function () {
+check.onclick = function () {
   box.classList.toggle('is-show')
-}
-
-// Check clickable box
-box.onclick = function () {
-  alert('Box exists.')
 }

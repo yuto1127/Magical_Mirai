@@ -1,16 +1,18 @@
 /* スタイルの状態変化を「my-fade-in」という名前で定義 */
 .box {
-    /* 変更 */
-    transition: opacity 1s, visibility 1s;
-      
+    /* 「.boxの opacity が状態変化する」という指定 */
+    transition-property: opacity; 
+    transition-duration: 1s;
+    
+    /* .boxの初期状態を指定 */
     opacity: 0;
-    visibility: hidden;
   }
   
-  .box.is-show {  
+  .box.is-show {
+    /* .boxの状態変化後を指定 */
     opacity: 1;
-    visibility: visible;
-  }     
+  }
+  
   
   
   /********************/
