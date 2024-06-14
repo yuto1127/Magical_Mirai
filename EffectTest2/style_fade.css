@@ -1,17 +1,15 @@
 /* スタイルの状態変化を「my-fade-in」という名前で定義 */
-@keyframes my-fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+.box {
+    /* 変更 */
+    transition: opacity 1s, visibility 1s;
+      
+    opacity: 0;
+    visibility: hidden;
   }
   
-  .box {  
-    /* .boxが「my-fade-in」で状態変化するように指定 */
-    animation-name:     my-fade-in;
-    animation-duration: 3s;
+  .box.is-show {  
+    opacity: 1;
+    visibility: visible;
   }
   
   

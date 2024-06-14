@@ -1,7 +1,11 @@
-console.log("test_fade");
+var btn = document.getElementById('mybtn');
+var box = document.getElementById('mybox');
 
-<script>
+btn.onclick = function () {
+  box.classList.toggle('is-show')
+}
 
-$('div').fadeIn(1500)
-
-</script>
+// Check clickable box
+box.onclick = function () {
+  alert('Box exists.')
+}
