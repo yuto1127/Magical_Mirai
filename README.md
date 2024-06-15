@@ -21,6 +21,8 @@ https://yuto1127.github.io/Magical_Mirai/EffectTest/index.html
 https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.html
 フェードインテスト用ページリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest2/index_fade.html
+レトロフリッカ用ページリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest2/retro_flicker.html
 
 エフェクトテスト用ページ3のリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest3/index.html
