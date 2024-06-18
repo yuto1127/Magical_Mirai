@@ -1,0 +1,20 @@
+.image-container {
+    position: relative;
+    width: 100%;  /* 必要に応じて調整 */
+    overflow: hidden;  /* 画像がコンテナ外に表示されないように */
+}
+
+.fade-in-image {
+    position: relative;
+    opacity: 0;  /* 初期状態で透明 */
+    left: 100%;  /* 初期状態で右に配置 */
+    animation: fadeInMove 2s ease forwards;  /* アニメーションの設定 */
+}
+
+/* キーフレームアニメーション */
+@keyframes fadeInMove {
+    to {
+        opacity: 1;
+        left: 0;
+    }
+}
