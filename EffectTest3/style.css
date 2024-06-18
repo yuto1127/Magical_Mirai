@@ -5,7 +5,7 @@
 }
 
 .fade-in-image {
-    position: absolute;
+    position: relative;
     opacity: 0;  /* 初期状態で透明 */
     left: 100%;  /* 初期状態で右に配置 */
     animation: fadeInMove 2s ease forwards;  /* アニメーションの設定 */
