@@ -38,7 +38,7 @@ body {
     position: relative;
 }
 
-#play-button {
+#play-button-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,6 +47,16 @@ body {
     cursor: pointer;
     z-index: 50;
     object-fit: cover; /* 画像の縦横比を維持しつつ、全体を埋める */
+}
+
+#play-button{
+    position: absolute;
+    text-align: center;
+    width: 16.5%;
+    height: 9.7%;
+    cursor: pointer;
+    z-index: 100;
+    object-fit: cover;
 }
 /* // 未使用↓ */
 /*
@@ -103,8 +113,6 @@ body {
     padding: 0;
     font-size: 1rem;
 }
-
-/* 以下追加箇所 HN */
 
 #bg_image{
     width:100%;
