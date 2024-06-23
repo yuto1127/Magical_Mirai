@@ -51,12 +51,13 @@ body {
 
 #play-button{
     position: absolute;
-    text-align: center;
+    top: 0;
+    left: 0;
+    margin: auto;
     width: 16.5%;
     height: 9.7%;
     cursor: pointer;
     z-index: 100;
-    object-fit: cover;
 }
 /* // 未使用↓ */
 /*

@@ -211,9 +211,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const bg_image = $('#bg_image');
     const bg_image2 = $('#bg_image2');
     const playButton = document.getElementById("play-button");
+    const playButtonBG = document.getElementById("play-button-bg");
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
         playButton.style.display = "none"; // 再生ボタンを非表示にする
+        playButtonBG.style.display = "none";
 
         //以下追加処理 HN
         // 0.1秒ごとに実行
