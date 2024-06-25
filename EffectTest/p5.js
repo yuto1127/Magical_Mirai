@@ -14,9 +14,7 @@ function draw() {
   background(80);
 
   for (const particle of particleList) {
-    colorMode(HSB, 240, 100, 100, 100);
-    fill(particle.color);
-    ellipse(50, 50, 20, 20);
+    FileList(255, 0, 0);
     //星の軌跡を描く
     drawStar(particle.x, particle.y, 5, particle.size / 2, particle.size / 4);
     // 丸の軌跡を描く
