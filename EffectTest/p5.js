@@ -6,7 +6,7 @@ const generationFrequency = 1; // パーティクルを生成する頻度
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
-  colorMode(HSB, 360, 100, 100, 100);
+  colorMode(HSB, 180, 70, 90, 100);
 }
 
 function draw() {
