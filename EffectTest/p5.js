@@ -6,7 +6,7 @@ const generationFrequency = 1; // パーティクルを生成する頻度
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
-  colorMode(HSB, 240, 100, 100, 100);
+  colorMode(HSB, 360, 100, 100, 100);
 }
 
 
@@ -14,7 +14,9 @@ function draw() {
   background(80);
 
   for (const particle of particleList) {
+    colorMode(HSB, 240, 100, 100, 100);
     fill(particle.color);
+    ellipse(50, 50, 20, 20);
     //星の軌跡を描く
     drawStar(particle.x, particle.y, 5, particle.size / 2, particle.size / 4);
     // 丸の軌跡を描く
