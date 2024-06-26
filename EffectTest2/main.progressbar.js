@@ -1,3 +1,5 @@
+import.ProgressBar
+
 var bar = new ProgressBar.Line(container, {
   strokeWidth: 4,
   easing: 'easeInOut',
