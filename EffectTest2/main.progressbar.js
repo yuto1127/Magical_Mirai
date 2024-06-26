@@ -1,4 +1,4 @@
-var bar = new ProgressBar.Line(container, {
+var bar = new ProgressBar.Circle(container, {
   strokeWidth: 4,
   easing: 'easeInOut',
   duration: 1400,
