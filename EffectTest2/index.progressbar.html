@@ -17,18 +17,17 @@
         }
     </style>
     <script src="main.progressbar.js"></script>
-    <!-- 下のコードを変えればアニメーション変更可能 -->
-    <script>
-        window.onload = function onLoad() {
-            var circle = new ProgressBar.Circle('#progress', {
-                color: '#FCB03C',
-                duration: 3000,
-                easing: 'easeInOut'
-            });
+        <script>
+            window.onload = function onLoad() {
+                var circle = new ProgressBar.Circle('#progress', {
+                    color: '#FCB03C',
+                    duration: 3000,
+                    easing: 'easeInOut'
+                });
 
-            circle.animate(1.0);
-        };
-    </script>
+                circle.animate(1);
+            };
+        </script>
 </head>
 
 <body>
