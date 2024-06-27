@@ -80,16 +80,19 @@ var animTextList = [];
 var scene_info_index = 1;
 const scene_info = [
     {scene_num:0,scene_time:-1000,bg_image_pass:"none"},
-    {scene_num:1,scene_time:0,bg_image_pass:"bg_1_13.GIF"},
-    {scene_num:2_01,scene_time:111,bg_image_pass:"bg_2_導入_アニメ.gif"},
-    {scene_num:2_02,scene_time:111+18,bg_image_pass:"bg_2_導入_静止画.png"},
-    {scene_num:2_03,scene_time:162,bg_image_pass:"bg_2_終わり_アニメ.gif"},
-    {scene_num:2_04,scene_time:162+13,bg_image_pass:"bg_2_終わり_静止画.png"},
-    {scene_num:3_01,scene_time:210,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
-    {scene_num:3_02,scene_time:210+30,bg_image_pass:"bg_3_10_静止画_導入.png"},
-    {scene_num:3_03,scene_time:261,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
-    {scene_num:3_04,scene_time:261+20,bg_image_pass:"bg_3_10_静止画_終了.png"},
-    {scene_num:4,scene_time:311,bg_image_pass:"bg_4_6_8_17_19.jpg"},
+    {scene_num:1_01,scene_time:0,bg_image_pass:"仮背景.jpg"},//轟く123~
+    {scene_num:1_02,scene_time:64,bg_image_pass:"仮背景.jpg"},//はらりと~
+    {scene_num:1_03,scene_time:108,bg_image_pass:"ohoh一面.png"},//ohoh
+    {scene_num:2_01,scene_time:114,bg_image_pass:"bg_2_導入_アニメ.gif"},//いちにさんし~
+    {scene_num:2_02,scene_time:114+18,bg_image_pass:"bg_2_導入_静止画.png"},
+    {scene_num:2_03,scene_time:167,bg_image_pass:"bg_2_終わり_アニメ.gif"},//心の~
+    {scene_num:2_04,scene_time:167+13,bg_image_pass:"bg_2_終わり_静止画.png"},
+    {scene_num:2_05,scene_time:189,bg_image_pass:"期待したい一面.png"},//期待したい~
+    {scene_num:3_01,scene_time:211,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},//想定外~
+    {scene_num:3_02,scene_time:211+30,bg_image_pass:"bg_3_10_静止画_導入.png"},
+    {scene_num:3_03,scene_time:265,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},//伝えたい~
+    {scene_num:3_04,scene_time:265+20,bg_image_pass:"bg_3_10_静止画_終了.png"},
+    {scene_num:4,scene_time:313,bg_image_pass:"初の音.jpg"},//初の音~
     {scene_num:5_01,scene_time:341,bg_image_pass:"bg_5_7_12_16_18_1世界_gif.gif"},
     {scene_num:5_02,scene_time:356,bg_image_pass:"bg_5_7_12_16_18_1世界_静止画.png"},
     {scene_num:5_03,scene_time:360,bg_image_pass:"bg_5_7_12_16_18_2彩るこの.png"},
