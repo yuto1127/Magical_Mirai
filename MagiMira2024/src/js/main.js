@@ -93,21 +93,21 @@ const scene_info = [
     {scene_num:3_03,scene_time:265,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},//伝えたい~
     {scene_num:3_04,scene_time:265+20,bg_image_pass:"bg_3_10_静止画_終了.png"},
     {scene_num:4,scene_time:313,bg_image_pass:"初の音.jpg"},//初の音~
-    {scene_num:5_01,scene_time:345,bg_image_pass:"bg_5_7_12_16_18_1世界_gif.gif"},//世界~
-    {scene_num:5_02,scene_time:345+14,bg_image_pass:"bg_5_7_12_16_18_1世界_静止画.png"},
-    {scene_num:5_03,scene_time:360,bg_image_pass:"bg_5_7_12_16_18_2彩るこの.png"},//彩る~
-    {scene_num:5_04,scene_time:371,bg_image_pass:"bg_5_7_12_16_18_3視界_gif.gif"},//視界~
-    {scene_num:5_05,scene_time:371+15,bg_image_pass:"bg_5_7_12_16_18_3視界_静止画.png"},
+    {scene_num:5_01,scene_time:345,bg_image_pass:"bg_5_1世界_gif.gif"},//世界~
+    {scene_num:5_02,scene_time:345+14,bg_image_pass:"bg_5_1世界_静止画.png"},
+    {scene_num:5_03,scene_time:360,bg_image_pass:"bg_5_2彩る.png"},//彩る~
+    {scene_num:5_04,scene_time:371,bg_image_pass:"bg_5_3視界_gif.gif"},//視界~
+    {scene_num:5_05,scene_time:371+15,bg_image_pass:"bg_5_3視界_静止画.png"},
     {scene_num:6,scene_time:393,bg_image_pass:"ミライセカイ一面.png"},//世界世界世界
-    {scene_num:7_01,scene_time:411,bg_image_pass:"bg_5_7_12_16_18_4間違いなんか.png"},//間違いなんか~
-    {scene_num:7_02,scene_time:422,bg_image_pass:"bg_5_7_12_16_18_5ない_gif.gif"},//ない~
-    {scene_num:7_03,scene_time:422+9,bg_image_pass:"bg_5_7_12_16_18_5ない_静止画.png"},
-    {scene_num:7_04,scene_time:437,bg_image_pass:"bg_5_7_12_16_18_6全ては君.png"},//全ては~
-    {scene_num:7_05,scene_time:448,bg_image_pass:"bg_5_7_12_16_18_7君次第_gif.gif"},//次第~
-    {scene_num:7_06,scene_time:448+13,bg_image_pass:"bg_5_7_12_16_18_7君次第_静止画.png"},
-    {scene_num:7_07,scene_time:462,bg_image_pass:"bg_5_7_12_16_18_8今日は過去の.png"},//今日は過去の~
-    {scene_num:7_08,scene_time:473,bg_image_pass:"bg_5_7_12_16_18_9未来_gif.gif"},//未来
-    {scene_num:7_09,scene_time:473+14,bg_image_pass:"bg_5_7_12_16_18_9未来_静止画.png"},
+    {scene_num:7_01,scene_time:411,bg_image_pass:"bg_7_1間違い.png"},//間違いなんか~
+    {scene_num:7_02,scene_time:422,bg_image_pass:"bg_7_2ない_gif.gif"},//ない~
+    {scene_num:7_03,scene_time:422+9,bg_image_pass:"bg_7_2ない_静止画.png"},
+    {scene_num:7_04,scene_time:437,bg_image_pass:"bg_7_3全ては君.png"},//全ては~
+    {scene_num:7_05,scene_time:448,bg_image_pass:"bg_7_4君次第_gif.gif"},//次第~
+    {scene_num:7_06,scene_time:448+13,bg_image_pass:"bg_7_4君次第_静止画.png"},
+    {scene_num:7_07,scene_time:462,bg_image_pass:"bg_7_5今日は過去.png"},//今日は過去の~
+    {scene_num:7_08,scene_time:473,bg_image_pass:"bg_7_6未来_gif.gif"},//未来
+    {scene_num:7_09,scene_time:473+14,bg_image_pass:"bg_7_6未来_静止画.png"},
     {scene_num:8,scene_time:495,bg_image_pass:"ミライセカイ一面.png"},//未来未来未来
     {scene_num:9_01,scene_time:521,bg_image_pass:"bg_9$1.gif"},
     {scene_num:9_02,scene_time:532,bg_image_pass:"bg_9$2.jpg"},
