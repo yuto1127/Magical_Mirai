@@ -22,9 +22,13 @@
         <script>
             window.onload = function onLoad() {
                 var circle = new ProgressBar.Line('#progress', {
-                    color: '#FCB03C',
+                    strokeWidth: 4,
+                    easing: 'easeInOut',
                     duration: 1400,
-                    easing: 'easeInOut'
+                    color: '#FFEA82',
+                    trailColor: '#eee',
+                    trailWidth: 1,
+                    svgStyle: {width: '100%', height: '100%'},
                 });
 
                 circle.animate(1);
