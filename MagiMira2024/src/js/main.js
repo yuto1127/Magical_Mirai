@@ -79,7 +79,7 @@ var animTextList = [];
 
 var scene_info_index = 1;
 const scene_info = [
-    {scene_num:0,scene_time:-1000,bg_image_pass:"none"},
+    {scene_num:0,scene_time:-1000,bg_image_pass:"仮背景.jpg"},
     {scene_num:1_01,scene_time:0,bg_image_pass:"仮背景.jpg"},//轟く123~
     {scene_num:1_02,scene_time:64,bg_image_pass:"仮背景.jpg"},//はらりと~
     {scene_num:1_03,scene_time:108,bg_image_pass:"ohoh一面.png"},//ohoh
