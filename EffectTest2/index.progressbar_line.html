@@ -16,12 +16,12 @@
             display: block;
         }
     </style>
-    <script src="main.progressbar.js"></script>
+    <script src="main.progressbar_line.js"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script> 
         <script>
             window.onload = function onLoad() {
-                var circle = new ProgressBar.Circle('#progress', {
+                var circle = new ProgressBar.Line('#progress', {
                     color: '#FCB03C',
                     duration: 1400,
                     easing: 'easeInOut'
