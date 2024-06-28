@@ -4,7 +4,7 @@ const coolDownTime = 1000;
 
 document.addEventListener('keydown', (event) => {
     if (event.code === 'Space' && canCreateStars) {
-        createStars(39);
+        createStars(50);
         canCreateStars = false;
         setTimeout(() => {
             canCreateStars = true;
