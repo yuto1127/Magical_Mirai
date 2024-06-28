@@ -16,9 +16,9 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid var(--star-color, white);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid var(--star-color, white);
     transform-origin: center;
     animation: fall 3s linear forwards, sway 3s linear forwards, fadeOut 3s linear forwards, rotate 3s linear forwards;
 }
