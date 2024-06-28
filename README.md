@@ -35,3 +35,5 @@ https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.progressbar_line.html
 エフェクトテスト用ページ3のリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest3/index.html
 
+エフェクトテスト用ページ４のリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest4/main.html
