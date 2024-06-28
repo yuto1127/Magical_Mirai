@@ -12,15 +12,36 @@ body {
     overflow: hidden;
 }
 
-.star {
+.shape {
     position: absolute;
-    width: 50px; /* 星のサイズ */
-    height: 50px; /* 星のサイズ */
-    background-color: var(--star-color, white);
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     transform-origin: center;
     animation: fall 3s linear forwards, sway 3s linear forwards, fadeOut 3s linear forwards, rotate 3s linear forwards;
 }
+
+/* 星 */
+.star {
+    width: 50px;
+    height: 50px;
+    background-color: var(--shape-color, white);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/* ハート */
+.heart {
+    width: 50px;
+    height: 40px;
+    background-color: var(--shape-color, red);
+    clip-path: polygon(50% 15%, 61% 10%, 75% 0%, 90% 10%, 95% 25%, 90% 40%, 50% 80%, 10% 40%, 5% 25%, 10% 10%, 25% 0%, 39% 10%);
+}
+
+/* ダイヤモンド */
+.diamond {
+    width: 30px;
+    height: 30px;
+    background-color: var(--shape-color, yellow);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
 
 @keyframes fall {
     0% { transform: translateY(-100px); opacity: 1; }

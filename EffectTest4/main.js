@@ -1,40 +1,50 @@
 // script.js
-let canCreateStars = true;
-const coolDownTime = 1000; 
+let canCreateShapes = true;
+const coolDownTime = 1000; // 5秒
 
 document.addEventListener('keydown', (event) => {
-    if (event.code === 'Space' && canCreateStars) {
-        createStars(50);
-        canCreateStars = false;
+    if (canCreateShapes) {
+        switch (event.code) {
+            case 'KeyZ':
+                createShapes(39, 'star');
+                break;
+            case 'KeyX':
+                createShapes(39, 'heart');
+                break;
+            case 'KeyC':
+                createShapes(39, 'diamond');
+                break;
+        }
+        canCreateShapes = false;
         setTimeout(() => {
-            canCreateStars = true;
+            canCreateShapes = true;
         }, coolDownTime);
     }
 });
 
-function createStars(count) {
+function createShapes(count, shapeClass) {
     for (let i = 0; i < count; i++) {
-        createStar();
+        createShape(shapeClass);
     }
 }
 
-function createStar() {
-    const starField = document.getElementById('star-field');
-    const star = document.createElement('div');
-    star.classList.add('star');
+function createShape(shapeClass) {
+    const shapeField = document.getElementById('star-field');
+    const shape = document.createElement('div');
+    shape.classList.add('shape', shapeClass);
 
     // ランダムな色を設定
     const colors = ['#6ff', '#6f9', '#ff7', '#f9f', '#75a9ff', '#ffad90'];
     const color = colors[Math.floor(Math.random() * colors.length)];
-    star.style.setProperty('--star-color', color);
+    shape.style.setProperty('--shape-color', color);
 
     // ランダムな位置を設定
-    star.style.left = `${Math.random() * 100}vw`;
-    star.style.top = `${Math.random() * 100}vh`;
-    starField.appendChild(star);
+    shape.style.left = `${Math.random() * 100}vw`;
+    shape.style.top = `${Math.random() * 100}vh`;
+    shapeField.appendChild(shape);
 
-    // アニメーション終了後に星を削除
-    star.addEventListener('animationend', () => {
-        star.remove();
+    // アニメーション終了後に形を削除
+    shape.addEventListener('animationend', () => {
+        shape.remove();
     });
 }
