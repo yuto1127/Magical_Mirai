@@ -153,7 +153,19 @@ const scene_info = [
 
 //テキストの情報を管理する配列
 const text_img_info = [
-    {id:"A_1_01",start_time:0,pass:"A_1_轟.png"}
+    {id:"A_1_01",pass:"A_1_轟.png",start_time:0},
+    {id:"A_1_02",pass:"A_1_く.png",start_time:0},
+    {id:"A_1_03",pass:"A_1_1.png",start_time:0},
+    {id:"A_1_04",pass:"A_1_2.png",start_time:0},
+    {id:"A_1_05",pass:"A_1_3.png",start_time:0},
+    {id:"A_2_01",pass:"A_2_ほら.png",start_time:0},
+    {id:"A_2_02",pass:"A_2_よーいどーん.png",start_time:0},
+    {id:"A_2_03",pass:"A_2_で.png",start_time:0},
+    {id:"A_2_04",pass:"A_2_飛_飛.png",start_time:0},
+    {id:"A_2_05",pass:"A_2_飛_び.png",start_time:0},
+    {id:"A_2_06",pass:"A_2_飛_込.png",start_time:0},
+    {id:"A_2_07",pass:"A_2_飛_ん.png",start_time:0},
+    {id:"A_2_08",pass:"A_2_飛_で.png",start_time:0},
 ];
 
 //追加箇所 HN
@@ -167,6 +179,11 @@ for(var i=0;i<phrases.length;i++){
 // 画像格納変数
 const bg_pass = "../../img/bg_img/";
 const bg_tmp = "仮背景.jpg";
+const text_A = "../../img/text_img/A/";
+const text_B = "../../img/text_img/B/";
+const text_C = "../../img/text_img/C/";
+const text_L = "../../img/text_img/LAST/";
+const text_S = "../../img/text_img/サビ/";
 // const bg_1_13 = "bg_1_13.GIF";
 // const bg_2$1 = "bg_2_導入_アニメ.gif"
 // const bg_2$2 = "bg_2_導入_静止画.jpg"
