@@ -119,12 +119,11 @@ const scene_info = [
     {scene_num:11_02,scene_time:725+28,bg_image_pass:"bg_11_1.png"},
     {scene_num:11_03,scene_time:775,bg_image_pass:"bg_11_2.gif"},//鳴らしたい音~
     {scene_num:11_04,scene_time:775+29,bg_image_pass:"bg_11_2.png"},
-    {scene_num:12_01,scene_time:830,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:12_02,scene_time:852,bg_image_pass:"bg_5_7_12_16_18_静止画_2.jpg"},
-    {scene_num:12_03,scene_time:880,bg_image_pass:"bg_5_7_12_16_18_静止画_3.jpg"},
-    {scene_num:12_04,scene_time:902,bg_image_pass:"bg_5_7_12_16_18_静止画_4.jpg"},
-    {scene_num:13,scene_time:922,bg_image_pass:"bg_1_13.GIF"},
-    {scene_num:14,scene_time:1022,bg_image_pass:"bg_14_静止画.jpg"},
+    {scene_num:12_01,scene_time:829,bg_image_pass:"側.png"},//側（831）
+    {scene_num:13_01,scene_time:926,bg_image_pass:"仮背景.jpg"},//初の音（933）
+    {scene_num:13_02,scene_time:979,bg_image_pass:"仮背景.jpg"},//この
+    {scene_num:13_03,scene_time:1006,bg_image_pass:"仮背景.jpg"},//セカイセカイセカイ
+    {scene_num:14,scene_time:1027,bg_image_pass:"bg_14_静止画.jpg"},
     {scene_num:15,scene_time:1081,bg_image_pass:"bg_15_20_静止画.jpg"},
     {scene_num:16_01,scene_time:1132,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
     {scene_num:16_015,scene_time:1159,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
