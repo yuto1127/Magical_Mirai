@@ -16,9 +16,9 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 10px solid var(--star-color, white);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid var(--star-color, white);
     transform-origin: center;
     animation: fall 3s linear forwards, sway 3s linear forwards, fadeOut 3s linear forwards, rotate 3s linear forwards;
 }
@@ -27,12 +27,12 @@ body {
     content: '';
     position: absolute;
     top: 0;
-    left: -5px;
+    left: -15px;
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 10px solid var(--star-color, white);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid var(--star-color, white);
     transform-origin: center;
 }
 
