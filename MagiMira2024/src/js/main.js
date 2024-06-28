@@ -153,7 +153,7 @@ const scene_info = [
 
 //テキストの情報を管理する配列
 const text_img_info = [
-    {id:1_01,start_time:0,pass:"none"}
+    {id:"A_1_01",start_time:0,pass:"A_1_轟.png"}
 ];
 
 //追加箇所 HN
