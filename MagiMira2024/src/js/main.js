@@ -128,21 +128,26 @@ const scene_info = [
     {scene_num:15_01,scene_time:1083,bg_image_pass:"bg_15_1.png"},//長い長い~
     {scene_num:15_02,scene_time:1095,bg_image_pass:"bg_15_2.png"},//世界の続き~
     {scene_num:15_03,scene_time:1131,bg_image_pass:"2番ロゴ背景.png"},//ロゴ
-    {scene_num:16_01,scene_time:1137,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:16_015,scene_time:1159,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
-    {scene_num:16_02,scene_time:1160,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:16_025,scene_time:1181,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
-    {scene_num:16_03,scene_time:1182,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:17,scene_time:1210,bg_image_pass:"ミライセカイ一面.png"},
-    {scene_num:18_01,scene_time:1222,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
-    {scene_num:18_02,scene_time:1232,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:18_025,scene_time:1260,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
-    {scene_num:18_03,scene_time:1261,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:18_035,scene_time:1289,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
-    {scene_num:18_04,scene_time:1290,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
-    {scene_num:19,scene_time:1311,bg_image_pass:"ミライセカイ一面.png"},
-    {scene_num:20,scene_time:1331,bg_image_pass:"bg_15_20_静止画.jpg"},
-    {scene_num:21,scene_time:1412,bg_image_pass:"仮背景.jpg"},
+    {scene_num:16_01,scene_time:1137,bg_image_pass:"bg_16_1High_gif.gif"},//HIGH
+    {scene_num:16_02,scene_time:1137+13,bg_image_pass:"bg_16_1High_静止画.png"},
+    {scene_num:16_03,scene_time:1151,bg_image_pass:"bg_16_2夢見心地の.png"},//夢見心地~
+    {scene_num:16_04,scene_time:1162,bg_image_pass:"bg_16_3DIVE_gif.gif"},//DIVE
+    {scene_num:16_05,scene_time:1162+11,bg_image_pass:"bg_16_3DIVE_静止画.png"},
+    {scene_num:16_06,scene_time:1177,bg_image_pass:"bg_16_4思うがままの.png"},//思うがまま~
+    {scene_num:16_07,scene_time:1188,bg_image_pass:"bg_16_5LIFE_gif.gif"},//LIFE
+    {scene_num:16_08,scene_time:1188+12,bg_image_pass:"bg_16_5LIFE_静止画.png"},
+    {scene_num:17,scene_time:1210,bg_image_pass:"ミライセカイ一面.png"},//セカイセカイセカイ
+    {scene_num:18_01,scene_time:1228,bg_image_pass:"bg_18_1間違いなんか.png"},//間違いなんか~
+    {scene_num:18_02,scene_time:1239,bg_image_pass:"bg_18_2ない_gif.gif"},//ない~
+    {scene_num:18_03,scene_time:1239+12,bg_image_pass:"bg_18_2ない_静止画.png"},
+    {scene_num:18_04,scene_time:1253,bg_image_pass:"bg_18_3全ては君.png"},//全ては~
+    {scene_num:18_05,scene_time:1265,bg_image_pass:"bg_18_4君次第_gif.gif"},//次第~
+    {scene_num:18_06,scene_time:1265+12,bg_image_pass:"bg_18_4君次第_静止画.png"},
+    {scene_num:18_07,scene_time:1279,bg_image_pass:"bg_18_5導くこの.png"},//導くこの~
+    {scene_num:18_08,scene_time:1290,bg_image_pass:"bg_18_6未来_gif.gif"},//未来~
+    {scene_num:18_09,scene_time:1290+12,bg_image_pass:"bg_18_6未来_静止画.png"},
+    {scene_num:19,scene_time:1312,bg_image_pass:"ミライセカイ一面.png"},//ミライミライミライ
+    {scene_num:20,scene_time:1335,bg_image_pass:"初の音.jpg"},//初の音
     {scene_num:22,scene_time:9999,bg_image_pass:"仮背景.jpg"}
 ];
 
