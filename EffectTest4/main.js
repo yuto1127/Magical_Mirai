@@ -1,7 +1,14 @@
 // script.js
+let canCreateStars = true;
+const coolDownTime = 1000; 
+
 document.addEventListener('keydown', (event) => {
-    if (event.code === 'Space') {
+    if (event.code === 'Space' && canCreateStars) {
         createStars(39);
+        canCreateStars = false;
+        setTimeout(() => {
+            canCreateStars = true;
+        }, coolDownTime);
     }
 });
 
