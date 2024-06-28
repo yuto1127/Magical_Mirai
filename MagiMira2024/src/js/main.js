@@ -123,9 +123,12 @@ const scene_info = [
     {scene_num:13_01,scene_time:926,bg_image_pass:"仮背景.jpg"},//初の音（933）
     {scene_num:13_02,scene_time:979,bg_image_pass:"仮背景.jpg"},//この
     {scene_num:13_03,scene_time:1006,bg_image_pass:"仮背景.jpg"},//セカイセカイセカイ
-    {scene_num:14,scene_time:1027,bg_image_pass:"bg_14_静止画.jpg"},
-    {scene_num:15,scene_time:1081,bg_image_pass:"bg_15_20_静止画.jpg"},
-    {scene_num:16_01,scene_time:1132,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
+    {scene_num:14_01,scene_time:1027,bg_image_pass:"2番きみ青背景.png"},//キミ
+    {scene_num:14_02,scene_time:1031,bg_image_pass:"2番君次第.png"},//次第
+    {scene_num:15_01,scene_time:1083,bg_image_pass:"bg_15_1.png"},//長い長い~
+    {scene_num:15_02,scene_time:1095,bg_image_pass:"bg_15_2.png"},//世界の続き~
+    {scene_num:15_03,scene_time:1131,bg_image_pass:"2番ロゴ背景.png"},//ロゴ
+    {scene_num:16_01,scene_time:1137,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
     {scene_num:16_015,scene_time:1159,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
     {scene_num:16_02,scene_time:1160,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
     {scene_num:16_025,scene_time:1181,bg_image_pass:"bg_5_7_12_16_18_静止画_1.jpg"},
