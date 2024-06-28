@@ -106,24 +106,19 @@ const scene_info = [
     {scene_num:7_05,scene_time:448,bg_image_pass:"bg_7_4君次第_gif.gif"},//次第~
     {scene_num:7_06,scene_time:448+13,bg_image_pass:"bg_7_4君次第_静止画.png"},
     {scene_num:7_07,scene_time:462,bg_image_pass:"bg_7_5今日は過去.png"},//今日は過去の~
-    {scene_num:7_08,scene_time:473,bg_image_pass:"bg_7_6未来_gif.gif"},//未来
+    {scene_num:7_08,scene_time:473,bg_image_pass:"bg_7_6未来_gif.gif"},//未来~
     {scene_num:7_09,scene_time:473+14,bg_image_pass:"bg_7_6未来_静止画.png"},
     {scene_num:8,scene_time:495,bg_image_pass:"ミライセカイ一面.png"},//未来未来未来
-    {scene_num:9_01,scene_time:521,bg_image_pass:"bg_9$1.gif"},
-    {scene_num:9_02,scene_time:532,bg_image_pass:"bg_9$2.jpg"},
-    {scene_num:9_03,scene_time:542,bg_image_pass:"bg_9$3.gif"},
-    {scene_num:9_04,scene_time:561,bg_image_pass:"bg_9$4.gif"},
-    {scene_num:9_05,scene_time:571,bg_image_pass:"bg_9$5.jpg"},
-    {scene_num:9_06,scene_time:535,bg_image_pass:"bg_9$6.gif"},
-    {scene_num:9_07,scene_time:601,bg_image_pass:"bg_9$7.jpg"},
-    {scene_num:10_01,scene_time:612,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},
-    {scene_num:10_02,scene_time:612+30,bg_image_pass:"bg_3_10_静止画_導入.png"},
-    {scene_num:10_03,scene_time:671,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},
-    {scene_num:10_04,scene_time:671+20,bg_image_pass:"bg_3_10_静止画_終了.png"},
-    {scene_num:11_01,scene_time:722,bg_image_pass:"bg_11_1.gif"},
-    {scene_num:11_02,scene_time:750,bg_image_pass:"bg_11_1.png"},
-    {scene_num:11_03,scene_time:771,bg_image_pass:"bg_11_2.gif"},
-    {scene_num:11_04,scene_time:771+29,bg_image_pass:"bg_11_2.png"},
+    {scene_num:9_01,scene_time:524,bg_image_pass:"仮背景.jpg"},//間奏1
+    {scene_num:9_02,scene_time:575,bg_image_pass:"仮背景.jpg"},//間奏2
+    {scene_num:10_01,scene_time:620,bg_image_pass:"bg_3_10_導入_ディザリング.gif"},//音と音（少し後にずらすなら626）
+    {scene_num:10_02,scene_time:620+30,bg_image_pass:"bg_3_10_静止画_導入.png"},
+    {scene_num:10_03,scene_time:673,bg_image_pass:"bg_3_10_終了_ディザリング.gif"},//記すノート~
+    {scene_num:10_04,scene_time:673+20,bg_image_pass:"bg_3_10_静止画_終了.png"},
+    {scene_num:11_01,scene_time:725,bg_image_pass:"bg_11_1.gif"},//ABCから~
+    {scene_num:11_02,scene_time:725+28,bg_image_pass:"bg_11_1.png"},
+    {scene_num:11_03,scene_time:775,bg_image_pass:"bg_11_2.gif"},//鳴らしたい音~
+    {scene_num:11_04,scene_time:775+29,bg_image_pass:"bg_11_2.png"},
     {scene_num:12_01,scene_time:830,bg_image_pass:"bg_5_7_12_16_18_サビ音ハメ.gif"},
     {scene_num:12_02,scene_time:852,bg_image_pass:"bg_5_7_12_16_18_静止画_2.jpg"},
     {scene_num:12_03,scene_time:880,bg_image_pass:"bg_5_7_12_16_18_静止画_3.jpg"},
