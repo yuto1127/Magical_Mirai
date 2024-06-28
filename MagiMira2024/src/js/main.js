@@ -151,6 +151,11 @@ const scene_info = [
     {scene_num:22,scene_time:9999,bg_image_pass:"仮背景.jpg"}
 ];
 
+//テキストの情報を管理する配列
+const text_img_info = [
+    {id:1_01,start_time:0,pass:"none"}
+];
+
 //追加箇所 HN
 /* アニメーションテキストを生成 */
 for(var i=0;i<phrases.length;i++){
