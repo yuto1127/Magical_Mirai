@@ -549,9 +549,9 @@ function loadImages(){
     for (i = 1; i < scene_info.length; i++){
         preLoadImage(bg_pass+scene_info[i].bg_image_pass, (err, img) => {
             if (err) {
-                console.error('Failed to load image:', err);
+                //console.error('Failed to load image:', err);
             } else {
-                console.log('Image loaded:', img);
+                //console.log('Image loaded:', img);
             }
         });
     }
