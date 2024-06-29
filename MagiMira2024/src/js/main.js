@@ -628,7 +628,7 @@ function createShapes(count, shapeClass) {
 }
 
 function createShape(shapeClass) {
-    const shapeField = document.getElementById('body');
+    const shapeField = document.getElementById('effect');
     const shape = document.createElement('div');
     shape.classList.add('shape', shapeClass);
 
