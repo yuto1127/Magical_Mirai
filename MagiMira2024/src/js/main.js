@@ -436,7 +436,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const playButton = document.getElementById("play-button");
     const playButtonBG = document.getElementById("play-button-bg");
     playButton.addEventListener("click", () => {
-        player.requestPlay(); // 再生を要求する
+        try{
+            player.requestPlay(); // 再生を要求する
+        }finally{
+            
+        }
         playButton.style.display = "none"; // 再生ボタンを非表示にする
         playButtonBG.style.display = "none";
 
