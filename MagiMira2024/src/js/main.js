@@ -511,9 +511,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 );
             }, 5000); // 5秒後に実行
         },
-        // onPlay: () => {
-        //     console.log("Playing");
-        // },
+        onPlay: () => {
+            console.log("Playing");
+        },
         onTimeUpdate: (position) => {
             const phrase = player.video.findPhrase(position);
 
