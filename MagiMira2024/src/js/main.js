@@ -436,11 +436,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const playButton = document.getElementById("play-button");
     const playButtonBG = document.getElementById("play-button-bg");
     playButton.addEventListener("click", () => {
-        try{
-            player.requestPlay(); // 再生を要求する
-        }finally{
-            
-        }
+        player.requestPlay(); // 再生を要求する
         playButton.style.display = "none"; // 再生ボタンを非表示にする
         playButtonBG.style.display = "none";
 
@@ -515,9 +511,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 );
             }, 5000); // 5秒後に実行
         },
-        onPlay: () => {
-            console.log("Playing");
-        },
+        // onPlay: () => {
+        //     console.log("Playing");
+        // },
         onTimeUpdate: (position) => {
             const phrase = player.video.findPhrase(position);
 
