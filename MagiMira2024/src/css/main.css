@@ -149,8 +149,8 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
-#app_window {
+/* #app_window */
+body {
     position: relative;
     width: 100vw;
     height: 100vh;
