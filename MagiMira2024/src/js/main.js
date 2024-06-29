@@ -583,7 +583,7 @@ function loadImages(){
 function preLoadImage(url,callback){
     const img = document.createElement('img');
     img.onload = () => callback(null, img);
-    img.onerror = (err) => {callback(err);console.log("ロード失敗：",url);};
+    img.onerror = (err) => {console.log("ロード失敗：",url);callback(err);};
     img.src = url;
 }
 
