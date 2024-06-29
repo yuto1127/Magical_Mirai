@@ -551,28 +551,28 @@ function loadImages(){
         });
     }
     var tmp_pass = "";
-    for (i = 0;i < text_img_info.length;i++){
+    // for (i = 0;i < text_img_info.length;i++){
 
-        if(text_img_info[i].id.startsWith("A")){
-            tmp_pass = text_A;
-        }else if(text_img_info[i].id.startsWith("B")){
-            tmp_pass = text_B;
-        }else if(text_img_info[i].id.startsWith("C")){
-            tmp_pass = text_C;
-        }else if(text_img_info[i].id.startsWith("S")){
-            tmp_pass = text_S;
-        }else if(text_img_info[i].id.startsWith("L")){
-            tmp_pass = text_L;
-        }
-        text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
-        preLoadImage(text_img_info[i].pass, (err, img) => {
-            if (err) {
-                // console.error('Failed to load image:', err);
-            } else {
-                // console.log('Image loaded:', img);
-            }
-        });
-    }
+    //     if(text_img_info[i].id.startsWith("A")){
+    //         tmp_pass = text_A;
+    //     }else if(text_img_info[i].id.startsWith("B")){
+    //         tmp_pass = text_B;
+    //     }else if(text_img_info[i].id.startsWith("C")){
+    //         tmp_pass = text_C;
+    //     }else if(text_img_info[i].id.startsWith("S")){
+    //         tmp_pass = text_S;
+    //     }else if(text_img_info[i].id.startsWith("L")){
+    //         tmp_pass = text_L;
+    //     }
+    //     text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
+    //     preLoadImage(text_img_info[i].pass, (err, img) => {
+    //         if (err) {
+    //             // console.error('Failed to load image:', err);
+    //         } else {
+    //             // console.log('Image loaded:', img);
+    //         }
+    //     });
+    // }
 }
 
 function preLoadImage(url,callback){
