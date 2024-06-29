@@ -575,7 +575,6 @@ function loadImages(){
                 console.error('Failed to load image:', err);
             } else {
                 console.log('Image loaded:', img);
-                console.log('ロード失敗：',text_img_info[i].pass);
             }
         });
     }
