@@ -311,11 +311,6 @@ const text_img_info = [
     {id:"C_4_01",pass:"C_4_君.png",start_time:0},
     {id:"C_4_02",pass:"C_4_次.png",start_time:0},
     {id:"C_4_03",pass:"C_4_第.png",start_time:0},
-    {id:"C_4_04",pass:"C_4_き.png",start_time:0},//不足テクスチャ名
-    {id:"C_4_05",pass:"C_4_み.png",start_time:0},//不足テクスチャ名
-    {id:"C_4_06",pass:"C_4_し.png",start_time:0},//不足テクスチャ名
-    {id:"C_4_07",pass:"C_4_だ.png",start_time:0},//不足テクスチャ名
-    {id:"C_4_08",pass:"C_4_い.png",start_time:0},//不足テクスチャ名
 
     {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:0},
 
