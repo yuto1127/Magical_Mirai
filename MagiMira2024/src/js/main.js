@@ -158,6 +158,7 @@ const text_img_info = [
     {id:"A_1_03",pass:"A_1_1.png",start_time:0},
     {id:"A_1_04",pass:"A_1_2.png",start_time:0},
     {id:"A_1_05",pass:"A_1_3.png",start_time:0},
+
     {id:"A_2_01",pass:"A_2_ほら.png",start_time:0},
     {id:"A_2_02",pass:"A_2_よーいどーん.png",start_time:0},
     {id:"A_2_03",pass:"A_2_で.png",start_time:0},
@@ -166,6 +167,18 @@ const text_img_info = [
     {id:"A_2_06",pass:"A_2_飛_込.png",start_time:0},
     {id:"A_2_07",pass:"A_2_飛_ん.png",start_time:0},
     {id:"A_2_08",pass:"A_2_飛_で.png",start_time:0},
+
+    {id:"A_3_01",pass:"A_3_は.png",start_time:0},
+    {id:"A_3_02",pass:"A_3_ら.png",start_time:0},
+    {id:"A_3_03",pass:"A_3_り.png",start_time:0},
+    {id:"A_3_04",pass:"A_3_と.png",start_time:0},
+    {id:"A_3_05",pass:"A_3_彩.png",start_time:0},
+    {id:"A_3_06",pass:"A_3_っ.png",start_time:0},
+    {id:"A_3_07",pass:"A_3_た.png",start_time:0},
+
+    {id:"A_4_01",pass:"A_4_未来_左_中.png",start_time:0},
+    {id:"A_4_02",pass:"A_4_未来_左_中.png",start_time:0},
+    {id:"A_4_03",pass:"A_4_未来_右.png",start_time:0},
 ];
 
 //追加箇所 HN
