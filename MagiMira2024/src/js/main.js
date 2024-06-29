@@ -572,9 +572,9 @@ function loadImages(){
         text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
         preLoadImage(text_img_info[i].pass, (err, img) => {
             if (err) {
-                console.error('Failed to load image:', err);
+                // console.error('Failed to load image:', err);
             } else {
-                console.log('Image loaded:', img);
+                // console.log('Image loaded:', img);
             }
         });
     }
