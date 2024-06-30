@@ -468,7 +468,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // );
 
     /* 再生ボタン */
-    const timelag = 3;
+    const timelag = -3;
     var scene = 0;
     var animTextIndex = 0;
     const bg_image = $('#bg_image');
