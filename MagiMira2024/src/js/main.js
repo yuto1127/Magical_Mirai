@@ -364,7 +364,7 @@ var endDisplayImageTimes = new Map();
 var text_img_list = new Map();
 
 /* アニメーションイメージを生成・表示タイミングをMAPに格納 */
-for(i = 0;i<text_img_info.length;i++){
+for(var i = 0;i<text_img_info.length;i++){
     if(startDisplayImageTimes.has(text_img_info[i].start_time)){
         var tmp_array = startDisplayImageTimes.get(text_img_info[i].start_time);
         tmp_array.push(text_img_info[i].id);
