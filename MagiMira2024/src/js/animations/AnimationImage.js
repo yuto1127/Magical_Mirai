@@ -64,6 +64,7 @@ export class AnimationImage{     //アニメーションテキストの元とな
         this.element.style.position = "relative";
         this.element.style.left = this.posX;
         this.element.style.top = this.posY;
+        this.element.style.width = "42.5%";
         this.element.style.zIndex = 20;
     }
 }
