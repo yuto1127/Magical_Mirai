@@ -4,6 +4,14 @@ import {FadeInClass} from './animations/FadeInClass.js';
 import {AnimationImage} from './animations/AnimationImage.js';
 
 var time = 0; //追加箇所 HN
+//ディレクトリのパスを格納する定数
+const bg_pass = "../../img/bg_img/";
+const bg_tmp = "仮背景.jpg";
+const text_A = "../../img/text_img/A/";
+const text_B = "../../img/text_img/B/";
+const text_C = "../../img/text_img/C/";
+const text_L = "../../img/text_img/LAST/";
+const text_S = "../../img/text_img/サビ/";
 
 // 歌詞の配列データ
 const phrases = [
@@ -381,6 +389,20 @@ for(var i = 0;i<text_img_info.length;i++){
         endDisplayImageTimes.set(text_img_info[i].end_time,[text_img_info[i].id]);
     }
 
+    var tmp_pass = "";
+    if(text_img_info[i].id.startsWith("A")){
+        tmp_pass = text_A;
+    }else if(text_img_info[i].id.startsWith("B")){
+        tmp_pass = text_B;
+    }else if(text_img_info[i].id.startsWith("C")){
+        tmp_pass = text_C;
+    }else if(text_img_info[i].id.startsWith("S")){
+        tmp_pass = text_S;
+    }else if(text_img_info[i].id.startsWith("L")){
+        tmp_pass = text_L;
+    }
+    text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
+
     var tmp_img = new AnimationImage(text_img_info[i].id,text_img_info[i].pass,text_img_info[i].pos_x,text_img_info[i].pos_y);
     text_img_list.set(text_img_info[i].id,tmp_img);
 }
@@ -394,13 +416,6 @@ for(var i = 0;i<text_img_info.length;i++){
 // }
 
 // 画像格納変数
-const bg_pass = "../../img/bg_img/";
-const bg_tmp = "仮背景.jpg";
-const text_A = "../../img/text_img/A/";
-const text_B = "../../img/text_img/B/";
-const text_C = "../../img/text_img/C/";
-const text_L = "../../img/text_img/LAST/";
-const text_S = "../../img/text_img/サビ/";
 // const bg_1_13 = "bg_1_13.GIF";
 // const bg_2$1 = "bg_2_導入_アニメ.gif"
 // const bg_2$2 = "bg_2_導入_静止画.jpg"
@@ -574,21 +589,7 @@ function loadImages(){
             }
         });
     }
-    var tmp_pass = "";
     for (i = 0;i < text_img_info.length;i++){
-
-        if(text_img_info[i].id.startsWith("A")){
-            tmp_pass = text_A;
-        }else if(text_img_info[i].id.startsWith("B")){
-            tmp_pass = text_B;
-        }else if(text_img_info[i].id.startsWith("C")){
-            tmp_pass = text_C;
-        }else if(text_img_info[i].id.startsWith("S")){
-            tmp_pass = text_S;
-        }else if(text_img_info[i].id.startsWith("L")){
-            tmp_pass = text_L;
-        }
-        text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
         preLoadImage(text_img_info[i].pass, (err, img) => {
             if (err) {
                 console.error('Failed to load image:', err);
