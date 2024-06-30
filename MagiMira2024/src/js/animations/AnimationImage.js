@@ -38,13 +38,13 @@ export class AnimationImage{     //アニメーションテキストの元とな
     }
 
     //要素を表示する
-    setActive(){
+    show(){
         this.isActive = true;
         $("#"+this.id).show();
     }
 
     //要素を非表示にする
-    setInactive(){
+    hide(){
         this.isActive = false;
         $("#"+this.id).hide();
     }
@@ -56,7 +56,7 @@ export class AnimationImage{     //アニメーションテキストの元とな
         this.parentElement.appendChild(this.element);
         this.element.setAttribute("id",this.id);
         this.register();
-        this.setInactive();
+        this.hide();
     }
 
     //スタイル関連の変更を反映する
