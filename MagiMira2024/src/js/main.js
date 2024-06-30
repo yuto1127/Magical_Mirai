@@ -1,7 +1,7 @@
 // テキストアニメーション実装に必要なインポート
 import {AnimationTextBase} from './animations/AnimationTextBase.js';
 import {FadeInClass} from './animations/FadeInClass.js';
-
+import {AnimationImage} from './animations/AnimationImage.js';
 
 var time = 0; //追加箇所 HN
 
@@ -380,8 +380,7 @@ for(i = 0;i<text_img_info.length;i++){
         endDisplayImageTimes.set(text_img_info[i].end_time,[text_img_info[i].id]);
     }
 
-    var tmp_img = new Image();
-    tmp_img.src = text_img_info[i].pass;//クラスつくれ for HN by HN
+    var tmp_img = new AnimationImage(text_img_info[i].id,text_img_info[i].pass,text_img_info[i].pos_x,text_img_info[i].pos_y);
     text_img_list.set(text_img_info[i].id,tmp_img);
 }
 console.log(startDisplayImageTimes);

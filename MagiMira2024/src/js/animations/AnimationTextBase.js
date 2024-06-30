@@ -7,7 +7,7 @@ export class AnimationTextBase{     //アニメーションテキストの元と
         posX = 要素のx座標
         posY = 要素のy座標
         dispTime = 文字列の表示にかかる時間
-        lifiTime = 文字列が表示される時間
+        lifeTime = 文字列が表示される時間
         killTime = 文字列の削除にかかる時間
     */
     constructor(text,fontFamily,font_size,color,posX,posY,dispTime,lifeTime,killTime){ //コンストラクタで各パラメータを初期化
