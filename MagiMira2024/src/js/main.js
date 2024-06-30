@@ -364,13 +364,17 @@ var endDisplayImageTimes = new Map();
 
 for(i = 0;i<text_img_info.length;i++){
     if(startDisplayImageTimes.has(text_img_info[i].start_time)){
-        startDisplayImageTimes.set(text_img_info[i].start_time,startDisplayImageTimes.get(text_img_info[i].start_time).push(text_img_info[i].id));
+        var tmp_array = startDisplayImageTimes.get(text_img_info[i].start_time);
+        tmp_array.push(text_img_info[i].id);
+        startDisplayImageTimes.set(text_img_info[i].start_time,tmp_array);
     }else{
         startDisplayImageTimes.set(text_img_info[i].start_time,[text_img_info[i].id]);
     }
 
     if(endDisplayImageTimes.has(text_img_info[i].end_time)){
-        endDisplayImageTimes.set(text_img_info[i].end_time,endDisplayImageTimes.get(text_img_info[i].end_time));
+        var tmp_array = endDisplayImageTimes.get(text_img_info[i].end_time);
+        tmp_array.push(text_img_info[i].id);
+        endDisplayImageTimes.set(text_img_info[i].end_time,tmp_array);
     }else{
         endDisplayImageTimes.set(text_img_info[i].end_time,[text_img_info[i].id]);
     }
