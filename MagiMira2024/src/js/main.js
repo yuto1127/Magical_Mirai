@@ -370,7 +370,7 @@ for(i = 0;i<text_img_info.length;i++){
     }
 
     if(endDisplayImageTimes.has(text_img_info[i].end_time)){
-        endDisplayImageTimes.set(text_img_info[i].end_time,endDisplayImageTimes.get(text_img_info[i].end_time).push(text_img_info[i].id));
+        endDisplayImageTimes.set(text_img_info[i].end_time,endDisplayImageTimes.get(text_img_info[i].end_time));
     }else{
         endDisplayImageTimes.set(text_img_info[i].end_time,[text_img_info[i].id]);
     }
