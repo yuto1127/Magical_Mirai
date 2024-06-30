@@ -315,13 +315,13 @@ const text_img_info = [
     {id:"C_2_02",pass:"C_2_セカイ.png",start_time:1012,end_time:1027,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"C_2_03",pass:"C_2_セカイー。.png",start_time:1019,end_time:1027,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_3_01",pass:"C_3_きみ.png",start_time:1027,end_time:1132,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_3_01",pass:"C_3_きみ.png",start_time:1027,end_time:1032,pos_x:"0%",pos_y:"0%",size:"30%"},
     
-    {id:"C_4_01",pass:"C_4_君.png",start_time:1132,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_02",pass:"C_4_次.png",start_time:1132,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_03",pass:"C_4_第.png",start_time:1135,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_01",pass:"C_4_君.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_02",pass:"C_4_次.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_03",pass:"C_4_第.png",start_time:1035,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:1050,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
     {id:"C_6_01",pass:"C_6_長い1.png",start_time:1083,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"C_6_02",pass:"C_6_長い2.png",start_time:1089,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
