@@ -130,7 +130,7 @@ const scene_info = [
     {scene_num:12_01,scene_time:829,bg_image_pass:"側.png"},//側（831）
     {scene_num:13_01,scene_time:926,bg_image_pass:"移動背景.png"},//初の音（933）上下移動
     {scene_num:14_01,scene_time:1027,bg_image_pass:"2番きみ青背景.png"},//キミ
-    {scene_num:14_02,scene_time:1031,bg_image_pass:"2番君次第.png"},//次第
+    {scene_num:14_02,scene_time:1032,bg_image_pass:"2番君次第.png"},//次第
     {scene_num:15_01,scene_time:1083,bg_image_pass:"bg_15_1.png"},//長い長い~
     {scene_num:15_02,scene_time:1095,bg_image_pass:"bg_15_2.png"},//世界の続き~
     {scene_num:15_03,scene_time:1131,bg_image_pass:"2番ロゴ背景.png"},//ロゴ
@@ -223,148 +223,148 @@ const text_img_info = [
 
     {id:"A_8_01",pass:"A_8_期待したい.png",start_time:189,end_time:211,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"A_9_01",pass:"A_9_想.png",start_time:211,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_02",pass:"A_9_定.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_03",pass:"A_9_外.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_04",pass:"A_9_の.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_05",pass:"A_9_不.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_06",pass:"A_9_安.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_07",pass:"A_9_要.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_08",pass:"A_9_素.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_09",pass:"A_9_も.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_010",pass:"A_9_展.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_011",pass:"A_9_開.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_012",pass:"A_9_は.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_013",pass:"A_9_低.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_014",pass:"A_9_解.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_015",pass:"A_9_像.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_9_016",pass:"A_9_度.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_01",pass:"A_9_想.png",start_time:211,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_02",pass:"A_9_定.png",start_time:215,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_03",pass:"A_9_外.png",start_time:218,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_04",pass:"A_9_の.png",start_time:224,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_05",pass:"A_9_不.png",start_time:227,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_06",pass:"A_9_安.png",start_time:229,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_07",pass:"A_9_要.png",start_time:232,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_08",pass:"A_9_素.png",start_time:235,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_09",pass:"A_9_も.png",start_time:237,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_010",pass:"A_9_展.png",start_time:241,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_011",pass:"A_9_開.png",start_time:243,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_012",pass:"A_9_は.png",start_time:248,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_013",pass:"A_9_低.png",start_time:250,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_014",pass:"A_9_解.png",start_time:254,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_015",pass:"A_9_像.png",start_time:258,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_9_016",pass:"A_9_度.png",start_time:261,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"A_10_01",pass:"A_10_伝えたい言の葉が届くまで.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_10_02",pass:"A_10_伝えたい言の葉が届くまで2.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_10_01",pass:"A_10_伝えたい言の葉が届くまで.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"A_10_02",pass:"A_10_伝えたい言の葉が届くまで2.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
-    {id:"A_11_01",pass:"A_11_初の音が奏でる.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_11_011",pass:"A_11_〜.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_11_01",pass:"A_11_初の音が奏でる.png",start_time:313,end_time:345,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_11_011",pass:"A_11_〜.png",start_time:313,end_time:345,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"S_1_01",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_02",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_03",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_011",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_012",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_013",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_014",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_015",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_016",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_1_017",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_1_018",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_1_019",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_01",pass:"S_サビ_セカイ.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_02",pass:"S_サビ_セカイ.png",start_time:400,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_03",pass:"S_サビ_セカイ.png",start_time:406,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_011",pass:"S_図形白抜き.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_012",pass:"S_図形白抜き.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_013",pass:"S_図形青抜き.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_014",pass:"S_図形青抜き.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_015",pass:"S_図形青抜き.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_016",pass:"S_図形白.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_1_017",pass:"S_図形白.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_1_018",pass:"S_図形青.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_1_019",pass:"S_図形青.png",start_time:393,end_time:411,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"S_2_01",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_02",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_03",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_011",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_012",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_013",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_014",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_015",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_016",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_2_017",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_2_018",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_2_019",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_01",pass:"S_サビ_ミライ.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_02",pass:"S_サビ_ミライ.png",start_time:502,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_03",pass:"S_サビ_ミライ.png",start_time:508,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_011",pass:"S_図形白抜き.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_012",pass:"S_図形白抜き.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_013",pass:"S_図形青抜き.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_014",pass:"S_図形青抜き.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_015",pass:"S_図形青抜き.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_016",pass:"S_図形白.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_2_017",pass:"S_図形白.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_2_018",pass:"S_図形青.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_2_019",pass:"S_図形青.png",start_time:495,end_time:524,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_1_01",pass:"B_1_音と音の鼓動が.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_1_03",pass:"B_1_連なって.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_1_01",pass:"B_1_音と音の鼓動が.png",start_time:620,end_time:673,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:637,end_time:673,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_1_03",pass:"B_1_連なって.png",start_time:649,end_time:673,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:657,end_time:673,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:663,end_time:673,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_2_01",pass:"B_2_記すノートも.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_2_02",pass:"B_2_痛むハートの.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_2_01",pass:"B_2_記すノートも.png",start_time:673,end_time:698,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_2_02",pass:"B_2_痛むハートの.png",start_time:685,end_time:698,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_3_01",pass:"B_3_照らすライトになっていく.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_3_01",pass:"B_3_照らすライトになっていく.png",start_time:698,end_time:728,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_4_01",pass:"B_4_ABC.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_4_02",pass:"B_4_から.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_4_03",pass:"B_4_XYZ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_4_04",pass:"B_4_レイアウトは捨て去って.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_4_01",pass:"B_4_ABC.png",start_time:728,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_4_02",pass:"B_4_から.png",start_time:738,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_4_03",pass:"B_4_XYZ.png",start_time:741,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_4_04",pass:"B_4_レイアウトは捨て去って.png",start_time:751,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_5_01",pass:"B_5_鳴らしたいこと.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"B_5_02",pass:"B_5_伝えたいこと.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_5_01",pass:"B_5_鳴らしたいこと.png",start_time:775,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"B_5_02",pass:"B_5_伝えたいこと.png",start_time:787,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_6_01",pass:"B_6_想像を超えて.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_6_01",pass:"B_6_想像を超えて.png",start_time:802,end_time:816,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
-    {id:"B_7_01",pass:"B_7_宇宙の向こう側.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_7_01",pass:"B_7_宇宙の向こう側.png",start_time:816,end_time:829,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_1_01",pass:"C_1_初.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_02",pass:"C_1_の.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_03",pass:"C_1_音.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_04",pass:"C_1_が.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_05",pass:"C_1_奏.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_06",pass:"C_1_で.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_07",pass:"C_1_る.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_08",pass:"C_1_世.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_09",pass:"C_1_界.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_010",pass:"C_1_彩.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_011",pass:"C_1_る.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_012",pass:"C_1_こ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_013",pass:"C_1_の.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_1_014",pass:"C_1_視.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"C_1_015",pass:"C_1_界.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_01",pass:"C_1_初.png",start_time:926,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_02",pass:"C_1_の.png",start_time:933,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_03",pass:"C_1_音.png",start_time:936,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_04",pass:"C_1_が.png",start_time:939,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_05",pass:"C_1_奏.png",start_time:942,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_06",pass:"C_1_で.png",start_time:949,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_07",pass:"C_1_る.png",start_time:952,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_08",pass:"C_1_世.png",start_time:955,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_09",pass:"C_1_界.png",start_time:958,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_010",pass:"C_1_彩.png",start_time:973,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_011",pass:"C_1_る.png",start_time:977,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_012",pass:"C_1_こ.png",start_time:979,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_013",pass:"C_1_の.png",start_time:981,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_1_014",pass:"C_1_視.png",start_time:982,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"C_1_015",pass:"C_1_界.png",start_time:984,end_time:1006,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_2_01",pass:"C_2_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_2_02",pass:"C_2_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_2_03",pass:"C_2_セカイー。.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_2_01",pass:"C_2_セカイ.png",start_time:1006,end_time:1027,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_2_02",pass:"C_2_セカイ.png",start_time:1012,end_time:1027,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_2_03",pass:"C_2_セカイー。.png",start_time:1019,end_time:1027,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_3_01",pass:"C_3_きみ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_3_01",pass:"C_3_きみ.png",start_time:1027,end_time:1132,pos_x:"0%",pos_y:"0%",size:"30%"},
     
-    {id:"C_4_01",pass:"C_4_君.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_02",pass:"C_4_次.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_03",pass:"C_4_第.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_01",pass:"C_4_君.png",start_time:1132,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_02",pass:"C_4_次.png",start_time:1132,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_03",pass:"C_4_第.png",start_time:1135,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:1050,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
-    {id:"C_6_01",pass:"C_6_長い1.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_6_02",pass:"C_6_長い2.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_6_01",pass:"C_6_長い1.png",start_time:1083,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_6_02",pass:"C_6_長い2.png",start_time:1089,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_7_01",pass:"C_7_世.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_02",pass:"C_7_界.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_03",pass:"C_7_の.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_04",pass:"C_7_続.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_05",pass:"C_7_き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_06",pass:"C_7_を.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_07",pass:"C_7_見.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_08",pass:"C_7_よ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_7_09",pass:"C_7_う.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_01",pass:"C_7_世.png",start_time:1095,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_02",pass:"C_7_界.png",start_time:1099,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_03",pass:"C_7_の.png",start_time:1103,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_04",pass:"C_7_続.png",start_time:1108,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_05",pass:"C_7_き.png",start_time:1115,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_06",pass:"C_7_を.png",start_time:1116,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_07",pass:"C_7_見.png",start_time:1121,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_08",pass:"C_7_よ.png",start_time:1124,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_7_09",pass:"C_7_う.png",start_time:1124,end_time:1131,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"S_3_01",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_02",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_03",pass:"S_サビ_セカイ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_011",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_012",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_013",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_014",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_015",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_016",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_3_017",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_3_018",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_3_019",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_01",pass:"S_サビ_セカイ.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_02",pass:"S_サビ_セカイ.png",start_time:1217,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_03",pass:"S_サビ_セカイ.png",start_time:1223,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_011",pass:"S_図形白抜き.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_012",pass:"S_図形白抜き.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_013",pass:"S_図形青抜き.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_014",pass:"S_図形青抜き.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_015",pass:"S_図形青抜き.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_016",pass:"S_図形白.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_3_017",pass:"S_図形白.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_3_018",pass:"S_図形青.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_3_019",pass:"S_図形青.png",start_time:1210,end_time:1228,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"S_4_01",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_02",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_03",pass:"S_サビ_ミライ.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_011",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_012",pass:"S_図形白抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_013",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_014",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_015",pass:"S_図形青抜き.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_016",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_4_017",pass:"S_図形白.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
-    {id:"S_4_018",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"S_4_019",pass:"S_図形青.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_01",pass:"S_サビ_ミライ.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_02",pass:"S_サビ_ミライ.png",start_time:1319,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_03",pass:"S_サビ_ミライ.png",start_time:1325,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_011",pass:"S_図形白抜き.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_012",pass:"S_図形白抜き.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_013",pass:"S_図形青抜き.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_014",pass:"S_図形青抜き.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_015",pass:"S_図形青抜き.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_016",pass:"S_図形白.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_4_017",pass:"S_図形白.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},//不足テクスチャ名
+    {id:"S_4_018",pass:"S_図形青.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"S_4_019",pass:"S_図形青.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"L_1_01",pass:"L_1_初の音.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"L_1_01",pass:"L_1_初の音.png",start_time:1335,end_time:1385,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"L_2_01",pass:"L_2_終わり.png",start_time:0,end_time:0,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"L_2_01",pass:"L_2_終わり.png",start_time:1385,end_time:1443,pos_x:"0%",pos_y:"0%",size:"30%"},
 ];
 
 var startDisplayImageTimes = new Map();
