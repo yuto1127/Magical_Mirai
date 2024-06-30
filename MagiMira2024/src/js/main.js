@@ -387,11 +387,11 @@ for(i = 0;i<text_img_info.length;i++){
 
 //追加箇所 HN
 /* アニメーションテキストを生成 */
-for(var i=0;i<phrases.length;i++){
-    animTextList.push(new AnimationTextBase(phrases[i].text,"Arial","40px","black","300px","300px",0,3000,0));
-    animTextList[i].setID("text_"+i);
-    animTextList[i].generate();
-}
+// for(var i=0;i<phrases.length;i++){
+//     animTextList.push(new AnimationTextBase(phrases[i].text,"Arial","40px","black","300px","300px",0,3000,0));
+//     animTextList[i].setID("text_"+i);
+//     animTextList[i].generate();
+// }
 
 // 画像格納変数
 const bg_pass = "../../img/bg_img/";
@@ -473,12 +473,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 setSceneBackGround(scene_info[scene_info_index].bg_image_pass);
                 scene_info_index++;
             }
-            if(animTextIndex < phrases.length){
-                if(time == phrases[animTextIndex].time){
-                    animTextList[animTextIndex].play();
-                    animTextIndex++;
-                }
-            }
+            // if(animTextIndex < phrases.length){
+            //     if(time == phrases[animTextIndex].time){
+            //         animTextList[animTextIndex].play();
+            //         animTextIndex++;
+            //     }
+            // }
             time+=1;
         },100);//ここまで HN
     });
