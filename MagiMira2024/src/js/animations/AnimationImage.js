@@ -6,10 +6,11 @@ export class AnimationImage{     //アニメーションテキストの元とな
         lifeTime = 文字列が表示される時間
         killTime = 文字列の削除にかかる時間
     */
-    constructor(id,pass,posX,posY){ //コンストラクタで各パラメータを初期化
+    constructor(id,pass,posX,posY,size){ //コンストラクタで各パラメータを初期化
         this.setID(id);
         this.setPass(pass);
         this.setPos(posX,posY);
+        this.setSize(size);
         this.isActive = false;
         this.parentElementID = "animation-text-area";
         this.parentElement = document.getElementById(this.parentElementID);
@@ -37,6 +38,10 @@ export class AnimationImage{     //アニメーションテキストの元とな
         return this.id;
     }
 
+    setSize(){
+        this.size = size;
+    }
+
     //要素を表示する
     show(){
         this.isActive = true;
@@ -61,10 +66,10 @@ export class AnimationImage{     //アニメーションテキストの元とな
 
     //スタイル関連の変更を反映する
     register(){
-        this.element.style.position = "relative";
+        this.element.style.position = "absolute";
         this.element.style.left = this.posX;
         this.element.style.top = this.posY;
-        this.element.style.width = "42.5%";
+        this.element.style.width = this.size;
         this.element.style.zIndex = 20;
     }
 }
