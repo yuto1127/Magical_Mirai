@@ -361,6 +361,7 @@ const text_img_info = [
 
 var startDisplayImageTimes = new Map();
 var endDisplayImageTimes = new Map();
+var text_img_list = new Map();
 
 for(i = 0;i<text_img_info.length;i++){
     if(startDisplayImageTimes.has(text_img_info[i].start_time)){
@@ -378,6 +379,10 @@ for(i = 0;i<text_img_info.length;i++){
     }else{
         endDisplayImageTimes.set(text_img_info[i].end_time,[text_img_info[i].id]);
     }
+
+    var tmp_img = new Image();
+    tmp_img.src = text_img_info[i].pass;//クラスつくれ for HN by HN
+    text_img_list.set(text_img_info[i].id,tmp_img);
 }
 console.log(startDisplayImageTimes);
 console.log(endDisplayImageTimes);
