@@ -38,7 +38,7 @@ export class AnimationImage{     //アニメーションテキストの元とな
         return this.id;
     }
 
-    setSize(){
+    setSize(size){
         this.size = size;
     }
 
