@@ -7,7 +7,13 @@
     </head>
     <body>
         <h1>Effect Test3</h1>
-        <script src="main.js"></script>
+        <script src="main.js">
+            const img = new Image();
+            img.src = "miku_touka.png";
+
+            const imagecontainer = document.getElementById('imagecontainer');
+            imagecontainer.appendChild(img);
+        </script>
         <div class="image_container">
             <img src="../MagiMira2024/img/miku/案1.png" alt="Sample Image" class="fade-in-image">
         </div>
