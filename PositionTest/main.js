@@ -329,17 +329,84 @@ for(var i = 0;i<text_img_info.length;i++){
     text_img_list.set(text_img_info[i].id,tmp_img);
 }
 
-var textField = document.getElementById('scene');
-var runButton = document.getElementById('RunButton');
-runButton.addEventListener('click', () => {
-    console.log(element.value);
-});
-
 const bg_image = $('#bg_image');
 
 function setSceneBackGround(pass){
     bg_image.attr('src',bg_pass + pass).show();
 }
+
+var scene_num = 0;
+var textField = document.getElementById('scene');
+var runButton = document.getElementById('RunButton');
+runButton.addEventListener('click', () => {
+    console.log(element.value);
+    if(element.value == "A1"){
+        scene_num = 1_01;
+    }else if(element.value == "A2"){
+        scene_num = 1_01;
+    }else if(element.value == "A3"){
+        scene_num = 1_02;
+    }else if(element.value == "A4"){
+        scene_num = 1_02;
+    }else if(element.value == "A5"){
+        scene_num = 2_02;
+    }else if(element.value == "A6"){
+        scene_num = 2_02;
+    }else if(element.value == "A7"){
+
+    }else if(element.value == "A8"){
+
+    }else if(element.value == "A9"){
+
+    }else if(element.value == "A10"){
+
+    }else if(element.value == "A11"){
+
+    }else if(element.value == "B1"){
+
+    }else if(element.value == "B2"){
+
+    }else if(element.value == "B3"){
+
+    }else if(element.value == "B4"){
+
+    }else if(element.value == "B5"){
+
+    }else if(element.value == "B6"){
+
+    }else if(element.value == "B7"){
+
+    }else if(element.value == "C1"){
+
+    }else if(element.value == "C2"){
+
+    }else if(element.value == "C3"){
+
+    }else if(element.value == "C4"){
+
+    }else if(element.value == "C5"){
+
+    }else if(element.value == "C6"){
+
+    }else if(element.value == "C7"){
+
+    }else if(element.value == "S1"){
+
+    }else if(element.value == "S2"){
+
+    }else if(element.value == "S3"){
+
+    }else if(element.value == "S4"){
+
+    }else if(element.value == "L1"){
+
+    }else if(element.value == "L2"){
+
+    }else{
+        scene_num = 1_01;
+    }
+    setSceneBackGround(scene_info[scene_num].pass);
+});
 
 window.onload = function(){
     loadImages();
