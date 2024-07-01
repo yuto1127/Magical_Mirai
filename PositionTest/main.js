@@ -2,11 +2,11 @@ import {AnimationImage} from '../MagiMira2024/src/js/animations/AnimationImage.j
 
 const bg_pass = "../Magimira2024/img/bg_img/";
 const bg_tmp = "仮背景.jpg";
-const text_A = "../Magimira2024/img/text_img/A/";
-const text_B = "../Magimira2024/img/text_img/B/";
-const text_C = "../Magimira2024/img/text_img/C/";
-const text_L = "../Magimira2024/img/text_img/LAST/";
-const text_S = "../Magimira2024/img/text_img/サビ/";
+const text_A = "../MagiMira2024/img/text_img/A/";
+const text_B = "../MagiMira2024/img/text_img/B/";
+const text_C = "../MagiMira2024/img/text_img/C/";
+const text_L = "../MagiMira2024/img/text_img/LAST/";
+const text_S = "../MagiMira2024/img/text_img/サビ/";
 
 var scene_info_index = 1;
 const scene_info = [
