@@ -329,6 +329,12 @@ for(var i = 0;i<text_img_info.length;i++){
     text_img_list.set(text_img_info[i].id,tmp_img);
 }
 
+var textField = document.getElementById('scene');
+var runButton = document.getElementById('RunButton');
+runButton.addEventListener('click', () => {
+    console.log(element.value);
+});
+
 const bg_image = $('#bg_image');
 
 function setSceneBackGround(pass){
