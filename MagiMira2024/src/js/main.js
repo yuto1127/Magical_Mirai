@@ -648,13 +648,13 @@ document.addEventListener('keydown', (event) => {
 
 function handleKeyPress(keyCode) {
     switch (keyCode) {
-        case 'KeyZ':
+        case 'KeyS':
             createShapes(50, 'star');
             break;
-        case 'KeyX':
+        case 'KeyH':
             createShapes(50, 'heart');
             break;
-        case 'KeyC':
+        case 'KeyD':
             createShapes(50, 'diamond');
             break;
     }

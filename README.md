@@ -7,7 +7,7 @@ TextAliveAppAPI
 
 MagiMira2024のWebページを表示するためのリンク：
 https://yuto1127.github.io/Magical_Mirai/MagiMira2024/src/html/main.html
-[z,x,c]を押すとエフェクトが出ます
+[s,h,d]を押すとエフェクト[星、ハート、四角]が出ます
 
 Sampleのリンク：
 https://yuto1127.github.io/Magical_Mirai/Sample/index.html
