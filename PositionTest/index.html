@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head> 
+    <!-- 文字コードを指定 -->
+    <meta charset="UTF-8">
+
+    <!-- キャッシュ無効 -->
+    <meta http-equiv="Cache-Control" content="no-store">
+    
+    <!-- タイトルを設定 -->
+    <title>サイズ・ポジション合わせ用</title>
+    
+    <!-- CSSファイルを読み込む -->
+    <link rel="stylesheet" href="../MagiMira2024/src/css/main.css">
+
+    <!-- jQueryライブラリを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- main.jsファイルを読み込む -->
+    <script src="./main.js" type="module"></script>
+</head>
+<body>
+    <!-- ローディング画面 -->
+    <div id="loading-screen">
+        <!-- ローディング画像 -->
+        <img id="loading-img" src="../../img/obj_img/ロード画像.GIF" alt="Loading...">
+    </div>
+    
+    <!-- アプリケーションウィンドウ -->
+    <div id ="effect">
+    <div id="app_window" >
+        <!-- 動画表示エリア -->
+        <div id="video" class="video">
+            <!-- 背景 -->
+            <img src="../../img/bg_img/bg_1_1.png" id="bg_image"><!--追加箇所 HN-->
+            <!-- アニメーションテキストを生成するエリア -->
+            <div id="animation-text-area"></div>
+        </div>
+    </div>  
+    </div>
+</body>
+</html>
