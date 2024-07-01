@@ -168,6 +168,7 @@ body {
 .star {
     width: 50px;
     height: 50px;
+    opacity: 20%;
     background-color: var(--shape-color, white);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
@@ -176,6 +177,7 @@ body {
 .heart {
     width: 50px;
     height: 40px;
+    opacity: 20%;
     background-color: var(--shape-color, red);
     clip-path: polygon(50% 15%, 61% 10%, 75% 0%, 90% 10%, 95% 25%, 90% 40%, 50% 80%, 10% 40%, 5% 25%, 10% 10%, 25% 0%, 39% 10%);
 }
@@ -184,6 +186,7 @@ body {
 .diamond {
     width: 30px;
     height: 30px;
+    opacity: 20%;
     background-color: var(--shape-color, yellow);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
