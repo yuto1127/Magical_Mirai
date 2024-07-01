@@ -628,7 +628,7 @@ window.onunload = function() {};
 window.addEventListener("pageshow", function(event){
     if (event.persisted) {
         // ここにキャッシュ有効時の処理を書く
-        window.location.reload();
+        window.location.reload()
     }
 });
 
@@ -649,13 +649,13 @@ document.addEventListener('keydown', (event) => {
 function handleKeyPress(keyCode) {
     switch (keyCode) {
         case 'KeyZ':
-            createShapes(39, 'star');
+            createShapes(50, 'star');
             break;
         case 'KeyX':
-            createShapes(39, 'heart');
+            createShapes(50, 'heart');
             break;
         case 'KeyC':
-            createShapes(39, 'diamond');
+            createShapes(50, 'diamond');
             break;
     }
 }
