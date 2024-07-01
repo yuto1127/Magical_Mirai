@@ -339,68 +339,68 @@ var scene_num = 0;
 var textField = document.getElementById('scene');
 var runButton = document.getElementById('RunButton');
 runButton.addEventListener('click', () => {
-    console.log(element.value);
-    if(element.value == "A1"){
+    console.log(textField.value);
+    if(textField.value == "A1"){
         scene_num = 1_01;
-    }else if(element.value == "A2"){
+    }else if(textField.value == "A2"){
         scene_num = 1_01;
-    }else if(element.value == "A3"){
+    }else if(textField.value == "A3"){
         scene_num = 1_02;
-    }else if(element.value == "A4"){
+    }else if(textField.value == "A4"){
         scene_num = 1_02;
-    }else if(element.value == "A5"){
+    }else if(textField.value == "A5"){
         scene_num = 2_02;
-    }else if(element.value == "A6"){
+    }else if(textField.value == "A6"){
         scene_num = 2_02;
-    }else if(element.value == "A7"){
+    }else if(textField.value == "A7"){
 
-    }else if(element.value == "A8"){
+    }else if(textField.value == "A8"){
 
-    }else if(element.value == "A9"){
+    }else if(textField.value == "A9"){
 
-    }else if(element.value == "A10"){
+    }else if(textField.value == "A10"){
 
-    }else if(element.value == "A11"){
+    }else if(textField.value == "A11"){
 
-    }else if(element.value == "B1"){
+    }else if(textField.value == "B1"){
 
-    }else if(element.value == "B2"){
+    }else if(textField.value == "B2"){
 
-    }else if(element.value == "B3"){
+    }else if(textField.value == "B3"){
 
-    }else if(element.value == "B4"){
+    }else if(textField.value == "B4"){
 
-    }else if(element.value == "B5"){
+    }else if(textField.value == "B5"){
 
-    }else if(element.value == "B6"){
+    }else if(textField.value == "B6"){
 
-    }else if(element.value == "B7"){
+    }else if(textField.value == "B7"){
 
-    }else if(element.value == "C1"){
+    }else if(textField.value == "C1"){
 
-    }else if(element.value == "C2"){
+    }else if(textField.value == "C2"){
 
-    }else if(element.value == "C3"){
+    }else if(textField.value == "C3"){
 
-    }else if(element.value == "C4"){
+    }else if(textField.value == "C4"){
 
-    }else if(element.value == "C5"){
+    }else if(textField.value == "C5"){
 
-    }else if(element.value == "C6"){
+    }else if(textField.value == "C6"){
 
-    }else if(element.value == "C7"){
+    }else if(textField.value == "C7"){
 
-    }else if(element.value == "S1"){
+    }else if(textField.value == "S1"){
 
-    }else if(element.value == "S2"){
+    }else if(textField.value == "S2"){
 
-    }else if(element.value == "S3"){
+    }else if(textField.value == "S3"){
 
-    }else if(element.value == "S4"){
+    }else if(textField.value == "S4"){
 
-    }else if(element.value == "L1"){
+    }else if(textField.value == "L1"){
 
-    }else if(element.value == "L2"){
+    }else if(textField.value == "L2"){
 
     }else{
         scene_num = 1_01;
