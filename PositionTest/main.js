@@ -1,6 +1,6 @@
 import {AnimationImage} from '../MagiMira2024/src/js/animations/AnimationImage.js';
 
-const bg_pass = "../Magimira2024/img/bg_img/";
+const bg_pass = "../MagiMira2024/img/bg_img/";
 const bg_tmp = "仮背景.jpg";
 const text_A = "../MagiMira2024/img/text_img/A/";
 const text_B = "../MagiMira2024/img/text_img/B/";
