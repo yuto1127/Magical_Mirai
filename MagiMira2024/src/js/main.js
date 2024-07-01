@@ -657,8 +657,7 @@ function handleKeyPress(keyCode) {
         case 'KeyD':
             createShapes(50, 'diamond');
             break;
-        case 'KeyN':
-            createShapes(50,'note')
+        
     }
 }
 
