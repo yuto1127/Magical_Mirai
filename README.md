@@ -38,3 +38,6 @@ https://yuto1127.github.io/Magical_Mirai/EffectTest3/index.html
 
 エフェクトテスト用ページ４のリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest4/main.html
+
+画像サイズ・ポジションの計測用サイトのリンク：
+https://yuto1127.github.io/Magical_Mirai/PositionTest/index.html
