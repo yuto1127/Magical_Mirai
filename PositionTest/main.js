@@ -335,6 +335,17 @@ function setSceneBackGround(pass){
     bg_image.attr('src',bg_pass + pass).show();
 }
 
+function showTextImg(startPass){
+    const mapIter = text_img_list.keys();
+    while(mapIter.next()){
+        if(mapIter.value.startsWith(startPass)){
+            text_img_list.get(mapIter.value).show();
+        }else{
+            text_img_list.get(mapIter.value).hide();
+        }
+    }
+}
+
 var scene_num = 0;
 var textField = document.getElementById('scene');
 var runButton = document.getElementById('RunButton');
