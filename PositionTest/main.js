@@ -416,6 +416,7 @@ runButton.addEventListener('click', () => {
     }else{
         scene_num = 0;
     }
+    showTextImg(textField.value.slice(0,1)+"_"+textField.value.slice(textField.value.length-(textField.value.length-1),textField.value.length,));
     setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
 
