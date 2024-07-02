@@ -244,10 +244,10 @@ const text_img_info = [
     {id:"C_4_02",pass:"C_4_次.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"C_4_03",pass:"C_4_第.png",start_time:1035,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_5_01",pass:"C_5_全ては君の作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_5_01",pass:"C_5_全ては君の作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"73%",size:"100%"},
 
-    {id:"C_6_01",pass:"C_6_長い1.png",start_time:1083,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_6_02",pass:"C_6_長い2.png",start_time:1089,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_6_01",pass:"C_6_長い1.png",start_time:1083,end_time:1095,pos_x:"0.5%",pos_y:"45%",size:"30%"},
+    {id:"C_6_02",pass:"C_6_長い2.png",start_time:1089,end_time:1095,pos_x:"1%",pos_y:"71%",size:"40%"},
 
     {id:"C_7_01",pass:"C_7_世.png",start_time:1095,end_time:1131,pos_x:"0%",pos_y:"11%",size:"15%"},
     {id:"C_7_02",pass:"C_7_界.png",start_time:1099,end_time:1131,pos_x:"7%",pos_y:"36%",size:"17%"},
