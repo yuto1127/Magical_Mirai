@@ -336,16 +336,12 @@ function setSceneBackGround(pass){
 }
 
 function showTextImg(startPass){
-    const mapIter = text_img_list.keys();
-    console.log(startPass);
-    console.log(mapIter.value);
-    console.log(mapIter);
-    console.log(mapIter.value.startsWith("A_1"));
-    while(mapIter.next()){
-        if(mapIter.value.startsWith(startPass)){
-            text_img_list.get(mapIter.value).show();
+    const keys = text_img_list.keys();
+    for(var key of keys) {
+        if(key.startsWith(startPass)){
+            text_img_list.get(key).show();
         }else{
-            text_img_list.get(mapIter.value).hide();
+            text_img_list.get(key).hide();
         }
     }
 }
