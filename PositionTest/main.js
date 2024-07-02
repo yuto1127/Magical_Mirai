@@ -119,7 +119,7 @@ const text_img_info = [
     {id:"A_5_01",pass:"A_5_1.png",start_time:116,end_time:119,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_5_02",pass:"A_5_2.png",start_time:119,end_time:122,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_5_03",pass:"A_5_3.png",start_time:122,end_time:125,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_5_04",pass:"A_5_4.png",start_time:125,end_time:167,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_5_04",pass:"A_5_4.png",start_time:125,end_time:138,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_5_05",pass:"A_5_いち.png",start_time:116,end_time:138,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_5_06",pass:"A_5_に.png",start_time:119,end_time:138,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_5_07",pass:"A_5_さん.png",start_time:122,end_time:138,pos_x:"0%",pos_y:"0%",size:"30%"},
@@ -162,8 +162,8 @@ const text_img_info = [
     {id:"A_9_015",pass:"A_9_像.png",start_time:258,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_9_016",pass:"A_9_度.png",start_time:261,end_time:265,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"A_10_01",pass:"A_10_伝えたい言の葉が届くまで.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
-    {id:"A_10_02",pass:"A_10_伝えたい言の葉が届くまで2.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"A_10_01",pass:"A_10_伝えたい言の葉が響くまで.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"A_10_02",pass:"A_10_伝えたい言の葉が響くまで2.png",start_time:265,end_time:313,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
     {id:"A_11_01",pass:"A_11_初の音が奏でる.png",start_time:313,end_time:345,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_11_011",pass:"A_11_〜.png",start_time:313,end_time:345,pos_x:"0%",pos_y:"0%",size:"30%"},
@@ -210,10 +210,10 @@ const text_img_info = [
     {id:"B_4_03",pass:"B_4_XYZ.png",start_time:741,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"B_4_04",pass:"B_4_レイアウトは捨て去って.png",start_time:751,end_time:775,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_5_01",pass:"B_5_鳴らしたいこと.png",start_time:775,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"B_5_01",pass:"B_5_鳴らしたい音.png",start_time:775,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
     {id:"B_5_02",pass:"B_5_伝えたいこと.png",start_time:787,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_6_01",pass:"B_6_想像を超えて.png",start_time:802,end_time:816,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"B_6_01",pass:"B_6_創造も超えて.png",start_time:802,end_time:816,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
     {id:"B_7_01",pass:"B_7_宇宙の向こう側.png",start_time:816,end_time:829,pos_x:"0%",pos_y:"0%",size:"30%"},
 
@@ -243,7 +243,7 @@ const text_img_info = [
     {id:"C_4_02",pass:"C_4_次.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"C_4_03",pass:"C_4_第.png",start_time:1035,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"C_5_01",pass:"C_5_全ては君と作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
+    {id:"C_5_01",pass:"C_5_全ては君の作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"0%",size:"30%"},//歌詞修正
 
     {id:"C_6_01",pass:"C_6_長い1.png",start_time:1083,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"C_6_02",pass:"C_6_長い2.png",start_time:1089,end_time:1095,pos_x:"0%",pos_y:"0%",size:"30%"},
