@@ -353,55 +353,55 @@ runButton.addEventListener('click', () => {
     }else if(textField.value == "A6"){
         scene_num = 5;
     }else if(textField.value == "A7"){
-
+        scene_num = 7;
     }else if(textField.value == "A8"){
-
+        scene_num = 8;
     }else if(textField.value == "A9"){
-
+        scene_num = 10;
     }else if(textField.value == "A10"){
-
+        scene_num = 12;
     }else if(textField.value == "A11"){
-
+        scene_num = 13;
     }else if(textField.value == "B1"){
-
+        scene_num = 0;
     }else if(textField.value == "B2"){
-
+        scene_num = 0;
     }else if(textField.value == "B3"){
-
+        scene_num = 0;
     }else if(textField.value == "B4"){
-
+        scene_num = 0;
     }else if(textField.value == "B5"){
-
+        scene_num = 0;
     }else if(textField.value == "B6"){
-
+        scene_num = 0;
     }else if(textField.value == "B7"){
-
+        scene_num = 0;
     }else if(textField.value == "C1"){
-
+        scene_num = 0;
     }else if(textField.value == "C2"){
-
+        scene_num = 0;
     }else if(textField.value == "C3"){
-
+        scene_num = 0;
     }else if(textField.value == "C4"){
-
+        scene_num = 0;
     }else if(textField.value == "C5"){
-
+        scene_num = 0;
     }else if(textField.value == "C6"){
-
+        scene_num = 0;
     }else if(textField.value == "C7"){
-
+        scene_num = 0;
     }else if(textField.value == "S1"){
-
+        scene_num = 19;
     }else if(textField.value == "S2"){
-
+        scene_num = 19;
     }else if(textField.value == "S3"){
-
+        scene_num = 19;
     }else if(textField.value == "S4"){
-
+        scene_num = 19;
     }else if(textField.value == "L1"){
-
+        scene_num = 65;
     }else if(textField.value == "L2"){
-
+        scene_num = 65;
     }else{
         scene_num = 0;
     }
