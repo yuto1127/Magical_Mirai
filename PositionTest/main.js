@@ -196,10 +196,10 @@ const text_img_info = [
     {id:"S_2_019",pass:"S_図形青抜き.png",start_time:495,end_time:524,pos_x:"80%",pos_y:"71%",size:"9%"},
 
     {id:"B_1_01",pass:"B_1_音と音の鼓動が.png",start_time:620,end_time:673,pos_x:"37.5%",pos_y:"16%",size:"4.5%"},
-    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:637,end_time:673,pos_x:"0%",pos_y:"16%",size:"4.5%"},
-    {id:"B_1_03",pass:"B_1_連なって.png",start_time:649,end_time:673,pos_x:"0%",pos_y:"16%",size:"4.5%"},
-    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:657,end_time:673,pos_x:"0%",pos_y:"16%",size:"4.5%"},
-    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:663,end_time:673,pos_x:"0%",pos_y:"16%",size:"4.5%"},
+    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:637,end_time:673,pos_x:"32.5%",pos_y:"16%",size:"4.5%"},
+    {id:"B_1_03",pass:"B_1_連なって.png",start_time:649,end_time:673,pos_x:"23.5%",pos_y:"16%",size:"4.5%"},
+    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:657,end_time:673,pos_x:"18.5%",pos_y:"16%",size:"4.5%"},
+    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:663,end_time:673,pos_x:"8.5%",pos_y:"16%",size:"6.5%"},
 
     {id:"B_2_01",pass:"B_2_記すノートも.png",start_time:673,end_time:698,pos_x:"88%",pos_y:"13%",size:"4.5%"},
     {id:"B_2_02",pass:"B_2_痛むハートの.png",start_time:685,end_time:698,pos_x:"51%",pos_y:"80%",size:"30%"},
