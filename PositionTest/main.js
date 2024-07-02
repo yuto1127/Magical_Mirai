@@ -393,15 +393,15 @@ runButton.addEventListener('click', () => {
     }else if(textField.value == "C2"){
         scene_num = 1;
     }else if(textField.value == "C3"){
-        scene_num = 51;
+        scene_num = 41;
     }else if(textField.value == "C4"){
-        scene_num = 52;
+        scene_num = 42;
     }else if(textField.value == "C5"){
-        scene_num = 53;
+        scene_num = 43;
     }else if(textField.value == "C6"){
-        scene_num = 54;
+        scene_num = 44;
     }else if(textField.value == "C7"){
-        scene_num = 55;
+        scene_num = 45;
     }else if(textField.value == "S1"){
         scene_num = 19;
     }else if(textField.value == "S2"){
