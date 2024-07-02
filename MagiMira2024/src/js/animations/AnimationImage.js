@@ -71,5 +71,7 @@ export class AnimationImage{     //アニメーションテキストの元とな
         this.element.style.top = this.posY;
         this.element.style.width = this.size;
         this.element.style.zIndex = 20;
+        this.element.style.maxWidth = "90vw";
+        this.element.style.maxHeight = "90vh";
     }
 }
