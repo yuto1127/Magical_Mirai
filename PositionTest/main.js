@@ -405,7 +405,7 @@ runButton.addEventListener('click', () => {
     }else{
         scene_num = 1_01;
     }
-    setSceneBackGround(scene_info[scene_num].pass);
+    setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
 
 window.onload = function(){
