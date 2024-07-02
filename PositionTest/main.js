@@ -214,9 +214,9 @@ const text_img_info = [
     {id:"B_5_01",pass:"B_5_鳴らしたい音.png",start_time:775,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"B_5_02",pass:"B_5_伝えたいこと.png",start_time:787,end_time:802,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"B_6_01",pass:"B_6_創造も超えて.png",start_time:802,end_time:816,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_6_01",pass:"B_6_創造も超えて.png",start_time:802,end_time:816,pos_x:"8%",pos_y:"11%",size:"40%"},
 
-    {id:"B_7_01",pass:"B_7_宇宙の向こう側.png",start_time:816,end_time:829,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"B_7_01",pass:"B_7_宇宙の向こう側.png",start_time:816,end_time:829,pos_x:"6%",pos_y:"35%",size:"88%"},
 
     {id:"C_1_01",pass:"C_1_初.png",start_time:926,end_time:1006,pos_x:"83%",pos_y:"6%",size:"4%"},
     {id:"C_1_02",pass:"C_1_の.png",start_time:933,end_time:1006,pos_x:"83%",pos_y:"16%",size:"4%"},
