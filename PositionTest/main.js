@@ -341,17 +341,17 @@ var runButton = document.getElementById('RunButton');
 runButton.addEventListener('click', () => {
     console.log(textField.value);
     if(textField.value == "A1"){
-        scene_num = 1_01;
+        scene_num = 1;
     }else if(textField.value == "A2"){
-        scene_num = 1_01;
+        scene_num = 1;
     }else if(textField.value == "A3"){
-        scene_num = 1_02;
+        scene_num = 2;
     }else if(textField.value == "A4"){
-        scene_num = 1_02;
+        scene_num = 2;
     }else if(textField.value == "A5"){
-        scene_num = 2_02;
+        scene_num = 5;
     }else if(textField.value == "A6"){
-        scene_num = 2_02;
+        scene_num = 5;
     }else if(textField.value == "A7"){
 
     }else if(textField.value == "A8"){
