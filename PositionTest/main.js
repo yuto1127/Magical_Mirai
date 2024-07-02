@@ -403,7 +403,7 @@ runButton.addEventListener('click', () => {
     }else if(textField.value == "L2"){
 
     }else{
-        scene_num = 1_01;
+        scene_num = 0;
     }
     setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
