@@ -28,8 +28,8 @@ body {
 
 #video {
     width: 100%;
-    max-width: 90vw;
-    max-height: 90vh;
+    max-width: 96vw;
+    max-height: 54vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -119,8 +119,8 @@ body {
 
 #bg_image{
     width:100%;
-    max-width: 85vw;
-    max-height: 90vh;
+    max-width: 96vw;
+    max-height: 54vh;
     aspect-ratio: 16 / 9;
     position: absolute;
     z-index: -1;
