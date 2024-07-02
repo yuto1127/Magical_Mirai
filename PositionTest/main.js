@@ -81,11 +81,11 @@ const scene_info = [
 
 //テキストや図形の情報を管理する配列
 const text_img_info = [
-    {id:"A_1_01",pass:"A_1_轟.png",start_time:20,end_time:36,pos_x:"0%",pos_y:"0%",size:"42.5%"},
-    {id:"A_1_02",pass:"A_1_く.png",start_time:25,end_time:36,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_1_03",pass:"A_1_1.png",start_time:26,end_time:36,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_1_04",pass:"A_1_2.png",start_time:29,end_time:36,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"A_1_05",pass:"A_1_3.png",start_time:33,end_time:36,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"A_1_01",pass:"A_1_轟.png",start_time:20,end_time:36,pos_x:"7%",pos_y:"5%",size:"42.5%"},
+    {id:"A_1_02",pass:"A_1_く.png",start_time:25,end_time:36,pos_x:"23%",pos_y:"30%",size:"17%"},
+    {id:"A_1_03",pass:"A_1_1.png",start_time:26,end_time:36,pos_x:"59%",pos_y:"10%",size:"7%"},
+    {id:"A_1_04",pass:"A_1_2.png",start_time:29,end_time:36,pos_x:"60%",pos_y:"40%",size:"10%"},
+    {id:"A_1_05",pass:"A_1_3.png",start_time:33,end_time:36,pos_x:"70%",pos_y:"60%",size:"10%"},
 
     {id:"A_2_01",pass:"A_2_ほら.png",start_time:36,end_time:65,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"A_2_02",pass:"A_2_よーいどーん.png",start_time:39,end_time:65,pos_x:"0%",pos_y:"0%",size:"30%"},
