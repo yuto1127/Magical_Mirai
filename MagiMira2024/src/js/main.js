@@ -131,6 +131,7 @@ const scene_info = [
     {scene_num:13_01,scene_time:926,bg_image_pass:"移動背景.png"},//初の音（933）上下移動
     {scene_num:14_01,scene_time:1027,bg_image_pass:"2番きみ青背景.png"},//キミ
     {scene_num:14_02,scene_time:1032,bg_image_pass:"2番君次第.png"},//次第
+    {scene_num:14_02,scene_time:1050,bg_image_pass:"2番君次第文字なし.png"},//全ては
     {scene_num:15_01,scene_time:1083,bg_image_pass:"bg_15_1.png"},//長い長い~
     {scene_num:15_02,scene_time:1095,bg_image_pass:"bg_15_2.png"},//世界の続き~
     {scene_num:15_03,scene_time:1131,bg_image_pass:"2番ロゴ背景.png"},//ロゴ
