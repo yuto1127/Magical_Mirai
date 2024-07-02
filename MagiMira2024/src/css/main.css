@@ -28,8 +28,8 @@ body {
 
 #video {
     width: 100%;
-    max-width: 80vw;
-    max-height: 95vh;
+    /* max-width: 90vw; */
+    max-height: 90vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -119,25 +119,16 @@ body {
 
 #bg_image{
     width:100%;
-    max-width: 80vw;
-    max-height: 95vh;
+    /* max-width: 90vw; */
+    max-height: 90vh;
     aspect-ratio: 16 / 9;
     position: absolute;
     z-index: -1;
 }
 
-#bg_image2{
-    width:100%;
-    max-width: 90vw;
-    max-height: 90vh;
-    aspect-ratio: 16 / 9;
-    position: absolute;
-    z-index: -2;
-}
-
 #animation-text-area{
     width:100%;
-    max-width: 90vw;
+    /* max-width: 90vw; */
     max-height: 90vh;
     aspect-ratio: 16 / 9;
     position: absolute;
