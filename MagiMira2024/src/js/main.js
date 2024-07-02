@@ -362,9 +362,9 @@ const text_img_info = [
     {id:"S_4_018",pass:"S_図形青.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
     {id:"S_4_019",pass:"S_図形青.png",start_time:1312,end_time:1335,pos_x:"0%",pos_y:"0%",size:"30%"},
 
-    {id:"L_1_01",pass:"L_1_初の音.png",start_time:1335,end_time:1385,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"L_1_01",pass:"L_1_初の音.png",start_time:1335,end_time:1385,pos_x:"5%",pos_y:"45%",size:"90%"},
 
-    {id:"L_2_01",pass:"L_2_終わり.png",start_time:1385,end_time:1443,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"L_2_01",pass:"L_2_終わり.png",start_time:1385,end_time:1443,pos_x:"5%",pos_y:"0%",size:"90%"},
 ];
 
 var startDisplayImageTimes = new Map();
