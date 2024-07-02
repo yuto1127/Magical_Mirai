@@ -240,9 +240,9 @@ const text_img_info = [
 
     {id:"C_3_01",pass:"C_3_きみ.png",start_time:1027,end_time:1032,pos_x:"0%",pos_y:"0%",size:"30%"},
     
-    {id:"C_4_01",pass:"C_4_君.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_02",pass:"C_4_次.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
-    {id:"C_4_03",pass:"C_4_第.png",start_time:1035,end_time:1050,pos_x:"0%",pos_y:"0%",size:"30%"},
+    {id:"C_4_01",pass:"C_4_君.png",start_time:1032,end_time:1050,pos_x:"0%",pos_y:"36%",size:"19%"},
+    {id:"C_4_02",pass:"C_4_次.png",start_time:1032,end_time:1050,pos_x:"40%",pos_y:"36%",size:"19%"},
+    {id:"C_4_03",pass:"C_4_第.png",start_time:1035,end_time:1050,pos_x:"80%",pos_y:"36%",size:"19%"},
 
     {id:"C_5_01",pass:"C_5_全ては君の作り上げた.png",start_time:1050,end_time:1083,pos_x:"0%",pos_y:"73%",size:"100%"},
 
