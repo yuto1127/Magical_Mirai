@@ -430,7 +430,6 @@ img.src = "../MagiMira2024/img/bg_img/移動背景.png";
 
 
 let yPos = 0;
-console.log(img.height,":",img.width,":",canvas.height,":",canvas.width);
 
 img.onload = () => {
     function animate() {
@@ -443,6 +442,7 @@ img.onload = () => {
         }
     }
     animate();
+    console.log(img.height,":",img.width,":",canvas.height,":",canvas.width);
 };
 
 window.onload = function(){
