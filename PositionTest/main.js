@@ -437,7 +437,7 @@ img.onload = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
         // 画像の移動速度
-        yPos -= 1;
+        yPos -= 0;
         requestAnimationFrame(animate);
     }
 
