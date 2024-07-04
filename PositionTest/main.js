@@ -334,16 +334,6 @@ for(var i = 0;i<text_img_info.length;i++){
 
 const bg_image = $('#bg_image');
 
-const canvas = document.getElementById("bg_canvas");
-if(canvas.getContext) {
-const ctx = canvas.getContext("2d");
-const img = document.createElement("img");
-img.src = "../MagiMira2024/img/bg_img/移動背景.png";
-img.addEventListener("load", function() {
-    ctx.drawImage(img, 0, 0, 1000, 800, 0, 0, 1000, 800);
-});
-}
-
 function setSceneBackGround(pass){
     bg_image.attr('src',bg_pass + pass).show();
 }
@@ -433,7 +423,7 @@ runButton.addEventListener('click', () => {
     setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
 
-const canvas = document.querySelector("bg_canvas");
+const canvas = document.getElementById("bg_canvas");
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
