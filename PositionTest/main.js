@@ -427,7 +427,6 @@ const canvas = document.getElementById("bg_canvas");
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
-canvas.width = "100%";
 
 img.onload = () => {
     const aspectRatio = img.width / img.height;
