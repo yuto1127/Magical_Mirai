@@ -438,12 +438,11 @@ img.onload = () => {
         ctx.drawImage(img, 0, 0,img.width,img.height,0,yPos,canvas.width,dy);
 
         yPos -= 1; // 画像の移動速度
-        if (yPos  > -(dy - canvas.style.height)) {
+        if (yPos  > -(dy)) {
             requestAnimationFrame(animate);
         }
     }
     animate();
-    console.log(img.height,":",img.width,":",canvas.height,":",canvas.width);
 };
 
 window.onload = function(){
