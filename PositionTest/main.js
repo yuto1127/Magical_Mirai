@@ -433,6 +433,27 @@ runButton.addEventListener('click', () => {
     setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
 
+const canvas = document.querySelector("bg_canvas");
+const ctx = canvas.getContext("2d");
+const img = new Image();
+img.src = "../MagiMira2024/img/bg_img/移動背景.png";
+
+
+let yPos = canvas.height;
+
+image.onload = () => {
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(image, canvas.width / 2 - image.width / 2, yPos);
+
+        yPos -= 2; // 画像の移動速度
+        if (yPos + image.height >= 0) {
+            requestAnimationFrame(animate);
+        }
+    }
+    animate();
+};
+
 window.onload = function(){
     loadImages();
 }
