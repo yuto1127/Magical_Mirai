@@ -428,20 +428,19 @@ const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
 
-
-let yPos = 0;
-
 img.onload = () => {
-    const dy = canvas.width / (img.width / img.height);
+    const aspectRatio = img.width / img.height;
+    const dy = canvas.width / aspectRatio;
+    let yPos = 0;
+
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, 0, 0,img.width,img.height,0,yPos,canvas.width,dy);
-
-        yPos -= 1; // 画像の移動速度
-        if (true) {
-            requestAnimationFrame(animate);
-        }
+        ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
+        // 画像の移動速度
+        yPos -= 1;
+        requestAnimationFrame(animate);
     }
+
     animate();
 };
 
