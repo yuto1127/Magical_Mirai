@@ -120,10 +120,17 @@ body {
 #bg_image{
     width:100%;
     max-width: 70vw;
-    /* max-height: 90vh; */
     aspect-ratio: 16 / 9;
     position: absolute;
     z-index: -1;
+}
+
+#bg_canvas{
+    width:100%;
+    max-width: 70vw;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    z-index: 5;
 }
 
 #animation-text-area{
