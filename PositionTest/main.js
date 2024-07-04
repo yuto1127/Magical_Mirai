@@ -427,42 +427,18 @@ const canvas = document.getElementById("bg_canvas");
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
+canvas.width = "100%";
 
 img.onload = () => {
-    const imgAspectRatio = img.width / img.height;
-    const canvasAspectRatio = canvas.width / canvas.height;
+    const aspectRatio = img.width / img.height;
+    const dy = canvas.width / aspectRatio;
     let yPos = 0;
-    const speed = 1;
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        let drawWidth, drawHeight, offsetX, offsetY;
-
-        if (imgAspectRatio > canvasAspectRatio) {
-            drawWidth = canvas.width;
-            drawHeight = canvas.width / imgAspectRatio;
-            offsetX = 0;
-            offsetY = (canvas.height - drawHeight) / 2;
-        } else {
-            drawHeight = canvas.height;
-            drawWidth = canvas.height * imgAspectRatio;
-            offsetX = (canvas.width - drawWidth) / 2;
-            offsetY = 0;
-        }
-
-        // 画像の描画
-        ctx.drawImage(img, 0, 0, img.width, img.height, offsetX, yPos + offsetY, drawWidth, drawHeight);
-
+        ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
         // 画像の移動速度
-        yPos -= speed;
-
-        // 画像が完全に上に移動したらリセット
-        if (yPos + drawHeight + offsetY < 0) {
-            yPos = canvas.height - offsetY;
-        }
-
-        // 再描画
+        yPos -= 0;
         requestAnimationFrame(animate);
     }
 
