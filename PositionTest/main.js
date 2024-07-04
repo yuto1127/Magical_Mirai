@@ -432,7 +432,7 @@ img.src = "../MagiMira2024/img/bg_img/移動背景.png";
 let yPos = 0;
 
 img.onload = () => {
-    const dy = canvas.style.width * img.height / img.width;
+    const dy = canvas.width / img.width / img.height;
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0,img.width,img.height,0,yPos,canvas.width,dy);
