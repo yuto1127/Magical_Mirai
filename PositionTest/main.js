@@ -434,7 +434,7 @@ let yPos = 0;
 img.onload = () => {
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, 0, 0,img.width,img.height,0,yPos,canvas.width,img.height * (canvas.width / img.width));
+        ctx.drawImage(img, 0, 0,img.width,img.height,0,yPos,canvas.width,canvas.height);
 
         yPos -= 1; // 画像の移動速度
         if (yPos  > -(img.height)) {
