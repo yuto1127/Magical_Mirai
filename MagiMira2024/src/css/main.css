@@ -133,6 +133,11 @@ body {
     z-index: 5;
 }
 
+#move_img_bg{
+    width:100%;
+    max-width: 70vw;
+}
+
 #animation-text-area{
     width:100%;
     max-width: 70vw;

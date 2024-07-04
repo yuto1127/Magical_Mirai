@@ -427,6 +427,7 @@ const canvas = document.getElementById("bg_canvas");
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
+img.setAttribute("id","move_img_bg");
 
 
 let yPos = canvas.height;
@@ -434,7 +435,7 @@ let yPos = canvas.height;
 img.onload = () => {
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, canvas.width - img.width, yPos);
+        ctx.drawImage(img, 0, yPos);
 
         yPos -= 2; // 画像の移動速度
         if (yPos + img.height >= 0) {
