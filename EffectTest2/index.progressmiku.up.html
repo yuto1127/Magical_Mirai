@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指定領域の部分隠しと表示</title>
+    <link rel="stylesheet" href="style.progressmiku.down.css">
+</head>
+
+<body>
+    <div id="content">
+        <!-- 隠したいコンテンツ -->
+        <img src="miku.png" width="200px" height="267px">
+    </div>
+    <div id="mask"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 指定時間（ミリ秒）
+            const hideTime = 5000; // 5秒後に隠す
+
+            setTimeout(() => {
+                const mask = document.getElementById('mask');
+                // maskのtransformプロパティを変更して下にスライドさせる
+                mask.style.transform = 'translateY(100%)';
+            }, hideTime);
+        });
+    </script>
+</body>
+</html>
