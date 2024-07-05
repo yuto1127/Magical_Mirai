@@ -550,12 +550,12 @@ document.addEventListener("DOMContentLoaded", () => {
             time+=1;
         },100);//ここまで HN
         setInterval(() => {
-            if(time >= 524 && time < 620){
+            if(time >= 524+1 && time < 620){
                 bg_canvas.show();
                 animate(move_img,yPos,dy);
                 yPos+= dr;
             }
-            if(time >= 926 && time < 1027){
+            if(time >= 926+1 && time < 1027){
                 bg_canvas.show();
                 animate(move_img2,yPos2,dy2);
                 yPos2+= dr2;
