@@ -501,8 +501,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const dy2 = canvas.width / aspectRatio2;
         let yPos = -dy+canvas.height;
         let yPos2 = -dy2+canvas.height;
-        var dr = Math.abs(yPos) / (620 - 524);
-        var dr2 = Math.abs(yPos2) / (1027 - 926);
+        var dr = Math.abs(yPos) / (61975 - 52425);
+        var dr2 = Math.abs(yPos2) / (102675 - 92625);
         dr /= 4;
         dr2 /= 4;
 
@@ -547,17 +547,17 @@ document.addEventListener("DOMContentLoaded", () => {
             //         animTextIndex++;
             //     }
             // }
-            if(time >= 524+1 && time < 620){
+            if(time >= 52425 && time < 61975){
                 bg_canvas.show();
                 animate(move_img,yPos,dy);
                 yPos+= dr;
             }
-            if(time >= 926 && time < 1027){
+            if(time >= 92625 && time < 102675){
                 bg_canvas.show();
                 animate(move_img2,yPos2,dy2);
                 yPos2+= dr2;
             }
-            if(time == 620 + 1 || time == 1027 + 1){
+            if(time == 61975 || time == 102675){
                 bg_canvas.hide();
             }
             time+=25; // 1 -> 25
