@@ -486,6 +486,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // bg_canvas.hide();
     move_img.src = "../../img/bg_img/間奏背景.png";
     move_img2.src = "../../img/bg_img/移動背景.png";
+    move_img.onload = () => console.log("Loaded ",move_img.src);
+    move_img2.onload = () => console.log("Loaded ",move_img2.src);
 
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
@@ -511,9 +513,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
         }
-        move_img.onload = function(){
-            animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
-        }
+        animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
 
         //以下追加処理 HN
         // 0.1秒ごとに実行
