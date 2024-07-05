@@ -560,7 +560,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 animate(move_img2,yPos2,dy2);
                 yPos2+= dr2;
             }
-            if(time == 620 || time == 1027){
+            if(time == 620 + 1 || time == 1027 + 1){
                 bg_canvas.hide();
             }
         },25);
