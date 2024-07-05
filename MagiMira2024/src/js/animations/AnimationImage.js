@@ -66,6 +66,11 @@ export class AnimationImage{     //アニメーションテキストの元とな
         $("#"+this.id).show(this.dispTime);
     }
 
+    fadeIn(){
+        this.isActive = true;
+        $("#"+this.id).fadeIn(this.dispTime);
+    }
+
     //要素を非表示にする
     hide(){
         this.isActive = false;

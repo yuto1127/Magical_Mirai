@@ -531,7 +531,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 var tmp_array = startDisplayImageTimes.get(time);
                 var tmp_len = tmp_array.length;
                 for(var i = 0;i<tmp_len;i++){
-                    text_img_list.get(tmp_array[i]).show();
+                    text_img_list.get(tmp_array[i]).fadeIn();
                 }
             }
             if(endDisplayImageTimes.has(time)){
