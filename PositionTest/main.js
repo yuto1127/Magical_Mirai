@@ -424,16 +424,16 @@ runButton.addEventListener('click', () => {
 });
 
 const canvas = document.getElementById("bg_canvas");
-canvas.height = bg_image.height;
-canvas.width = bg_image.width;
-console.log(canvas.height,":",canvas.width);
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
 
 img.onload = () => {
+    canvas.height = canvas.scrollHeight;
+    canvas.width = canvas.scrollWidth;
     const aspectRatio = img.width / img.height;
     const dy = canvas.width / aspectRatio;
+    console.log(canvas.height,canvas.width,aspectRatio,dy);
     let yPos = 0;
 
     function animate() {
