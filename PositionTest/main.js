@@ -426,6 +426,7 @@ runButton.addEventListener('click', () => {
 const canvas = document.getElementById("bg_canvas");
 canvas.height = bg_image.height;
 canvas.width = bg_image.width;
+console.log(canvas.height,":",canvas.width);
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "../MagiMira2024/img/bg_img/移動背景.png";
