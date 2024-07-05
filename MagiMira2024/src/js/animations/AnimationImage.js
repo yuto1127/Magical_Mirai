@@ -63,13 +63,13 @@ export class AnimationImage{     //アニメーションテキストの元とな
     //要素を表示する
     show(){
         this.isActive = true;
-        $("#"+this.id).show(3);
+        $("#"+this.id).show(this.dispTime);
     }
 
     //要素を非表示にする
     hide(){
         this.isActive = false;
-        $("#"+this.id).hide();
+        $("#"+this.id).hide(this.killTime);
     }
 
     play(){
