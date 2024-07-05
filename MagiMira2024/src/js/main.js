@@ -516,8 +516,6 @@ document.addEventListener("DOMContentLoaded", () => {
             //     return;
             // }
         }
-        animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
-
         //以下追加処理 HN
         // 0.1秒ごとに実行
         time -= timelag;
