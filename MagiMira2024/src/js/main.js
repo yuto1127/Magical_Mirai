@@ -483,7 +483,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const move_img = new Image();
     const move_img2 = new Image();
     const bg_canvas = $('#bg_canvas');
-    bg_canvas.hide();
+    // bg_canvas.hide();
     move_img.src = "../../img/bg_img/間奏背景.png";
     move_img2.src = "../../img/bg_img/移動背景.png";
 
@@ -511,6 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
         }
+        animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
 
         //以下追加処理 HN
         // 0.1秒ごとに実行
