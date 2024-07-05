@@ -508,7 +508,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // 画像の移動速度
             yPos+= dr;
             if(yPos < 0){
-                requestAnimationFrame(animate);
+                requestAnimationFrame(animate(img,yPos,dy,dr));
             }else{
                 return;
             }
