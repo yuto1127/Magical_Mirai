@@ -501,8 +501,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const dy2 = canvas.width / aspectRatio2;
         let yPos = -dy+canvas.height;
         let yPos2 = -dy2+canvas.height;
-        const dr = Math.abs(yPos) / (61975 - 52425);
-        const dr2 = Math.abs(yPos2) / (102675 - 92625);
+        const dr = Math.abs(yPos) / ((61975 - 52425) / 100);
+        const dr2 = Math.abs(yPos2) / ((102675 - 92625) / 100);
 
         function animate(img,yPos,dy,dr) {
             if(yPos < 0){
