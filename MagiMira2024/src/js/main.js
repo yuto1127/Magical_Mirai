@@ -155,6 +155,7 @@ const scene_info = [
     {scene_num:18_09,scene_time:129000+1200,bg_image_pass:"bg_18_6未来_静止画.png"},
     {scene_num:19,scene_time:131250,bg_image_pass:"ミライセカイ一面.png"},//ミライミライミライ
     {scene_num:20,scene_time:133475,bg_image_pass:"初の音.jpg"},//初の音
+    {scene_num:21,scene_time:144325,bg_image_pass:"エンディング.png"},
     {scene_num:99,scene_time:9999999,bg_image_pass:"仮背景.jpg"}
 ];
 
