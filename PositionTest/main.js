@@ -434,7 +434,7 @@ img.onload = () => {
     const aspectRatio = img.width / img.height;
     const dy = canvas.width / aspectRatio;
     console.log(canvas.height,canvas.width,aspectRatio,dy);
-    let yPos = -dy;
+    let yPos = -dy+canvas.height;
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -443,6 +443,8 @@ img.onload = () => {
         yPos+=0.5;
         if(yPos < 0){
             requestAnimationFrame(animate);
+        }else{
+            return;
         }
     }
 
