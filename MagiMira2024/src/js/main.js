@@ -275,16 +275,16 @@ const text_img_info = [
     {id:"S_2_018",pass:"S_図形青抜き.png",start_time:49550,end_time:52425,pos_x:"83%",pos_y:"12%",size:"9%",dispTime:0,lifeTime:0,killTime:0},
     {id:"S_2_019",pass:"S_図形青抜き.png",start_time:49550,end_time:52425,pos_x:"80%",pos_y:"71%",size:"9%",dispTime:0,lifeTime:0,killTime:0},
 
-    {id:"B_1_01",pass:"B_1_音と音の鼓動が.png",start_time:620,end_time:673,pos_x:"37.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:637,end_time:673,pos_x:"32.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"B_1_03",pass:"B_1_連なって.png",start_time:649,end_time:673,pos_x:"23.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:657,end_time:673,pos_x:"18.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:663,end_time:673,pos_x:"8.5%",pos_y:"16%",size:"6.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_1_01",pass:"B_1_音と音の鼓動が.png",start_time:61975,end_time:67250,pos_x:"37.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_1_02",pass:"B_1_響き合って.png",start_time:63750,end_time:67250,pos_x:"32.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_1_03",pass:"B_1_連なって.png",start_time:64850,end_time:67250,pos_x:"23.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_1_04",pass:"B_1_繋いで.png",start_time:65650,end_time:67250,pos_x:"18.5%",pos_y:"16%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_1_05",pass:"B_1_生まれ落ちて.png",start_time:66300,end_time:67250,pos_x:"8.5%",pos_y:"16%",size:"6.5%",dispTime:0,lifeTime:0,killTime:0},
 
-    {id:"B_2_01",pass:"B_2_記すノートも.png",start_time:673,end_time:698,pos_x:"88%",pos_y:"13%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"B_2_02",pass:"B_2_痛むハートの.png",start_time:685,end_time:698,pos_x:"51%",pos_y:"80%",size:"30%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_2_01",pass:"B_2_記すノートも.png",start_time:67250,end_time:69800,pos_x:"88%",pos_y:"13%",size:"4.5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_2_02",pass:"B_2_痛むハートの.png",start_time:68525,end_time:69800,pos_x:"51%",pos_y:"80%",size:"30%",dispTime:0,lifeTime:0,killTime:0},
 
-    {id:"B_3_01",pass:"B_3_照らすライトになっていく.png",start_time:698,end_time:728,pos_x:"35%",pos_y:"44%",size:"65%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"B_3_01",pass:"B_3_照らすライトになっていく.png",start_time:69800,end_time:728,pos_x:"35%",pos_y:"44%",size:"65%",dispTime:0,lifeTime:0,killTime:0},
 
     {id:"B_4_01",pass:"B_4_ABC.png",start_time:728,end_time:775,pos_x:"4%",pos_y:"7%",size:"27%",dispTime:0,lifeTime:0,killTime:0},
     {id:"B_4_02",pass:"B_4_から.png",start_time:738,end_time:775,pos_x:"31%",pos_y:"12%",size:"9%",dispTime:0,lifeTime:0,killTime:0},
