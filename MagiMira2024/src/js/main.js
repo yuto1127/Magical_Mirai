@@ -502,7 +502,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         function animate(img,yPos,dy,dr) {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, tmp_dy);
+            ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
             // 画像の移動速度
             yPos+= dr;
             if(yPos < 0){
