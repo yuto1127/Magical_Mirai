@@ -423,33 +423,33 @@ runButton.addEventListener('click', () => {
     setSceneBackGround(scene_info[scene_num].bg_image_pass);
 });
 
-const canvas = document.getElementById("bg_canvas");
-const ctx = canvas.getContext("2d");
-const img = new Image();
-img.src = "../MagiMira2024/img/bg_img/移動背景.png";
+// const canvas = document.getElementById("bg_canvas");
+// const ctx = canvas.getContext("2d");
+// const img = new Image();
+// img.src = "../MagiMira2024/img/bg_img/移動背景.png";
 
-img.onload = () => {
-    canvas.height = canvas.scrollHeight;
-    canvas.width = canvas.scrollWidth;
-    const aspectRatio = img.width / img.height;
-    const dy = canvas.width / aspectRatio;
-    console.log(canvas.height,canvas.width,aspectRatio,dy);
-    let yPos = -dy+canvas.height;
+// img.onload = () => {
+//     canvas.height = canvas.scrollHeight;
+//     canvas.width = canvas.scrollWidth;
+//     const aspectRatio = img.width / img.height;
+//     const dy = canvas.width / aspectRatio;
+//     console.log(canvas.height,canvas.width,aspectRatio,dy);
+//     let yPos = -dy+canvas.height;
 
-    function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
-        // 画像の移動速度
-        yPos+=0.5;
-        if(yPos < 0){
-            requestAnimationFrame(animate);
-        }else{
-            return;
-        }
-    }
+//     function animate() {
+//         ctx.clearRect(0, 0, canvas.width, canvas.height);
+//         ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
+//         // 画像の移動速度
+//         yPos+=0.5;
+//         if(yPos < 0){
+//             requestAnimationFrame(animate);
+//         }else{
+//             return;
+//         }
+//     }
 
-    animate();
-};
+//     animate();
+// };
 
 window.onload = function(){
     loadImages();
