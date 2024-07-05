@@ -503,6 +503,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let yPos2 = -dy2+canvas.height;
         const dr = Math.abs(yPos) / (620 - 524);
         const dr2 = Math.abs(yPos2) / (1027 - 926);
+        dr /= 4;
+        dr2 /= 4;
 
         function animate(img,yPos,dy,dr) {
             if(yPos < 0){
@@ -539,6 +541,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     text_img_list.get(tmp_array[i]).hide();
                 }
             }
+            // if(animTextIndex < phrases.length){
+            //     if(time == phrases[animTextIndex].time){
+            //         animTextList[animTextIndex].play();
+            //         animTextIndex++;
+            //     }
+            // }
+            time+=1;
+        },100);//ここまで HN
+        setInterval(() => {
             if(time >= 524 && time < 620){
                 bg_canvas.show();
                 animate(move_img,yPos,dy);
@@ -552,14 +563,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if(time == 620 || time == 1027){
                 bg_canvas.hide();
             }
-            // if(animTextIndex < phrases.length){
-            //     if(time == phrases[animTextIndex].time){
-            //         animTextList[animTextIndex].play();
-            //         animTextIndex++;
-            //     }
-            // }
-            time+=1;
-        },100);//ここまで HN
+        },25);
     });
 
     function setSceneBackGround(pass){
