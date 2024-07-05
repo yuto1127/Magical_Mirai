@@ -33,6 +33,9 @@ https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.progressbar.html
 プログレスバー(line)用ページリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.progressbar_line.html
 
+プログレスバー(miku)用ページリンク：
+https://yuto1127.github.io/Magical_Mirai/EffectTest2/index.progressbar_line.html
+
 エフェクトテスト用ページ3のリンク：
 https://yuto1127.github.io/Magical_Mirai/EffectTest3/index.html
 
