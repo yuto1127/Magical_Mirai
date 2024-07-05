@@ -406,7 +406,7 @@ for(var i = 0;i<text_img_info.length;i++){
     }
     text_img_info[i].pass = tmp_pass + text_img_info[i].pass;
 
-    var tmp_img = new AnimationImage(text_img_info[i].id,text_img_info[i].pass,text_img_info[i].pos_x,text_img_info[i].pos_y,text_img_info[i].size);
+    var tmp_img = new AnimationImage(text_img_info[i].id,text_img_info[i].pass,text_img_info[i].pos_x,text_img_info[i].pos_y,text_img_info[i].size,text_img_info[i].dispTime,text_img_info[i].lifeTime,text_img_info[i].killTime);
     text_img_list.set(text_img_info[i].id,tmp_img);
 }
 
