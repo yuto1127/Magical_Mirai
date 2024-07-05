@@ -478,10 +478,39 @@ document.addEventListener("DOMContentLoaded", () => {
     const bg_image = $('#bg_image');
     const playButton = document.getElementById("play-button");
     const playButtonBG = document.getElementById("play-button-bg");
+    const canvas = document.getElementById("bg_canvas");
+    const ctx = canvas.getContext("2d");
+    const move_img = new Image();
+    const move_img2 = new Image();
+    const bg_canvas = $('#bg_canvas');
+    bg_canvas.hide();
+    move_img.src = "../../img/bg_img/間奏背景.png";
+    move_img2.src = "../../img/bg_img/移動背景.png";
+
     playButton.addEventListener("click", () => {
         player.requestPlay(); // 再生を要求する
         playButton.style.display = "none"; // 再生ボタンを非表示にする
         playButtonBG.style.display = "none";
+        canvas.height = canvas.scrollHeight;
+        canvas.width = canvas.scrollWidth;
+        const aspectRatio = move_img.width / move_img.height;
+        const aspectRatio2 = move_img2.width / move_img2.height;
+        const dy = canvas.width / aspectRatio;
+        const dy2 = canvas.width / aspectRatio2;
+        let yPos = -dy+canvas.height;
+        let yPos2 = -dy2+canvas.height;
+
+        function animate(img,yPos,dy,dr) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, tmp_dy);
+            // 画像の移動速度
+            yPos+= dr;
+            if(yPos < 0){
+                requestAnimationFrame(animate);
+            }else{
+                return;
+            }
+        }
 
         //以下追加処理 HN
         // 0.1秒ごとに実行
@@ -505,6 +534,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 for(var i = 0;i<tmp_len;i++){
                     text_img_list.get(tmp_array[i]).hide();
                 }
+            }
+            if(time == 524){
+                bg_canvas.show();
+                animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
+            }
+            if(time == 926){
+                bg_canvas.show();
+                animate(move_img2,yPos2,dy2,Math.abs(yPos) / (1027 - 926));
+            }
+            if(time == 620 || time == 1027){
+                bg_canvas.hide();
             }
             // if(animTextIndex < phrases.length){
             //     if(time == phrases[animTextIndex].time){
