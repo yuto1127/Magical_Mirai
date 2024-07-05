@@ -6,11 +6,14 @@ export class AnimationImage{     //アニメーションテキストの元とな
         lifeTime = 文字列が表示される時間
         killTime = 文字列の削除にかかる時間
     */
-    constructor(id,pass,posX,posY,size){ //コンストラクタで各パラメータを初期化
+    constructor(id,pass,posX,posY,size,dispTime,lifeTime,killTime){ //コンストラクタで各パラメータを初期化
         this.setID(id);
         this.setPass(pass);
         this.setPos(posX,posY);
         this.setSize(size);
+        this.setDispTime(dispTime);
+        this.setLifeTime(lifeTime);
+        this.setKillTime(killTime);
         this.isActive = false;
         this.parentElementID = "animation-text-area";
         this.parentElement = document.getElementById(this.parentElementID);
@@ -26,6 +29,21 @@ export class AnimationImage{     //アニメーションテキストの元とな
     setPos(posX,posY){
         this.posX = posX;
         this.posY = posY;
+    }
+
+    //表示にかかる時間をセットする
+    setDispTime(dispTime){
+        this.dispTime = dispTime;
+    }
+
+    //表示する時間をセットする
+    setLifeTime(lifeTime){
+        this.lifeTime = lifeTime;
+    }
+
+    //削除にかかる時間をセットする
+    setKillTime(killTime){
+        this.killTime = killTime;
     }
 
     //IDをセットする
@@ -45,13 +63,17 @@ export class AnimationImage{     //アニメーションテキストの元とな
     //要素を表示する
     show(){
         this.isActive = true;
-        $("#"+this.id).show();
+        $("#"+this.id).show(3);
     }
 
     //要素を非表示にする
     hide(){
         this.isActive = false;
         $("#"+this.id).hide();
+    }
+
+    play(){
+        $("#"+this.id).show(this.dispTime).delay(this.lifeTime).hide(this.killTime);
     }
 
     //要素を生成する
