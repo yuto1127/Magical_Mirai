@@ -501,17 +501,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const dy2 = canvas.width / aspectRatio2;
         let yPos = -dy+canvas.height;
         let yPos2 = -dy2+canvas.height;
+        const dr = Math.abs(yPos) / (620 - 524);
+        const dr2 = Math.abs(yPos2) / (1027 - 926);
 
         function animate(img,yPos,dy,dr) {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
-            // 画像の移動速度
-            yPos+= dr;
             if(yPos < 0){
-                requestAnimationFrame(animate(img,yPos,dy,dr));
-            }else{
-                return;
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
             }
+            // 画像の移動速度
+            // if(yPos < 0){
+            //     requestAnimationFrame(animate(img,yPos,dy,dr));
+            // }else{
+            //     return;
+            // }
         }
         animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
 
@@ -538,13 +541,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     text_img_list.get(tmp_array[i]).hide();
                 }
             }
-            if(time == 524){
+            if(time >= 524 && time < 620){
                 bg_canvas.show();
-                animate(move_img,yPos,dy,Math.abs(yPos) / (620 - 524));
+                animate(move_img,yPos,dy);
+                yPos+= dr;
             }
-            if(time == 926){
+            if(time >= 926 && time < 1027){
                 bg_canvas.show();
-                animate(move_img2,yPos2,dy2,Math.abs(yPos) / (1027 - 926));
+                animate(move_img2,yPos2,dy2);
+                yPos2+= dr2;
             }
             if(time == 620 || time == 1027){
                 bg_canvas.hide();
