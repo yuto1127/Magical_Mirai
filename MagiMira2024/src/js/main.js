@@ -501,8 +501,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const dy2 = canvas.width / aspectRatio2;
         let yPos = -dy+canvas.height;
         let yPos2 = -dy2+canvas.height;
-        const dr = Math.abs(yPos) / (620 - 524);
-        const dr2 = Math.abs(yPos2) / (1027 - 926);
+        var dr = Math.abs(yPos) / (620 - 524);
+        var dr2 = Math.abs(yPos2) / (1027 - 926);
         dr /= 4;
         dr2 /= 4;
 
