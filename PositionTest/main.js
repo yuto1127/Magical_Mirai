@@ -434,14 +434,16 @@ img.onload = () => {
     const aspectRatio = img.width / img.height;
     const dy = canvas.width / aspectRatio;
     console.log(canvas.height,canvas.width,aspectRatio,dy);
-    let yPos = 0;
+    let yPos = -dy;
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0, img.width, img.height, 0, yPos, canvas.width, dy);
         // 画像の移動速度
-        yPos -= 0;
-        requestAnimationFrame(animate);
+        yPos+=0.5;
+        if(yPos < 0){
+            requestAnimationFrame(animate);
+        }
     }
 
     animate();
