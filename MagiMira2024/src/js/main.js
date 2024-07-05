@@ -331,7 +331,7 @@ const text_img_info = [
 
     {id:"C_7_01",pass:"C_7_世.png",start_time:109550,end_time:113050,pos_x:"0%",pos_y:"11%",size:"15%",dispTime:0,lifeTime:0,killTime:0},
     {id:"C_7_02",pass:"C_7_界.png",start_time:109850,end_time:113050,pos_x:"7%",pos_y:"36%",size:"17%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"C_7_03",pass:"C_7_の.png",start_time:110500,end_time:113050,pos_x:"17%",pos_y:"72%",size:"7%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"C_7_03",pass:"C_7_の.png",start_time:110350,end_time:113050,pos_x:"17%",pos_y:"72%",size:"7%",dispTime:0,lifeTime:0,killTime:0},
     {id:"C_7_04",pass:"C_7_続.png",start_time:110825,end_time:113050,pos_x:"23%",pos_y:"71%",size:"17%",dispTime:0,lifeTime:0,killTime:0},
     {id:"C_7_05",pass:"C_7_き.png",start_time:111450,end_time:113050,pos_x:"44%",pos_y:"74%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
     {id:"C_7_06",pass:"C_7_を.png",start_time:111625,end_time:113050,pos_x:"52%",pos_y:"71%",size:"7%",dispTime:0,lifeTime:0,killTime:0},
