@@ -555,7 +555,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 animate(move_img,yPos,dy);
                 yPos+= dr;
             }
-            if(time >= 926+1 && time < 1027){
+            if(time >= 926 && time < 1027){
                 bg_canvas.show();
                 animate(move_img2,yPos2,dy2);
                 yPos2+= dr2;
