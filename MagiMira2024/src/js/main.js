@@ -205,11 +205,11 @@ const text_img_info = [
     {id:"A_5_08",pass:"A_5_し.png",start_time:12525,end_time:13800,pos_x:"42%",pos_y:"35%",size:"10%",dispTime:0,lifeTime:0,killTime:0},
     {id:"A_5_09",pass:"A_5_で色めいて.png",start_time:12675,end_time:13800,pos_x:"26%",pos_y:"75%",size:"20%",dispTime:0,lifeTime:0,killTime:0},
 
-    {id:"A_6_01",pass:"A_6_この音が.png",start_time:13800,end_time:167,pos_x:"9%",pos_y:"22%",size:"20%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"A_6_02",pass:"A_6_めぐる.png",start_time:148,end_time:167,pos_x:"15%",pos_y:"40%",size:"5%",dispTime:0,lifeTime:0,killTime:0},
-    {id:"A_6_03",pass:"A_6_巡るとき.png",start_time:154,end_time:167,pos_x:"22%",pos_y:"40%",size:"20%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"A_6_01",pass:"A_6_この音が.png",start_time:13800,end_time:16675,pos_x:"9%",pos_y:"22%",size:"20%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"A_6_02",pass:"A_6_めぐる.png",start_time:14750,end_time:16675,pos_x:"15%",pos_y:"40%",size:"5%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"A_6_03",pass:"A_6_巡るとき.png",start_time:15400,end_time:16675,pos_x:"22%",pos_y:"40%",size:"20%",dispTime:0,lifeTime:0,killTime:0},
 
-    {id:"A_7_01",pass:"A_7_心.png",start_time:167,end_time:189,pos_x:"6%",pos_y:"31%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
+    {id:"A_7_01",pass:"A_7_心.png",start_time:16675,end_time:189,pos_x:"6%",pos_y:"31%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
     {id:"A_7_02",pass:"A_7_の.png",start_time:171,end_time:189,pos_x:"11%",pos_y:"31.5%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
     {id:"A_7_03",pass:"A_7_全.png",start_time:173,end_time:189,pos_x:"16%",pos_y:"31%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
     {id:"A_7_04",pass:"A_7_部.png",start_time:176,end_time:189,pos_x:"21%",pos_y:"31%",size:"6%",dispTime:0,lifeTime:0,killTime:0},
