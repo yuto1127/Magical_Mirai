@@ -34,6 +34,23 @@
     <div id="loading-screen">
         <!-- ローディング画像 -->
         <img id="loading-img" src="../../img/obj_img/ロード画像.GIF" alt="Loading...">
+        <div id="content">
+            <!-- 隠したいコンテンツ -->
+            <img src="EffectTest2/miku.png" width="200px" height="267px">
+        </div>
+        <div id="mask"></div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // 指定時間（ミリ秒）
+                const hideTime = 0; // 動き始めの時間
+    
+                setTimeout(() => {
+                    const mask = document.getElementById('mask');
+                    // maskのtransformプロパティを変更して下にスライドさせる
+                    mask.style.transform = 'translateY(100%)';
+                }, hideTime);
+            });
+        </script>
     </div>
     
     <!-- アプリケーションウィンドウ -->
