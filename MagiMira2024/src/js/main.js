@@ -585,7 +585,7 @@ document.addEventListener("DOMContentLoaded", () => {
             loadingScreen.style.display = "none";
             const appWindow = document.getElementById("app_window");
             appWindow.style.display = "flex"; // アプリウィンドウを表示
-        }, 4000); // 4秒後に実行
+        }, 6000); // 4秒後に実行
     }
 
     /* ポップアップ情報エリア */
@@ -624,7 +624,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         songInfoPopup.style.display = "none";
                     }}
                 );
-            }, 5000); // 5秒後に実行
+            }, 7000); // 5秒後に実行
         },
         onPlay: () => {
             console.log("Playing");
