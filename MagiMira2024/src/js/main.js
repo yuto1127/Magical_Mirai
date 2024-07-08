@@ -639,9 +639,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //画像を先に読み込む処理
-document.addEventListener("DOMContentLoaded", function(event) {
+window.onload = function(){
     loadImages();
-});
+}
 
 // 画像プリロード用関数
 function loadImages(){
