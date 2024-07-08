@@ -371,6 +371,40 @@ const text_img_info = [
     {id:"L_2_01",pass:"L_2_終わり.png",start_time:138575,end_time:144325,pos_x:"5%",pos_y:"0%",size:"90%",dispTime:0,lifeTime:0,killTime:0}
 ];
 
+//画像を先に読み込む処理
+window.onload = function(){
+    loadImages();
+}
+
+// 画像プリロード用関数
+function loadImages(){
+    for (i = 1; i < scene_info.length; i++){
+        preLoadImage(bg_pass+scene_info[i].bg_image_pass, (err, img) => {
+            if (err) {
+                console.error('Failed to load image:', err);
+            } else {
+                console.log('Image loaded:', img);
+            }
+        });
+    }
+    for (i = 0;i < text_img_info.length;i++){
+        preLoadImage(text_img_info[i].pass, (err, img) => {
+            if (err) {
+                console.error('Failed to load image:', err);
+            } else {
+                console.log('Image loaded:', img);
+            }
+        });
+    }
+}
+
+function preLoadImage(url,callback){
+    const img = document.createElement('img');
+    img.onload = () => callback(null, img);
+    img.onerror = (err) => {console.log("ロード失敗：",url);callback(err);};
+    img.src = url;
+}
+
 var startDisplayImageTimes = new Map();
 var endDisplayImageTimes = new Map();
 var text_img_list = new Map();
@@ -648,40 +682,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // マウス、キーボードの操作によるエフェクト発生↓（後述）
     });
 });
-
-//画像を先に読み込む処理
-window.onload = function(){
-    loadImages();
-}
-
-// 画像プリロード用関数
-function loadImages(){
-    for (i = 1; i < scene_info.length; i++){
-        preLoadImage(bg_pass+scene_info[i].bg_image_pass, (err, img) => {
-            if (err) {
-                console.error('Failed to load image:', err);
-            } else {
-                console.log('Image loaded:', img);
-            }
-        });
-    }
-    for (i = 0;i < text_img_info.length;i++){
-        preLoadImage(text_img_info[i].pass, (err, img) => {
-            if (err) {
-                console.error('Failed to load image:', err);
-            } else {
-                console.log('Image loaded:', img);
-            }
-        });
-    }
-}
-
-function preLoadImage(url,callback){
-    const img = document.createElement('img');
-    img.onload = () => callback(null, img);
-    img.onerror = (err) => {console.log("ロード失敗：",url);callback(err);};
-    img.src = url;
-}
 
 //以下キャッシュ無効化の処理
 window.onbeforeunload = function() {};
