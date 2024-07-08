@@ -449,16 +449,16 @@ for(var i = 0;i<text_img_info.length;i++){
 // const bg_14 = "bg_14_静止画.jpg";
 // const bg_15_20 = "bg_15_20_静止画.jpg";
 
-document.addEventListener('DOMContentLoaded', () => {
-    // 指定時間（ミリ秒）
-    const hideTime = 0; // 動き始めの時間
+// document.addEventListener('DOMContentLoaded', () => {
+//     // 指定時間（ミリ秒）
+//     const hideTime = 0; // 動き始めの時間
 
-    setTimeout(() => {
-        const mask = document.getElementById('mask');
-        // maskのtransformプロパティを変更して下にスライドさせる
-        mask.style.transform = 'translateY(100%)';
-    }, hideTime);
-});
+//     setTimeout(() => {
+//         const mask = document.getElementById('mask');
+//         // maskのtransformプロパティを変更して下にスライドさせる
+//         mask.style.transform = 'translateY(100%)';
+//     }, hideTime);
+// });
 
 // APIの読み込みとPlayerクラスのインスタンスの作成
 document.addEventListener("DOMContentLoaded", () => {
