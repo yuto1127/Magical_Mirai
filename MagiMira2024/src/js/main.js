@@ -449,17 +449,6 @@ for(var i = 0;i<text_img_info.length;i++){
 // const bg_14 = "bg_14_静止画.jpg";
 // const bg_15_20 = "bg_15_20_静止画.jpg";
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     // 指定時間（ミリ秒）
-//     const hideTime = 0; // 動き始めの時間
-
-//     setTimeout(() => {
-//         const mask = document.getElementById('mask');
-//         // maskのtransformプロパティを変更して下にスライドさせる
-//         mask.style.transform = 'translateY(100%)';
-//     }, hideTime);
-// });
-
 // APIの読み込みとPlayerクラスのインスタンスの作成
 document.addEventListener("DOMContentLoaded", () => {
     /* TextAlive Playerのインスタンスを作成 */
@@ -585,7 +574,7 @@ document.addEventListener("DOMContentLoaded", () => {
             loadingScreen.style.display = "none";
             const appWindow = document.getElementById("app_window");
             appWindow.style.display = "flex"; // アプリウィンドウを表示
-        }, 6000); // 4秒後に実行
+        }, 4000); // 4秒後に実行
     }
 
     /* ポップアップ情報エリア */
@@ -624,7 +613,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         songInfoPopup.style.display = "none";
                     }}
                 );
-            }, 7000); // 5秒後に実行
+            }, 5000); // 5秒後に実行
         },
         onPlay: () => {
             console.log("Playing");
@@ -650,9 +639,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //画像を先に読み込む処理
-document.addEventListener("DOMContentLoaded", function(event) { 
+window.onload = function(){
     loadImages();
-});
+}
 
 // 画像プリロード用関数
 function loadImages(){
